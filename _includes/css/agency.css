@@ -119,9 +119,12 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
+    position: absolute;
+    left: 39.5%;
+    top: 70%;
     padding: 20px 40px;
     border-color: #{{ site.data.template.color.primary }};
-    border-radius: 3px;
+    border-radius: 100px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
@@ -281,8 +284,11 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
+    position: absolute;
+    left: 18%;
+    top: 20%;
     margin-bottom: 25px;
-    font-family: {{ site.data.template.font.secondary }};
+    font-family: {{ site.data.template.font.primary }};
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
@@ -299,7 +305,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 500px;
         padding-bottom: 200px;
     }
 
