@@ -339,6 +339,14 @@ section h3.section-subheading {
 	margin-bottom: 75px;
 	text-transform: none;
 	font-family: {{ site.data.template.font.primary }};
+	font-size: 18px;
+	font-weight: 400;
+}
+
+section h3.section-description {
+	margin-bottom: 75px;
+	text-transform: none;
+	font-family: {{ site.data.template.font.primary }};
 	text-align: justify;
 	font-size: 18px;
 	font-weight: 400;
