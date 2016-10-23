@@ -119,9 +119,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-xl {
-	position: absolute;
-	left: 39.5%;
-	top: 70%;
+	position: relative;
+	top: 100px;
 	padding: 20px 40px;
 	border-color: #{{ site.data.template.color.primary }};
 	border-radius: 100px;
@@ -284,9 +283,8 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-	position: absolute;
-	left: 18%;
-	top: 20%;
+	position: relative;
+	top: -350px;
 	margin-bottom: 25px;
 	font-family: {{ site.data.template.font.primary }};
 	font-size: 22px;
