@@ -9,27 +9,17 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-sm-6">
-					<a href="#">
-						<img src="img/sponsors/fac-eng-bath-uni.jpg" class="img-responsive img-centered" alt="">
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<a href="#">
-						<img src="img/sponsors/brammer.jpg" class="img-responsive img-centered" alt="">
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<a href="#">
-						<img src="img/sponsors/creasefield.jpg" class="img-responsive img-centered" alt="">
-					</a>
-				</div>
-				<div class="col-md-3 col-sm-6">
-					<a href="#">
-						<img src="img/sponsors/wordpress-default.jpg" class="img-responsive img-centered" alt="">
-					</a>
-				</div>
+				{% for image in site.static_files %}
+					{% if image.path contains '/img/sponsors/' %}
+						<div class="col-md-3 col-sm-6">
+							<a href="#">
+								<img src="{{ image.path }}" class="img-responsive img-centered" alt="image"/>
+							</a>
+						</div>
+					{% endif %}
+				{% endfor %}
 			</div>
+
 			<div class="row">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-posts btn-lg" data-toggle="modal" data-target="#sponsors-modal">
