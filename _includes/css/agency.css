@@ -119,9 +119,8 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn-posts {
-	position: relative;
-	left: 375px;
-	padding: 20px 40px;
+	display: block;
+	margin: 0 auto;
 	border-color: #{{ site.data.template.color.primary }};
 	border-radius: 100px;
 	text-transform: uppercase;
