@@ -12,7 +12,7 @@
 				{% for image in site.static_files %}
 					{% if image.path contains '/img/sponsors/' %}
 						<div class="col-md-3 col-sm-6">
-							<a href="#">
+							<a href="#{{ image.name }}" id="{{ image.name }}">
 								<img src="{{ image.path }}" class="img-responsive img-centered" alt="image"/>
 							</a>
 						</div>
@@ -42,11 +42,11 @@
 								<div class="row">
 									<div class="modal-body">
 										<h2>Meet Our Sponsors</h2>
-										<hr class="star-primary">
-										<img src="img/portfolio/dreams.png" class="img-responsive img-centered" alt="">
+										<hr class="star-primary"/>
+										<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
 
 										<p style="margin-bottom: 60px;">
-											<a id="fac-eng-bath-uni" style="position: relative;top: -110px;">&nbsp;</a>
+											<a id="1-fac-eng-bath-uni.jpg" style="position: relative;top: -110px;">&nbsp;</a>
 											<a href="http://www.bath.ac.uk/elec-eng/" target="_blank">
 												<img src="/img/sponsors/1-fac-eng-bath-uni.jpg" align="left" width="200px" style="margin-right: 20px;margin-top: 0px"/>
 											</a>
@@ -56,7 +56,7 @@
 										</p>
 
 										<p style="margin-bottom: 60px;">
-											<a id="brammer" style="position: relative;top: -110px;">&nbsp;</a>
+											<a id="2-brammer.jpg" style="position: relative;top: -110px;">&nbsp;</a>
 											<a href="http://www.brammer.co.uk/" target="_blank">
 												<img src="/img/sponsors/2-brammer.jpg" align="left" width="200px" style="margin-right: 20px;margin-top: 0px"/>
 											</a>
@@ -65,10 +65,17 @@
 											In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
 										</p>
 
-
+										<p style="margin-bottom: 60px;">
+											<a id="3-creasefield.jpg" style="position: relative;top: -110px;">&nbsp;</a>
+											<a href="https://www.creasefield.co.uk/" target="_blank">
+												<img src="/img/sponsors/3-creasefield.jpg" align="left" width="200px" style="margin-right: 20px;margin-top: 0px"/>
+											</a>
+											Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
+											Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
+											In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
+										</p>
 
 									</div>
-
 									<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 								</div>
 							</div>
