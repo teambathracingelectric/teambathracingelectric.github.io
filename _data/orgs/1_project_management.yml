@@ -1,0 +1,13 @@
+name: Project Management
+members:
+    - name: Stefano Dallavalle
+      title: Project Manager / Business & Finanace Manager
+      pic: Stefano_Dallavalle
+
+    - name: Greg Tzermias
+      title: Project Co-ordinator / Mechanical Lead Engineer
+      pic: Gregory_Tzermias
+
+    - name: George A Farhat
+      title: Project Co-ordinator / Software Lead Engineer
+      pic: George_Farhat

@@ -1,0 +1,13 @@
+name: Electrical Systems
+members:
+    - name: Alex Stokoe
+      title: Electrical Systems Manager
+      pic: Alex_Stokoe
+
+    - name: George A Farhat
+      title: Software Manager
+      pic: George_Farhat
+
+    - name: Sean Thompson
+      title: Accumulator Manager
+      pic: Sean_Thompson

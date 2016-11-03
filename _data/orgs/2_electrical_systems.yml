@@ -1,0 +1,25 @@
+name: Electrical Systems
+members:
+    - name: Alex Stokoe
+      title: Electrical Systems Manager
+      pic: Alex_Stokoe
+
+    - name: Lawrence Chan
+      title: Driver Display / Webmaster
+      pic: Lawrence_Chan
+
+    - name: Oliver Matthews
+      title: Vehicle Telemetry
+      pic: Oliver_Matthews
+
+    - name: Peter Hunt
+      title: Electrical Systems (BMS)
+      pic: Peter_Hunt
+
+    - name: Ed Fowler
+      title: Electrical Systems (BMS)
+      pic: Ed_Fowler
+
+    - name: Will Minter-Kemp
+      title: Electrical Systems
+      pic: Will_Minter-Kemp
