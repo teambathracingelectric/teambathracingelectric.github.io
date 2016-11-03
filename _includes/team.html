@@ -15,9 +15,18 @@
 				<h3 align="center">{{ org.name }}</h3>
 				<div class="row">
 					{% for member in org.members %}
-						<div class="col-sm-2 col-centered">
+						<div class="col-sm-2">
 							<div class="team-member">
-								<img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-square" alt="">
+								<img src="img/team/{{ org.name }}/{{ member.pic }}.jpg" class="img-responsive img-square" alt="">
+
+								<!--{% capture author_photo %}{% file_exists {{ img/team/{{ org.name }}/{{ member.pic }}.jpg }} %}{% endcapture %}-->
+
+								<!--{% if author_photo == "true" %}-->
+									<!--<img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-square" alt="">-->
+								<!--{% else %}
+									<img src="img/team/no-user-image.jpg" class="img-responsive img-square" alt="">
+								{% endif %}-->
+
 								<h4>{{ member.name }}</h4>
 								<p class="text-muted">{{ member.title }}</p>
 								<!--<ul class="list-inline social-buttons">
