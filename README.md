@@ -1,11 +1,11 @@
-Agency Jekyll theme
+Team Bath Racing Electric Website
 ====================
 
-Agency theme based on [Agency bootstrap theme ](http://startbootstrap.com/templates/agency/)
+Welcome to the repository of the new Team Bath Racing Electric 2017 website!
 
 # How to use
 
-###Portfolio 
+###News and Blog Posts
 
 Portfolio projects are in '/_posts'
 
@@ -17,14 +17,15 @@ Images are in '/img/about/'
 
 ###Team
 
-Team members and info are in '_config.yml'
+Team structure with members and information is located within the folder '/_data/orgs/...'
 
-Images are in '/img/team/'
+Images for the members are in '/img/team/'
 
+###Sponsors
 
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
+Images for the sponsors are in '/img/sponsors/'
 
 =========
-For more details, read [documentation](http://jekyllrb.com/)
+For more details concerning Jekyll, read [the documentation](http://jekyllrb.com/)
+
+Based on the Agency Jekyll theme (http://startbootstrap.com/templates/agency/)
