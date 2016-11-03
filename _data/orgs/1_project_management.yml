@@ -15,7 +15,23 @@ members:
     - name: Greg Tzermias
       title: Project Co-ordinator / Mechanical Lead Engineer
       pic: Gregory_Tzermias
+      course: Mechanical Engineering (MEng)
+      yos: 5
+      experience: Diesel Engine Calibration with FEV at Jaguar Land Rover
+      social:
+          - title: envelope
+            url: #
+          - title: linkedin
+            url: #
 
     - name: George A Farhat
       title: Project Co-ordinator / Software Lead Engineer
       pic: George_Farhat
+      course: Integrated Mechanical and Electrical Engineering (MEng)
+      yos: 5
+      experience: British American Tobacco Innovation Tech Team - Project Coordinator
+      social:
+          - title: envelope
+            url: #
+          - title: linkedin
+            url: #
