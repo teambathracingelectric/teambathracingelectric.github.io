@@ -6,6 +6,11 @@ members:
       course: Integrated Mechinical and Electrical Engineering (MEng)
       yos: 5
       experience: SAIC Motor UK Technical Centre
+      social:
+          - title: envelope
+            url: #
+          - title: linkedin
+            url: #
 
     - name: Greg Tzermias
       title: Project Co-ordinator / Mechanical Lead Engineer

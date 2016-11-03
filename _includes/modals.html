@@ -62,23 +62,23 @@
 									<img src="img/team/no-user-image.jpg" class="img-responsive img-square img-centered" alt="">
 								{% endif %}
 
-								<p>Course: {{ member.course }}, Year {{ member.yos }}</p>
-								<p>Previous Work Experience: {{ member.experience }}</p>
+								<div style="margin-top:20px;">
+									<p>Course: {{ member.course }}, Year {{ member.yos }}</p>
+									<p>Previous Work Experience: {{ member.experience }}</p>
+								</div>
 
-								<ul class="list-inline item-details">
-									<li>Client:
-										<strong><a href="http://startbootstrap.com">{{ post.client }}</a>
-										</strong>
-									</li>
-									<li>Date:
-										<strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-										</strong>
-									</li>
-									<li>Service:
-										<strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-										</strong>
-									</li>
-								</ul>
+								<div style="margin-top:20px; margin-bottom:20px">
+									<ul class="list-inline social-buttons">
+										{% for network in member.social %}
+											<li>
+												<a href="{{ network.url }}">
+													<i class="fa fa-{{ network.title }}"></i>
+												</a>
+											</li>
+										{% endfor %}
+									</ul>
+								</div>
+
 								<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
 							</div>
 						<!--</div>-->
