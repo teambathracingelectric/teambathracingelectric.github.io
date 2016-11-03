@@ -64,8 +64,20 @@
 								{% endif %}
 
 								<div style="margin-top:20px;">
-									<p>Course: {{ member.course }}, Year {{ member.yos }}</p>
-									<p>Previous Work Experience: {{ member.experience }}</p>
+									<table style="width:100%">
+										<tr>
+											<th>Course:</th>
+											<td>{{ member.course }}</td>
+										</tr>
+										<tr>
+											<th>Year of Study:</th>
+											<td>{{ member.yos }}</td>
+										</tr>
+										<tr>
+											<th>Previous Work Experience:</th>
+											<td>{{ member.experience }}</td>
+										</tr>
+									</table>
 								</div>
 
 								<div style="margin-top:20px; margin-bottom:20px">

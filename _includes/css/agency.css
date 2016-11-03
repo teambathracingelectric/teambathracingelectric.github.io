@@ -790,6 +790,20 @@ ul.social-buttons li a:active {
 	background-color: #{{ site.data.template.color.primary }};
 }
 
+table, th, td {
+	border: 1px solid black !important;
+	border-collapse: collapse !important;
+}
+
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+
+th {
+	text-align: center;
+}
+
 .btn:focus,
 .btn:active,
 .btn.active,
