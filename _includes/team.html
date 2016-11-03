@@ -24,13 +24,22 @@
 							<div class="team-member">
 
 								<!-- Check if the member has a photo, if not use default image -->
-								{% capture author_photo %}{% file_exists img/team/{{ org.name }}/{{ member.pic }}.png %}{% endcapture %}
+								{% capture author_photo %}{% file_exists img/team/{{ org.name }}/{{ member.pic }}.jpg %}{% endcapture %}
 
-								{% if author_photo == "true" %}
-									<img src="img/team/{{ org.name }}/{{ member.pic }}.png" class="img-responsive img-square" alt="">
-								{% else %}
-									<img src="img/team/no-user-image.jpg" class="img-responsive img-square" alt="">
-								{% endif %}
+								<a href="#teamMember{{ member.pic }}" class="portfolio-link" data-toggle="modal">
+
+									<!-- TODO: add something to happen when hovering over a picture -->
+									<!--<div class="portfolio-hover">
+										<div class="portfolio-hover-content">
+											<i class="fa fa-plus fa-3x"></i>
+										</div>
+									</div>-->
+									{% if author_photo == "true" %}
+										<img src="img/team/{{ org.name }}/{{ member.pic }}.jpg" class="img-responsive img-square" alt="">
+									{% else %}
+										<img src="img/team/no-user-image.jpg" class="img-responsive img-square" alt="">
+									{% endif %}
+								</a>
 
 								<h4>{{ member.name }}</h4>
 								<p class="text-muted">{{ member.title }}</p>
