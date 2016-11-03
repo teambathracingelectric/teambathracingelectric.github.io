@@ -1,0 +1,17 @@
+name: Build & Operations
+members:
+    - name: Ashley Locke
+      title: Build Manager
+      pic: Ashley_Locke
+
+    - name: Kam Khalil
+      title: Logistics
+      pic: Kam_Khalil
+
+    - name: Thomas Coxon
+      title: Bodywork
+      pic: Thomas_Coxon
+
+    - name: Sam Chung
+      title: Build Support
+      pic: Sam_Chung

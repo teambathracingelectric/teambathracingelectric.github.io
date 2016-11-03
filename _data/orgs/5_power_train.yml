@@ -1,0 +1,21 @@
+name: Powertrain
+members:
+    - name: Stuart Boyd
+      title: Cooling
+      pic: Stuart_Boyd
+
+    - name: Donny Hyon
+      title: Cooling
+      pic: Donny_Hyon
+
+    - name: Anton Flodstrom
+      title: Drivetrain
+      pic: Anton_Flodstrom
+
+    - name: Laura Clark
+      title: Drivetrain
+      pic: Laura_Clark
+
+    - name: Will Minter-Kemp
+      title: Powertrain
+      pic: Will_Minter-Kemp

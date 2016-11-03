@@ -1,4 +1,4 @@
-name: Acumulator Systems
+name: Accumulator Systems
 members:
     - name: Sean Thompson
       title: Accumulator Manager
@@ -16,10 +16,10 @@ members:
       title: Battery Systems
       pic: Aaron_Cocker
 
-    - name: Peter Walker
-      title: Battery Systems
-      pic: Peter_Walker
-
     - name: Konstantinos Pappas
       title: Battery Systems
       pic: Konstantinos_Pappas
+
+    - name: Oliver Toogood
+      title: Battery Systems
+      pic: Oliver_Toogood
