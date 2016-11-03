@@ -10,22 +10,27 @@
 		<div class="row">
 			<!-- Loop over the yml pages in _data/orgs/ folder -->
 			{% for org_hash in site.data.orgs %}
+
 				<!-- Assign org to be the organisation name -->
 				{% assign org = org_hash[1] %}
 				<h3 align="center">{{ org.name }}</h3>
+
+				<!-- Create row for all the members in the team -->
 				<div class="row">
+
+					<!-- Loop over members in the organisation -->
 					{% for member in org.members %}
 						<div class="col-sm-2">
 							<div class="team-member">
-								<img src="img/team/{{ org.name }}/{{ member.pic }}.jpg" class="img-responsive img-square" alt="">
 
-								<!--{% capture author_photo %}{% file_exists {{ img/team/{{ org.name }}/{{ member.pic }}.jpg }} %}{% endcapture %}-->
+								<!-- Check if the member has a photo, if not use default image -->
+								{% capture author_photo %}{% file_exists img/team/{{ org.name }}/{{ member.pic }}.png %}{% endcapture %}
 
-								<!--{% if author_photo == "true" %}-->
-									<!--<img src="img/team/{{ member.pic }}.jpg" class="img-responsive img-square" alt="">-->
-								<!--{% else %}
+								{% if author_photo == "true" %}
+									<img src="img/team/{{ org.name }}/{{ member.pic }}.png" class="img-responsive img-square" alt="">
+								{% else %}
 									<img src="img/team/no-user-image.jpg" class="img-responsive img-square" alt="">
-								{% endif %}-->
+								{% endif %}
 
 								<h4>{{ member.name }}</h4>
 								<p class="text-muted">{{ member.title }}</p>
