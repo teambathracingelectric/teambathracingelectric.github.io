@@ -3,18 +3,8 @@
   pic: fac-eng-bath-uni
   link:
   description: >
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
-                 Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
-                 In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
-
-- name: Faculty of Engineering & Design
-  weighting: 20
-  pic:
-  link:
-  description: >
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
-                 Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
-                 In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
+                 We are pleased to have the continued support of the Faculty of Engineering & Design for 2016/17 with
+                 the allocation of a new re-furbished design and build area as well as additional financial support.
 
 - name: Mewburn Ellis
   weighting: 30
@@ -36,7 +26,7 @@
 
 - name: Empiric Student Property
   weighting: 50
-  pic: empiric-student-property
+  pic: hello-student
   link: http://www.empiric.co.uk/
   description: >
                  The Empiric Student Property (ESP) plc management team has a long track record in the acquisition, development
@@ -82,7 +72,7 @@
 - name: RB Engineering
   weighting: 100
   pic: rb-engineering
-  link:
+  link: http://www.rb-engineering.co.uk/
   description: >
                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
                  Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
@@ -96,6 +86,13 @@
                  In order to be successful in Formula Student, the vehicle dynamics must be right!
                  IPG Automotive’s Formula CarMaker program will help to achieving this. With CarMaker and IPGKinematics,
                  IPG offer professional support for vehicle dynamics simulation right from the start.
+
+- name: RS
+  weighting: 115
+  pic: rs
+  link: http://uk.rs-online.com/web/
+  description: >
+
 
 - name: Bender
   weighting: 120

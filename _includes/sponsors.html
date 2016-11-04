@@ -8,19 +8,6 @@
 					<!--<h3 class="section-subheading text-muted">These are our sponsors who have been supporting TBRe!</h3>-->
 				</div>
 			</div>
-		<!--
-			<div class="row">
-				{% for image in site.static_files %}
-					{% if image.path contains '/img/sponsors/' %}
-						<div class="col-md-3 col-sm-6">
-							<a href="#{{ image.name }}" id="{{ image.name }}">
-								<img src="{{ image.path }}" class="img-responsive img-centered" alt="image"/>
-							</a>
-						</div>
-					{% endif %}
-				{% endfor %}
-			</div>
-		-->
 			<div class="row">
 				<!-- Organise sponsors by their weighting -->
 				{% for sponsor in site.data.sponsors | sort: weighting %}
