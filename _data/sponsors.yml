@@ -1,0 +1,124 @@
+- name: University of Bath":" Department of Engineering
+  weighting: 10
+  pic: fac-eng-bath-uni
+  link:
+  description: >
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
+                 Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
+                 In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
+
+- name: Faculty of Engineering & Design
+  weighting: 20
+  pic:
+  link:
+  description: >
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
+                 Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
+                 In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
+
+- name: Mewburn Ellis
+  weighting: 30
+  pic: mewburn-ellis
+  link:
+  description: >
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
+                 Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
+                 In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
+
+- name: Creasefield
+  weighting: 40
+  pic: creasefield
+  link: https://www.creasefield.co.uk/
+  description: >
+                 We are delighted with Creasefield’s continued support of for 2016-17 year.
+                 Creasefield are battery specialists based in Bristol and are critical to our battery development through
+                 their outstanding industry knowledge and in-kind support through discounted battery cells.
+
+- name: Empiric Student Property
+  weighting: 50
+  pic: empiric-student-property
+  link: http://www.empiric.co.uk/
+  description: >
+                 The Empiric Student Property (ESP) plc management team has a long track record in the acquisition, development
+                 and management of student accommodation assets in the UK. With the growing student population in Bath, ESP
+                 are extending their portfolio of properties in the area. Keep an eye out for Empiric Student Properties across
+                 Bath in the not so distant future!
+
+- name: Cubik Innovation
+  weighting: 60
+  pic: cubik-innovation
+  link: http://www.cubik-innovation.co.uk/team-bath-racing-electric
+  description: >
+                 Located at the acclaimed Bristol and Bath Science Park in Bristol, Cubik Innovation work with emerging businesses, entrepreneurs and corporations,
+                 helping them to realise their electronic design objectives and to also bring new products to market.
+                 Supporting us for a second year, Cubik will be supporting our PCB design & manufacture.
+                 The PCBs that Cubik provide are integrated into our power management system and also the driver display.
+
+- name: Makita
+  weighting: 70
+  pic: makita
+  link: http://www.makitauk.com/about-makita.html
+  description: >
+                 We are very pleased to have the support of Makita for a second season.
+                 Makita is the leading manufacturer of power tools in the world and the power tools and
+                 training programme that they have provided are invaluable to the team’s daily work.
+
+- name: Brammer
+  weighting: 80
+  pic: brammer
+  link: http://www.brammer.co.uk/
+  description: >
+                 Brammer are Europe’s leading specialist distributor of industrial maintenance, repair and overhaul products.
+                 It is a privilege to have Brammer by our side assisting us to make our electric Formula Student entry a success.
+
+- name: Microlease / Keysight
+  weighting: 90
+  pic: keysight-microrelease
+  link: https://www.microlease.com/uk/home
+  description: >
+                 Keysight / Microlease are a key partner of in-kind support through the donation of electrical test equipment.
+                 The development of our electrical systems and the handheld test equipment provided are crucial at the team.
+
+- name: RB Engineering
+  weighting: 100
+  pic: rb-engineering
+  link:
+  description: >
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
+                 Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
+                 In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
+
+- name: IPG
+  weighting: 110
+  pic: ipg
+  link: https://ipg-automotive.com
+  description: >
+                 In order to be successful in Formula Student, the vehicle dynamics must be right!
+                 IPG Automotive’s Formula CarMaker program will help to achieving this. With CarMaker and IPGKinematics,
+                 IPG offer professional support for vehicle dynamics simulation right from the start.
+
+- name: Bender
+  weighting: 120
+  pic: bender
+  link: http://www.bender.org
+  description: >
+                 Safety is crucial for high voltage applications and Bender have been kind enough to support our team for the second year
+                 in a row with their Isolation Monitoring Device (IMD) unit. The IMD detects if there is any high voltage leaking from the
+                 tractive system to the chassis and immediately switches off the HV system making it safe.
+
+- name: Minuteman Press
+  weighting: 130
+  pic: minuteman-press
+  link: http://www.minutemanbath.co.uk/
+  description: >
+                 Minuteman Press are a well established, multi award winning independently owned digital, litho and wide
+                 format printer, based in the centre of the World Heritage City of Bath. Their support allows us to print
+                 and advertise at the highest quality.
+
+- name: EMRAX
+  weighting: 140
+  pic: emrax
+  link: http://www.enstroj.si
+  description: >
+                 EMRAX offer high-powered, high torque, extremely light, direct drive, low noise electric motors, with efficiency up to 98%.
+                 An Emrax motor offers the best power to weight ratio in the world. We are delighted to be supported by Emrax for the 2016/17 season!
