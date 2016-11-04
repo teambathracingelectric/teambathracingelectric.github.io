@@ -48,56 +48,85 @@
 		<div class="modal fade" id="teamMember{{ member.pic }}" tabindex="-1" role="dialog" aria-hidden="true">
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
-					<!--<div class="container">-->
+					<div class="modal-body">
 
-						<!--<div class="row">-->
-							<div class="modal-body">
+						<h2>{{ member.name }}</h2>
+						<p><i>{{ member.title }}</i></p>
+						<hr class="star-primary">
 
-								<h2>{{ member.name }}</h2>
-								<p><i>{{ member.title }}</i></p>
-								<hr class="star-primary">
+						{% if author_photo == "true" %}
+							<img src="img/team/{{ org.name }}/{{ member.pic }}.jpg" class="img-responsive img-square img-centered" style="width: 100%;" alt="">
+						{% else %}
+							<img src="img/team/no-user-image.jpg" class="img-responsive img-square img-centered" alt="">
+						{% endif %}
 
-								{% if author_photo == "true" %}
-									<img src="img/team/{{ org.name }}/{{ member.pic }}.jpg" class="img-responsive img-square img-centered" style="width: 100%;" alt="">
-								{% else %}
-									<img src="img/team/no-user-image.jpg" class="img-responsive img-square img-centered" alt="">
-								{% endif %}
+						<div style="margin-top:20px;">
+							<table style="width:100%">
+								<tr>
+									<th>Course:</th>
+									<td>{{ member.course }}</td>
+								</tr>
+								<tr>
+									<th>Year of Study:</th>
+									<td>{{ member.yos }}</td>
+								</tr>
+								<tr>
+									<th>Previous Work Experience:</th>
+									<td>{{ member.experience }}</td>
+								</tr>
+							</table>
+						</div>
 
-								<div style="margin-top:20px;">
-									<table style="width:100%">
-										<tr>
-											<th>Course:</th>
-											<td>{{ member.course }}</td>
-										</tr>
-										<tr>
-											<th>Year of Study:</th>
-											<td>{{ member.yos }}</td>
-										</tr>
-										<tr>
-											<th>Previous Work Experience:</th>
-											<td>{{ member.experience }}</td>
-										</tr>
-									</table>
-								</div>
+						<div style="margin-top:20px; margin-bottom:20px">
+							<ul class="list-inline social-buttons">
+								{% for network in member.social %}
+									<li>
+										<a href="{{ network.url }}">
+											<i class="fa fa-{{ network.title }}"></i>
+										</a>
+									</li>
+								{% endfor %}
+							</ul>
+						</div>
 
-								<div style="margin-top:20px; margin-bottom:20px">
-									<ul class="list-inline social-buttons">
-										{% for network in member.social %}
-											<li>
-												<a href="{{ network.url }}">
-													<i class="fa fa-{{ network.title }}"></i>
-												</a>
-											</li>
-										{% endfor %}
-									</ul>
-								</div>
-
-								<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-							</div>
-						<!--</div>-->
-					<!--</div>-->
+						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+					</div>
 				</div>
 			</div>
 		</div>
 	{% endfor %}
 {% endfor %}
+
+<!-- Sponsors Modal -->
+<div class="portfolio-modal modal fade" id="sponsors-modal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-content">
+
+		<div class="close-modal" data-dismiss="modal">
+			<div class="lr">
+				<div class="rl">
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="modal-body">
+					<h2>Meet Our Sponsors</h2>
+					<hr class="star-primary"/>
+					<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
+
+					{% for sponsor in site.data.sponsors | sort: weighting %}
+						<p style="margin-bottom: 60px;">
+							<a id="{{ sponsor.link }}" style="position: relative;top: -110px;">&nbsp;</a>
+							<a href="{{ sponsor.link }}" target="_blank">
+								<img src="/img/sponsors/{{ sponsor.pic }}.jpg" align="left" width="200px" style="margin-right: 20px;margin-top: 0px"/>
+							</a>
+							{{ sponsor.description }}
+						</p>
+					{% endfor %}
+				</div>
+				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+			</div>
+		</div>
+	</div>
+</div>
