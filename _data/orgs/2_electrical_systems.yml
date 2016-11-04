@@ -3,10 +3,26 @@ members:
     - name: Alex Stokoe
       title: Electrical Systems Manager
       pic: Alex_Stokoe
+      course: Integrated Mechanical and Electrical Engineering (MEng)
+      yos: 5
+      experience: The Technology Partnership
+      social:
+          - title: envelope
+            url: #
+          - title: linkedin
+            url: #
 
     - name: Lawrence Chan
       title: Driver Display / Webmaster
       pic: Lawrence_Chan
+      course: Electrical & Electronic Engineering (MEng)
+      yos: 5
+      experience: McLaren Applied Technologies
+      social:
+          - title: envelope
+            url: #
+          - title: linkedin
+            url: #
 
     - name: Oliver Matthews
       title: Vehicle Telemetry
@@ -15,6 +31,14 @@ members:
     - name: Peter Hunt
       title: Electrical Systems (BMS)
       pic: Peter_Hunt
+      course: Integrated Mechanical and Electrical Engineering (MEng)
+      yos: 5
+      experience: Surrey Satellite Technology Ltd
+      social:
+          - title: envelope
+            url: #
+          - title: linkedin
+            url: #
 
     - name: Ed Fowler
       title: Electrical Systems (BMS)

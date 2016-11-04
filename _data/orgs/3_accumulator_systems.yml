@@ -3,6 +3,14 @@ members:
     - name: Sean Thompson
       title: Accumulator Manager
       pic: Sean_Thompson
+      course: Integrated Mechanical and Electrical Engineering (MEng)
+      yos: 5
+      experience: Sagentia Technical Consultancy
+      social:
+          - title: envelope
+            url: #
+          - title: linkedin
+            url: #
 
     - name: Lizzy Maclennan
       title: Battery Systems
@@ -15,6 +23,14 @@ members:
     - name: Aaron Cocker
       title: Battery Systems
       pic: Aaron_Cocker
+      course: Electrical and Electronic Engineering (MEng)
+      yos: 3
+      experience: Ultra Electronics Precision Air and Land Systems
+      social:
+          - title: envelope
+            url: #
+          - title: linkedin
+            url: #
 
     - name: Konstantinos Pappas
       title: Battery Systems
