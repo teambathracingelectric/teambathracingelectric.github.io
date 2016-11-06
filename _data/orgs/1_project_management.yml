@@ -3,35 +3,59 @@ members:
     - name: Stefano Dallavalle
       title: Project Manager / Business & Finanace Manager
       pic: Stefano_Dallavalle
-      course: Integrated Mechanical and Electrical Engineering (MEng)
-      yos: 5
-      experience: SAIC Motor UK Technical Centre
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: SAIC Motor UK Technical Centre
       social:
           - title: envelope
-            url: #
+            url: mailto:sd548@bath.ac.uk
           - title: linkedin
-            url: #
+            url: https://www.linkedin.com/in/stefano-dallavalle
 
     - name: Greg Tzermias
-      title: Project Co-ordinator / Mechanical Lead Engineer
+      title: Mechanical Project Manager
       pic: Gregory_Tzermias
-      course: Mechanical Engineering (MEng)
-      yos: 5
-      experience: Diesel Engine Calibration with FEV at Jaguar Land Rover
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: Diesel Engine Calibration with FEV at Jaguar Land Rover
+          - name: Interests
+            info: Cars, snowsports and travelling
+          - name: Fun Fact
+            info: Capable of loving his car more than his girlfriend
       social:
-          - title: envelope
-            url: #
           - title: linkedin
-            url: #
+            url: https://www.linkedin.com/in/gregory-tzermias-12a26677/en
+
+    - name: Alex Stokoe
+      title: Electrical Project Manager
+      pic: Alex_Stokoe
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: The Technology Partnership
 
     - name: George A Farhat
       title: Project Co-ordinator / Software Lead Engineer
       pic: George_Farhat
-      course: Integrated Mechanical and Electrical Engineering (MEng)
-      yos: 5
-      experience: British American Tobacco Innovation Tech Team - Project Coordinator
-      social:
-          - title: envelope
-            url: #
-          - title: linkedin
-            url: #
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: British American Tobacco Innovation Tech Team - Project Coordinator
+          - name: Interests
+            info: Ski, kickboxing and travelling.
+          - name: Fun Fact
+            info: Honey and feta on everything

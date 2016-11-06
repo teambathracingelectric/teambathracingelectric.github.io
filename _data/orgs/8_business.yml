@@ -3,23 +3,78 @@ members:
     - name: Antonio Pessanha
       title: Media & Public Relations Manager
       pic: Antonio_Pessanha
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: Cosworth - Motorsport Support Engineer
+          - name: Interests
+            info: Cars, Travel, Sport
+          - name: Fun Fact
+            info: No.1 Coffee Lover
+      social:
+          - title: envelope
+            url: mailto:ap653@bath.ac.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/antonio-pessanha-09209ba2
 
     - name: Etra Bianco
       title: Business
       pic: Etra_Bianco
+      facts:
+          - name: Course
+            info: International Management
+          - name: Year of Study
+            info: 2
+          - name: Previous Work Experience
+            info: Whitestuff - Marketing Intern
 
     - name: Jake Krais
       title: Business
       pic: Jake_Krais
+      facts:
+          - name: Course
+            info: International Management
+          - name: Year of Study
+            info: 2
+          - name: Previous Work Experience
+            info: Universal Music- Artist Rights and Touring Services, Mitre Sports-Marketing and Development
+          - name: Interests
+            info: Luxury Cars, football, theatre
+          - name: Fun Fact
+            info: Appeared on the BBC show 'Beat The Boss'
 
     - name: Jane Snigur
       title: Business
       pic: Jane_Snigur
+      facts:
+          - name: Course
+            info: Bachelor Business Administration (BBA)
+          - name: Year of Study
+            info: 1
+      social:
+          - title: envelope
+            url: mailto:es775@bath.ac.uk
 
     - name: Bassel Ghazali
       title: Team Photographer
       pic: Bassel_Ghazali
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 1
+      social:
+          - title: envelope
+            url: mailto:bg440@bath.ac.uk
 
     - name: Augustin Debionne
       title: Media
       pic: Augustin_Debionne
+      facts:
+          - name: Course
+            info: Aerospace Engineering (MEng)
+          - name: Year of Study
+            info: 1

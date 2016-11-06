@@ -1,8 +1,24 @@
 name: Chassis & Ergonomics
 members:
     - name: Sophie Orlans
-      title: Driver Ergonomics Manager
+      title: Ergonomics Manager
       pic: Sophie_Orlans
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: Vehicle Package at JLR, Design engineer at McLaren Automotive, Chassis Engineer at Tesla
+          - name: Interests
+            info: SCUBA diving, photography, making and drinking cocktails
+          - name: Fun Fact
+            info: Once did a drag race against some gangsters in a Tesla
+      social:
+          - title: envelope
+            url: mailto:sso21@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/sophieorlans
 
     - name: Catherine Jones
       title: Chassis
@@ -11,3 +27,19 @@ members:
     - name: James Spalding
       title: Chassis
       pic: James_Spalding
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Metrol Technology - Downhole tools using acoustic/ electromagnetic telemetry
+          - name: Interests
+            info: Zoo tycoon and Sims 3
+      social:
+          - title: envelope
+            url: mailto:jas61@bath.ac.uk
+
+    - name: Jake Clapp
+      title: Ergonomoics
+      pic: Jake_Clapp

@@ -3,10 +3,31 @@ members:
     - name: Stuart Boyd
       title: Cooling
       pic: Stuart_Boyd
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Semple & McKillop - Engineering Consultant
 
     - name: Donny Hyon
       title: Cooling
       pic: Donny_Hyon
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Perenco UK- Operations Support
+          - name: Interests
+            info: Rugby, Food and Great British Bake Off
+      social:
+          - title: envelope
+            url: mailto:duh20@bath.ac.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/donny-hyon-1b3206121
 
     - name: Anton Flodstrom
       title: Drivetrain
@@ -15,7 +36,28 @@ members:
     - name: Laura Clark
       title: Drivetrain
       pic: Laura_Clark
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Diesel Engine Calibration with FEV at Jaguar Land Rover
+          - name: Interests
+            info: Athletics, baking
+      social:
+          - title: envelope
+            url: mailto:lc649@bath.ac.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/laura-clark-30b568100
 
     - name: Will Minter-Kemp
       title: Powertrain
       pic: Will_Minter-Kemp
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Integration Engineer at SAIC Motors, EPM":" Tech Composites

@@ -62,18 +62,12 @@
 
 						<div style="margin-top:20px;">
 							<table style="width:100%">
-								<tr>
-									<th>Course:</th>
-									<td>{{ member.course }}</td>
-								</tr>
-								<tr>
-									<th>Year of Study:</th>
-									<td>{{ member.yos }}</td>
-								</tr>
-								<tr>
-									<th>Previous Work Experience:</th>
-									<td>{{ member.experience }}</td>
-								</tr>
+								{% for fact in member.facts %}
+									<tr>
+										<th>{{ fact.name }}</th>
+										<td>{{ fact.info }}</td>
+									</tr>
+								{% endfor %}
 							</table>
 						</div>
 
@@ -81,7 +75,7 @@
 							<ul class="list-inline social-buttons">
 								{% for network in member.social %}
 									<li>
-										<a href="{{ network.url }}">
+										<a target="_top" href="{{ network.url }}">
 											<i class="fa fa-{{ network.title }}"></i>
 										</a>
 									</li>

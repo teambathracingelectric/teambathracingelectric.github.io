@@ -1,28 +1,20 @@
 name: Electrical Systems
 members:
-    - name: Alex Stokoe
-      title: Electrical Systems Manager
-      pic: Alex_Stokoe
-      course: Integrated Mechanical and Electrical Engineering (MEng)
-      yos: 5
-      experience: The Technology Partnership
-      social:
-          - title: envelope
-            url: #
-          - title: linkedin
-            url: #
-
     - name: Lawrence Chan
       title: Driver Display / Webmaster
       pic: Lawrence_Chan
-      course: Electrical & Electronic Engineering (MEng)
-      yos: 5
-      experience: McLaren Applied Technologies
+      facts:
+          - name: Course
+            info: Electrical & Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: McLaren Applied Technologies
       social:
           - title: envelope
-            url: #
+            url: mailto:lc549@bath.ac.uk
           - title: linkedin
-            url: #
+            url: https://uk.linkedin.com/in/lawrence-chan-03
 
     - name: Oliver Matthews
       title: Vehicle Telemetry
@@ -31,14 +23,17 @@ members:
     - name: Peter Hunt
       title: Electrical Systems (BMS)
       pic: Peter_Hunt
-      course: Integrated Mechanical and Electrical Engineering (MEng)
-      yos: 5
-      experience: Surrey Satellite Technology Ltd
-      social:
-          - title: envelope
-            url: #
-          - title: linkedin
-            url: #
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: Surrey Satellite Technology Ltd
+          - name: Interests
+            info: Christian, Music, Rugby
+          - name: Fun Fact
+            info: Was in the gunge tank on a show called 'Saturday show' when he was 10
 
     - name: Ed Fowler
       title: Electrical Systems (BMS)
