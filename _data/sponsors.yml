@@ -1,7 +1,7 @@
 - name: University of Bath":" Department of Engineering
   weighting: 10
   pic: fac-eng-bath-uni
-  link:
+  link: http://www.bath.ac.uk/departments/faculty-of-engineering-design/
   description: >
                  We are pleased to have the continued support of the Faculty of Engineering & Design for 2016/17 with
                  the allocation of a new re-furbished design and build area as well as additional financial support.
@@ -9,38 +9,42 @@
 - name: Mewburn Ellis
   weighting: 30
   pic: mewburn-ellis
-  link:
+  link: http://mewburn.com
   description: >
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
-                 Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
-                 In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
+                 Mewburn Ellis LLP is one of Europe’s top Intellectual Property (IP) firms offering a full range of IP services:
+                 patents, trademarks & designs. Mewburn Ellis provide commercially focused, creative advice on obtaining, enforcing
+                 & exploiting IP rights to a wide range of clients across numerous & diverse industry sectors.
+                 IP is extremely important in Engineering and through a partnership with TBRe, Mewburn Ellis LLP aim to raise
+                 awareness to a potential career in IP for top Engineering students and graduates from the University of Bath.
 
 - name: Creasefield
   weighting: 40
   pic: creasefield
   link: https://www.creasefield.co.uk/
   description: >
-                 We are delighted with Creasefield’s continued support of for 2016-17 year.
-                 Creasefield are battery specialists based in Bristol and are critical to our battery development through
-                 their outstanding industry knowledge and in-kind support through discounted battery cells.
+                 We are delighted with Creasefield’s continued support for 2016-17 season.
+                 Creasefield are battery specialists based in Bristol and are critical to our battery development
+                 through their outstanding industry knowledge and in-kind support through discounted battery cells.
 
-- name: Empiric Student Property
+- name: Hello Student
   weighting: 50
   pic: hello-student
-  link: http://www.empiric.co.uk/
+  link: http://www.hellostudent.co.uk
   description: >
-                 The Empiric Student Property (ESP) plc management team has a long track record in the acquisition, development
-                 and management of student accommodation assets in the UK. With the growing student population in Bath, ESP
-                 are extending their portfolio of properties in the area. Keep an eye out for Empiric Student Properties across
-                 Bath in the not so distant future!
+                 Hello Student design, build and manage homes for students all over the UK.
+                 Hello Student insist on a few things when building student accommodation.
+                 They have to be centrally located, well-connected and well-designed.
+                 They also build in community facilities and spaces such as gyms, cinema room, study rooms and big shared kitchens.
+                 We are extremely happy to have Hello Student on board as a sponsor this season so keep an eye out for their
+                 properties across Bath and check out their website for more information!
 
 - name: Cubik Innovation
   weighting: 60
   pic: cubik-innovation
   link: http://www.cubik-innovation.co.uk/team-bath-racing-electric
   description: >
-                 Located at the acclaimed Bristol and Bath Science Park in Bristol, Cubik Innovation work with emerging businesses, entrepreneurs and corporations,
-                 helping them to realise their electronic design objectives and to also bring new products to market.
+                 Located at the acclaimed Bristol and Bath Science Park in Bristol, Cubik Innovation work with emerging businesses,
+                 entrepreneurs and corporations, helping them to realise their electronic design objectives and to also bring new products to market.
                  Supporting us for a second year, Cubik will be supporting our PCB design & manufacture.
                  The PCBs that Cubik provide are integrated into our power management system and also the driver display.
 
@@ -50,8 +54,8 @@
   link: http://www.makitauk.com/about-makita.html
   description: >
                  We are very pleased to have the support of Makita for a second season.
-                 Makita is the leading manufacturer of power tools in the world and the power tools and
-                 training programme that they have provided are invaluable to the team’s daily work.
+                 Makita is the leading manufacturer of power tools in the world and the power tools
+                 and training programme that they have provided are invaluable to the team’s daily work.
 
 - name: Brammer
   weighting: 80
@@ -74,9 +78,10 @@
   pic: rb-engineering
   link: http://www.rb-engineering.co.uk/
   description: >
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in ante congue, volutpat nunc et, iaculis massa.
-                 Curabitur ut blandit diam. Nunc placerat erat id libero fringilla consequat. Phasellus diam urna, faucibus sit amet ornare id, pharetra a urna.
-                 In hac habitasse platea dictumst. In convallis feugiat dolor vel feugiat. Sed ac egestas ipsum, in eleifend urna.
+                 RB Engineering are a family run fabrication & welding business in South East Devon. They have CE Marking Accreditation
+                 and are vital to the fabrication of our steel space frame chassis. The use of their facilities is extremely valuable
+                 to the team and their facilities allow us to gain hands on welding and fabrication experience.
+
 
 - name: IPG
   weighting: 110
@@ -84,7 +89,7 @@
   link: https://ipg-automotive.com
   description: >
                  In order to be successful in Formula Student, the vehicle dynamics must be right!
-                 IPG Automotive’s Formula CarMaker program will help to achieving this. With CarMaker and IPGKinematics,
+                 IPG Automotive’s Formula CarMaker program will help us to achieve this. With CarMaker and IPGKinematics,
                  IPG offer professional support for vehicle dynamics simulation right from the start.
 
 - name: RS
@@ -92,30 +97,32 @@
   pic: rs
   link: http://uk.rs-online.com/web/
   description: >
-
+                 We are delighted to be supported by RS Components again for our second Formula Student season.
+                 RS Components aim is promote the RS brand to the Engineers of tomorrow, through the support of
+                 engineering/electronic based University projects. Keep an eye out for RS on our social media and
+                 through regular updates on both the TBRe and RS and Education Facebook pages.
 
 - name: Bender
   weighting: 120
   pic: bender
   link: http://www.bender.org
   description: >
-                 Safety is crucial for high voltage applications and Bender have been kind enough to support our team for the second year
-                 in a row with their Isolation Monitoring Device (IMD) unit. The IMD detects if there is any high voltage leaking from the
-                 tractive system to the chassis and immediately switches off the HV system making it safe.
+                 Safety is crucial for high voltage applications and Bender have been kind enough to support our team for the
+                 second year in a row with their Isolation Monitoring Device (IMD) unit. The IMD detects if there is any high voltage
+                 leaking from the tractive system to the chassis and immediately switches off the HV system making it safe.
 
 - name: Minuteman Press
   weighting: 130
   pic: minuteman-press
   link: http://www.minutemanbath.co.uk/
   description: >
-                 Minuteman Press are a well established, multi award winning independently owned digital, litho and wide
-                 format printer, based in the centre of the World Heritage City of Bath. Their support allows us to print
-                 and advertise at the highest quality.
+                 Minuteman Press are a well established, multi award winning independently owned digital, litho and wide format printer,
+                 based in the centre of the World Heritage City of Bath. Their support allows us to print and advertise at the highest quality.
 
 - name: EMRAX
   weighting: 140
   pic: emrax
   link: http://www.enstroj.si
   description: >
-                 EMRAX offer high-powered, high torque, extremely light, direct drive, low noise electric motors, with efficiency up to 98%.
+                 EMRAX offer high-powered, high torque and extremely light direct drive electric motors, with efficiency up to 98%.
                  An Emrax motor offers the best power to weight ratio in the world. We are delighted to be supported by Emrax for the 2016/17 season!
