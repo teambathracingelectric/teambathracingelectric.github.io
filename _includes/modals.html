@@ -116,13 +116,20 @@
 					<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
 
 					{% for sponsor in site.data.sponsors | sort: weighting %}
-						<p style="margin-bottom: 60px;">
-							<a id="{{ sponsor.link }}" style="position: relative;top: -110px;">&nbsp;</a>
-							<a href="{{ sponsor.link }}" target="_blank">
-								<img src="/img/sponsors/{{ sponsor.pic }}.jpg" align="left" width="200px" style="margin-right: 20px;margin-top: 0px"/>
-							</a>
-							{{ sponsor.description }}
-						</p>
+						<table>
+							<tr>
+								<td>
+									<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
+									<a id="{{ sponsor.link }}"></a>
+									<a href="{{ sponsor.link }}" target="_blank">
+										<img src="/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
+									</a>
+								</td>
+								<td>
+									{{ sponsor.description }}
+								</td>
+							</tr>
+						</table>
 					{% endfor %}
 				</div>
 				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
