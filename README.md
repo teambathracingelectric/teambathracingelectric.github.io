@@ -28,6 +28,7 @@ All located in '_includes/about.html'. Edit accordingly.
 ###News and Blog Posts
 
 Portfolio projects are in '/_posts'.
+
 Images are in '/img/portfolio'.
 
 ###Team
@@ -35,8 +36,7 @@ Images are in '/img/portfolio'.
 Team structure with members and information is located within the folder '/_data/orgs/...'
 Please follow the same structure of each member, as that's how information is added to each member on the website.
 
-Images for the members are in '/img/team/...'
-If a user does not have an image uploaded, a default image is used.
+Images for the members are in '/img/team/...' If a user does not have an image uploaded, a default image is used.
 
 To edit how the popup looks like when the members image is clicked on, you can edit '_includes/modals.html'
 and look for the team member modal.
@@ -44,14 +44,18 @@ and look for the team member modal.
 ###Timeline
 
 Images for the timeline are located in '/img/timeline/...'
+
 To edit information within the timeline, edit '/_includes/timeline.html'... Sadly it has not been automated yet and looks quite messy.
 
 ###Sponsors
 
 Images for the sponsors are located in '/img/sponsors/...'
+
 To edit information, or add additional sponsors, edit '_data/sponsors.yml' and add the new sponsors, following exactly the same
-format which is used for the current sponsors. When compiled, the website should automatically build the modal page, as well as
-add all the images to the main page, and in the order required. If not, just re-order the sponsors in '_data/sponsors.yml'.
+format which is used for the current sponsors.
+
+When compiled, the website should automatically build the modal page, as well as add all the images to the main page,
+and in the order required. If not, just re-order the sponsors in '_data/sponsors.yml'.
 
 ###Other information
 
