@@ -10,8 +10,6 @@ This was built using Windows, and the blogging framework, Jekyll (http://jekyll-
 There is a GitHub repository at (https://github.com/SurferL/TBRe-website).
 If you don't know what this means, please let me know and I'll explain and add you to the repository.
 
-=========
-
 # Usage and how to change stuff
 
 ###Header Image
