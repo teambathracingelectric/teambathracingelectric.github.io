@@ -32,6 +32,20 @@ members:
     - name: Anton Flodstrom
       title: Drivetrain
       pic: Anton_Flodstrom
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Scania - Cab Development
+          - name: Interests
+            info: Golf, Football & Travelling
+          - name: Fun Fact
+            info: Internationally misplaced Swede but not tall or blonde (sorry to disappoint)
+      social:
+          - title: envelope
+            url: mailto:naf24@bath.ac.uk
 
     - name: Laura Clark
       title: Drivetrain

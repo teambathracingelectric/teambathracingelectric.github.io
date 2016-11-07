@@ -10,6 +10,15 @@ members:
             info: 5
           - name: Previous Work Experience
             info: Sagentia Technical Consultancy
+          - name: Interests
+            info: Cycling, Whitewater Kayaking
+          - name: Fun Fact
+            info: I don't actually know how to drive. . .
+      social:
+          - title: envelope
+            url: mailto:sct28@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/sean-thompson-b4844ba3
 
     - name: Elizabeth Maclennan
       title: Battery Systems
@@ -40,6 +49,20 @@ members:
     - name: Konstantinos Pappas
       title: Battery Systems
       pic: Konstantinos_Pappas
+      facts:
+          - name: Course
+            info: Electrical and Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Electronic Design Engineer at Stanhope-Seta-Laboratory Instruments Manufacturer
+          - name: Interests
+            info: Skydiving, Skiing
+      social:
+          - title: envelope
+            url: mailto:kp434@bath.ac.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/konstantinos-pappas
 
     - name: Oliver Toogood
       title: Battery Systems

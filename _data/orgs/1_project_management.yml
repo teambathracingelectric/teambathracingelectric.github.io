@@ -44,6 +44,15 @@ members:
             info: 5
           - name: Previous Work Experience
             info: The Technology Partnership
+          - name: Interests
+            info: Music, Theatre and Synergistic Management Techniques
+          - name: Fun Fact
+            info: Almost lost a finger to TBRe16
+      social:
+          - title: envelope
+            url: mailto:as2110@bath.ac.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/alex-stokoe
 
     - name: George A Farhat
       title: Project Co-ordinator / Software Lead Engineer

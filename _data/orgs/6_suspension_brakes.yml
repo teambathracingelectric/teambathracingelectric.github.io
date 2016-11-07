@@ -54,3 +54,19 @@ members:
     - name: Rory Gold
       title: Vehicle Dynamics
       pic: Rory_Gold
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: GKN Aerospace - Additive Manufacturing Centre
+          - name: Interests
+            info: Guitar, Running, COFFEE!
+          - name: Fun Fact
+            info: I often question my existence amongst the muggles...
+      social:
+          - title: envelope
+            url: mailto:rbg22@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/rory-gold-15606410b

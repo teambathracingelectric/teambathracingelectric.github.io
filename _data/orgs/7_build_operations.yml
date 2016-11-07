@@ -10,6 +10,13 @@ members:
             info: 5
           - name: Previous Work Experience
             info: Systems Engineer - BAE Systems
+          - name: Interests
+            info: Music, Mountain Biking, Falling out of kayaks
+          - name: Fun Fact
+            info: Got lost in the desert with no water
+      social:
+          - title: envelope
+            url: mailto:al536@bath.ac.uk
 
     - name: Kam Khalil
       title: Logistics
