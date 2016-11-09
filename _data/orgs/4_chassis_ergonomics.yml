@@ -55,3 +55,15 @@ members:
     - name: Taylor De Caux
       title: Ergonomoics
       pic: Taylor_De_Caux
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 1
+          - name: Interests
+            info: Martial Arts, Taking stuff apart, Sleep
+          - name: Fun Fact
+            info: Smashy Can Elite Team
+      social:
+          - title: envelope
+            url: mailto:tdc41@bath.ac.uk

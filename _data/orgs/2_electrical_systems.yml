@@ -19,6 +19,20 @@ members:
     - name: Oliver Matthews
       title: Vehicle Telemetry
       pic: Oliver_Matthews
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: Hawk-Eye Innovations
+          - name: Interests
+            info: Football, Tennis and Travelling
+      social:
+          - title: envelope
+            url: mailto:ojm23@bath.ac.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/oliver-matthews-022835ab
 
     - name: Peter Hunt
       title: Electrical Systems (BMS)
@@ -34,6 +48,11 @@ members:
             info: Christian, Music, Rugby
           - name: Fun Fact
             info: Was in the gunge tank on a show called 'Saturday show' when he was 10
+      social:
+          - title: envelope
+            url: mailto:ph371@bath.c.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/peter-hunt-b2802b10a
 
     - name: Ed Fowler
       title: Electrical Systems (BMS)

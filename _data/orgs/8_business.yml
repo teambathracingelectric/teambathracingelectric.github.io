@@ -66,6 +66,10 @@ members:
             info: Bachelor Business Administration (BBA)
           - name: Year of Study
             info: 1
+          - name: Interests
+            info: Moved to Britain for unlimited tea consumption
+          - name: Fun Fact
+            info: Trouble maker & Problem solver
       social:
           - title: envelope
             url: mailto:es775@bath.ac.uk
@@ -73,6 +77,22 @@ members:
     - name: Catherine Jones
       title: Business
       pic: Catherine_Jones
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Dyson
+          - name: Interests
+            info: Cycling, hiking, swimming, mountains, sea
+          - name: Fun Fact
+            info: Favourite food - carrots
+      social:
+          - title: envelope
+            url: mailto:Cj376@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/catherine-jones-32a02499
 
     - name: Augustin Debionne
       title: Media
