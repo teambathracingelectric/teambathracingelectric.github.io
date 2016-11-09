@@ -10,6 +10,10 @@ members:
             info: 5
           - name: Previous Work Experience
             info: SAIC Motor UK Technical Centre
+          - name: Interests
+            info: Being Welsh, The Swans, Coffee
+          - name: Fun Fact
+            info: Once caught the ball playing football...and I wasn't the goalkeeper!
       social:
           - title: envelope
             url: mailto:sd548@bath.ac.uk

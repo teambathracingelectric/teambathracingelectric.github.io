@@ -20,10 +20,6 @@ members:
           - title: linkedin
             url: https://www.linkedin.com/in/sophieorlans
 
-    - name: Catherine Jones
-      title: Chassis
-      pic: Catherine_Jones
-
     - name: James Spalding
       title: Chassis
       pic: James_Spalding
@@ -40,6 +36,22 @@ members:
           - title: envelope
             url: mailto:jas61@bath.ac.uk
 
-    - name: Jake Clapp
+    - name: Bassel Ghazali
+      title: Ergonomics / Photographer
+      pic: Bassel_Ghazali
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 1
+          - name: Interests
+            info: Guitar, cars, photography
+          - name: Fun Fact
+            info: Once caught a bear which escaped my friend's animal reserve
+      social:
+          - title: envelope
+            url: mailto:bg440@bath.ac.uk
+
+    - name: Taylor De Caux
       title: Ergonomoics
-      pic: Jake_Clapp
+      pic: Taylor_De_Caux

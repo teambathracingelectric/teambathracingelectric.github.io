@@ -42,3 +42,13 @@ members:
     - name: Peter Walker
       title: Electrical Systems
       pic: Peter_Walker
+      facts:
+          - name: Course
+            info: Electrical & Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 3
+          - name: Interests
+            info: Fixing things, Audio equipment, VFDs and Nixies
+      social:
+          - title: envelope
+            url: mailto:pw442@bath.ac.uk

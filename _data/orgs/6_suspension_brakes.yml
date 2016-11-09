@@ -37,6 +37,15 @@ members:
             info: Aerospace engineering (MEng)
           - name: Year of Study
             info: 3
+          - name: Previous Work Experience
+            info: MTR Coportation Limited, HK
+          - name: Interests
+            info: Rugby, F1, Music
+      social:
+          - title: envelope
+            url: mailto:mhsh21@bath.ac.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/solomon-hung-4a7462108
 
     - name: Keith Li
       title: Brakes
@@ -50,6 +59,22 @@ members:
     - name: Ambarish Satheesh
       title: Brakes
       pic: Ambarish_Satheesh
+      facts:
+          - name: Course
+            info: Mechanical with Automotive Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Cross Manufacturing
+          - name: Interests
+            info: MotoGP, Badminton
+          - name: Fun Fact
+            info: I have no idea what I'm doing most of the time
+      social:
+          - title: envelope
+            url: mailto:as2388@bath.ac.uk
+          - title: linkedin
+            url: https://uk.linkedin.com/in/ambarish-satheesh-56a53ab7
 
     - name: Rory Gold
       title: Vehicle Dynamics

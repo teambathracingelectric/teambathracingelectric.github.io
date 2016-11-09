@@ -34,6 +34,13 @@ members:
     - name: George Balkwill
       title: Battery Systems
       pic: George_Balkwill
+      facts:
+          - name: Course
+            info: Electrical and Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Eaton
 
     - name: Aaron Cocker
       title: Battery Systems
@@ -45,6 +52,15 @@ members:
             info: 3
           - name: Previous Work Experience
             info: Ultra Electronics Precision Air and Land Systems
+          - name: Interests
+            info: Electric Vehicles, RC models
+          - name: Fun Fact
+            info: First Tesla Model ≡ reservation in the UK
+      social:
+          - title: envelope
+            url: mailto:ac882@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/aaroncocker
 
     - name: Konstantinos Pappas
       title: Battery Systems
