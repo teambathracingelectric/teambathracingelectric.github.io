@@ -14,14 +14,14 @@ members:
           - name: Interests
             info: Cycling, Whitewater Kayaking
           - name: Fun Fact
-            info: I don't actually know how to drive. . .
+            info: I don't actually know how to drive...
       social:
           - title: envelope
             url: mailto:sct28@bath.ac.uk
           - title: linkedin
             url: https://www.linkedin.com/in/sean-thompson-b4844ba3
 
-    - name: Elizabeth Maclennan
+    - name: Lizzy Maclennan
       title: Battery Systems
       pic: Lizzy_Maclennan
       facts:
@@ -31,6 +31,15 @@ members:
             info: 4
           - name: Previous Work Experience
             info: Integration Engineer at Williams Advanced Engineering
+          - name: Interests
+            info: Cars, Ballet, Olympic Lifting
+          - name: Fun Fact
+            info: The only person who didn't completely despise Chris Evans on Top Gear.
+      social:
+          - title: envelope
+            url: mailto:em469@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/elizabeth-maclennan-30803399
 
     - name: George Balkwill
       title: Battery Systems
