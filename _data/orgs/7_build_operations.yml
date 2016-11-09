@@ -1,4 +1,5 @@
 name: Build & Operations
+folder_name: Build_Operations
 members:
     - name: Ashley Locke
       title: Build Manager

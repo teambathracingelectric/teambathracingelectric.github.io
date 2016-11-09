@@ -1,4 +1,5 @@
 name: Suspension & Brakes
+folder_name: Suspension_Brakes
 members:
     - name: Ares Kretsis
       title: Suspension Manager / FEA

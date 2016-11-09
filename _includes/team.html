@@ -24,7 +24,7 @@
 							<div class="team-member">
 
 								<!-- Check if the member has a photo, if not use default image -->
-								{% capture author_photo %}{% file_exists img/team/{{ org.name }}/{{ member.pic }}.jpg %}{% endcapture %}
+								{% capture author_photo %}{% file_exists img/team/{{ org.folder_name }}/{{ member.pic }}.jpg %}{% endcapture %}
 
 								<a href="#teamMember{{ member.pic }}" class="portfolio-link" data-toggle="modal">
 
@@ -35,7 +35,7 @@
 										</div>
 									</div>-->
 									{% if author_photo == "true" %}
-										<img src="img/team/{{ org.name }}/{{ member.pic }}.jpg" class="img-responsive img-square" alt="">
+										<img src="img/team/{{ org.folder_name }}/{{ member.pic }}.jpg" class="img-responsive img-square" alt="">
 									{% else %}
 										<img src="img/team/no-user-image.jpg" class="img-responsive img-square" alt="">
 									{% endif %}
