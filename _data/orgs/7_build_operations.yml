@@ -22,6 +22,16 @@ members:
     - name: Kam Khalil
       title: Logistics
       pic: Kam_Khalil
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 2
+          - name: Interests
+            info: Rugby, photography
+      social:
+          - title: envelope
+            url: mailto:kbk25@bath.ac.uk
 
     - name: Thomas Coxon
       title: Bodywork
