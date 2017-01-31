@@ -13,7 +13,7 @@ members:
             info: Vehicle Package at JLR, Design engineer at McLaren Automotive, Chassis Engineer at Tesla
           - name: Interests
             info: SCUBA diving, photography, making and drinking cocktails
-          - name: Fun Fact
+          - name: Fact
             info: Once did a drag race against some gangsters in a Tesla
       social:
           - title: envelope
@@ -47,7 +47,7 @@ members:
             info: 1
           - name: Interests
             info: Guitar, cars, photography
-          - name: Fun Fact
+          - name: Fact
             info: Once caught a bear which escaped my friend's animal reserve
       social:
           - title: envelope
@@ -63,7 +63,7 @@ members:
             info: 1
           - name: Interests
             info: Martial Arts, Taking stuff apart, Sleep
-          - name: Fun Fact
+          - name: Fact
             info: Smashy Can Elite Team
       social:
           - title: envelope

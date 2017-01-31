@@ -42,7 +42,7 @@ members:
             info: Scania - Cab Development
           - name: Interests
             info: Golf, Football & Travelling
-          - name: Fun Fact
+          - name: Fact
             info: Internationally misplaced Swede but not tall or blonde (sorry to disappoint)
       social:
           - title: envelope
@@ -78,7 +78,7 @@ members:
             info: Integration Engineer at SAIC Motors, EPM - Tech Composites
           - name: Interests
             info: Motorbikes and Mechanics, Guitar, Singing, Sport, Environmental Engineering
-          - name: Fun Fact
+          - name: Fact
             info: Managed to fit my Vespa in the boot of a VW Fox.
       social:
           - title: envelope

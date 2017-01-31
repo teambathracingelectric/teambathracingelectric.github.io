@@ -13,7 +13,7 @@ members:
             info: Sagentia Technical Consultancy
           - name: Interests
             info: Cycling, Whitewater Kayaking
-          - name: Fun Fact
+          - name: Fact
             info: I don't actually know how to drive...
       social:
           - title: envelope
@@ -33,7 +33,7 @@ members:
             info: Integration Engineer at Williams Advanced Engineering
           - name: Interests
             info: Cars, Ballet, Olympic Lifting
-          - name: Fun Fact
+          - name: Fact
             info: The only person who didn't completely despise Chris Evans on Top Gear.
       social:
           - title: envelope
@@ -64,7 +64,7 @@ members:
             info: Ultra Electronics Precision Air and Land Systems
           - name: Interests
             info: Electric Vehicles, RC models
-          - name: Fun Fact
+          - name: Fact
             info: First Tesla Model ≡ reservation in the UK
       social:
           - title: envelope

@@ -13,7 +13,7 @@ members:
             info: Cosworth - Motorsport Support Engineer
           - name: Interests
             info: Cars, Travel, Sport
-          - name: Fun Fact
+          - name: Fact
             info: No.1 Coffee Lover
       social:
           - title: envelope
@@ -51,7 +51,7 @@ members:
             info: Universal Music - Artist Rights and Touring Services, Mitre Sports-Marketing and Development
           - name: Interests
             info: Luxury Cars, football, theatre
-          - name: Fun Fact
+          - name: Fact
             info: Appeared on the BBC show 'Beat The Boss'
       social:
           - title: envelope
@@ -69,7 +69,7 @@ members:
             info: 1
           - name: Interests
             info: Moved to Britain for unlimited tea consumption
-          - name: Fun Fact
+          - name: Fact
             info: Trouble maker & Problem solver
       social:
           - title: envelope
@@ -87,7 +87,7 @@ members:
             info: Dyson
           - name: Interests
             info: Cycling, hiking, swimming, mountains, sea
-          - name: Fun Fact
+          - name: Fact
             info: Favourite food - carrots
       social:
           - title: envelope

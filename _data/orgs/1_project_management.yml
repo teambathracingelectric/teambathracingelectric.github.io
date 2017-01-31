@@ -2,7 +2,7 @@ name: Project Management
 folder_name: Project_Management
 members:
     - name: Stefano Dallavalle
-      title: Project Manager / Business & Finanace Manager
+      title: Project Manager / Business & Finance Manager
       pic: Stefano_Dallavalle
       facts:
           - name: Course
@@ -13,7 +13,7 @@ members:
             info: SAIC Motor UK Technical Centre
           - name: Interests
             info: Being Welsh, The Swans, Coffee
-          - name: Fun Fact
+          - name: Fact
             info: Once caught the ball playing football...and I wasn't the goalkeeper!
       social:
           - title: envelope
@@ -33,7 +33,7 @@ members:
             info: Diesel Engine Calibration with FEV at Jaguar Land Rover
           - name: Interests
             info: Cars, snowsports and travelling
-          - name: Fun Fact
+          - name: Fact
             info: Capable of loving his car more than his girlfriend
       social:
           - title: linkedin
@@ -51,7 +51,7 @@ members:
             info: The Technology Partnership
           - name: Interests
             info: Music, Theatre and Synergistic Management Techniques
-          - name: Fun Fact
+          - name: Fact
             info: Almost lost a finger to TBRe16
       social:
           - title: envelope
@@ -71,5 +71,5 @@ members:
             info: British American Tobacco Innovation Tech Team - Project Coordinator
           - name: Interests
             info: Ski, kickboxing and travelling.
-          - name: Fun Fact
+          - name: Fact
             info: Honey and feta on everything
