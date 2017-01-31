@@ -6,6 +6,20 @@
                  We are pleased to have the continued support of the Faculty of Engineering & Design for 2016/17 with
                  the allocation of a new re-furbished design and build area as well as additional financial support.
 
+- name: University of Bath":" Alumni Fund
+  weighting: 15
+  pic: alumni-fund
+  link: http://www.bath.ac.uk/alumni/support/alumni-fund/
+  description: >
+                 Placeholder
+
+- name: Tektronix
+  weighting: 20
+  pic: tektronix
+  link: http://uk.tek.com/
+  description: >
+                 Placeholder
+
 - name: Mewburn Ellis
   weighting: 30
   pic: mewburn-ellis
