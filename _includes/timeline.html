@@ -7,93 +7,33 @@
 				<!--<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>-->
 			</div>
 		</div>
+
 		<div class="row">
 			<div class="col-lg-12">
 				<ul class="timeline">
-					<li>
+					{% for info in site.data.timeline %}
+					<li class="{{ info.class }}">
 						<div class="timeline-image">
-							<img class="img-circle img-responsive" src="img/timeline/jan_2016.jpg" alt="">
+							<img class="img-circle img-responsive" src="img/timeline/{{ info.pic }}.jpg" alt="">
 						</div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
-								<h4>January 2016</h4>
-								<h4 class="subheading">Electric go-kart</h4>
+								<h4>{{ info.heading }}</h4>
+								<h4 class="subheading">{{ info.subheading }}</h4>
 							</div>
 							<div class="timeline-body">
-								<p class="text-muted">The project began with the development of an electric go-kart. Essentially, the aim was to
-																			replace the kart’s original petrol engine with an electric motor. This allowed the team to
-																			gain a practical working knowledge of the electric powertrain before moving onto the real car!</p>
+								<p class="text-muted">{{ info.description }}</p>
 							</div>
 						</div>
 					</li>
-					<li class="timeline-inverted">
-						<div class="timeline-image">
-							<img class="img-circle img-responsive" src="img/timeline/may_2016.jpg" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4>May 2016</h4>
-								<h4 class="subheading">TBRe16's first rolling test!</h4>
-							</div>
-							<div class="timeline-body">
-								<p class="text-muted">A bare chassis. An empty car park. A driver. These were the ingredients for TBRe16’s first rolling test at the University of Bath.</p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="timeline-image">
-							<img class="img-circle img-responsive" src="img/timeline/jul_2016.jpg" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4>July 2016</h4>
-								<h4 class="subheading">TBRe16 goes to FSUK at Siverstone!</h4>
-							</div>
-							<div class="timeline-body">
-								<p class="text-muted">After months of work and many sleepless nights, we made it to Silverstone!
-																			TBRe16 did not race but we collected valuable feedback that will be transferred onto TBRe17. We can’t wait to come back.</p>
-							</div>
-						</div>
-					</li>
-					<li class="timeline-inverted">
-						<div class="timeline-image">
-							<img class="img-circle img-responsive" src="img/timeline/sep_2016.jpg" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4>September 2016</h4>
-								<h4 class="subheading">Recruitment on campus for TBRe17</h4>
-							</div>
-							<div class="timeline-body">
-								<p class="text-muted">TBRe’s core members returned to Bath before the beginning of the academic year to
-																			promote the team during Fresher’s week. We were delighted to showcase TBRe16 in front
-																			of the library and talk about our project!</p>
-							</div>
-						</div>
-					</li>
-					<li>
-						<div class="timeline-image">
-							<img class="img-circle img-responsive" src="img/timeline/oct_2016.jpg" alt="">
-						</div>
-						<div class="timeline-panel">
-							<div class="timeline-heading">
-								<h4>October 2016</h4>
-								<h4 class="subheading">Official 2016/17 Project Launch!</h4>
-							</div>
-							<div class="timeline-body">
-								<p class="text-muted">We were thrilled to present our plans for 2017 to a group of approximately 70 students
-																			from a range of disciplines: mechanical engineering, electrical engineering, IMEE (integrated
-																			mechanical and electrical engineering) and business. This was also an opportunity to
-																			inaugurate our brand new build room!</p>
-							</div>
-						</div>
-					</li>
+					{% endfor %}
+
 					<li class="timeline-inverted">
 						<a href="#contact">
 							<div class="timeline-image">
 								<h4>Be Part
-									<br>Of Our
-									<br>Story!</h4>
+								<br>Of Our
+								<br>Story!</h4>
 							</div>
 						</a>
 					</li>
