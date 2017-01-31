@@ -791,12 +791,12 @@ ul.social-buttons li a:active {
 }
 
 table, th, td {
-	border: 1px solid black !important;
+	border: none !important;
 	border-collapse: collapse !important;
 }
 
 th, td {
-	padding: 5px;
+	padding: 10px;
 	text-align: left;
 }
 
