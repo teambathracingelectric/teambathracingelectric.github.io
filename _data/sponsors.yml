@@ -11,14 +11,28 @@
   pic: alumni-fund
   link: http://www.bath.ac.uk/alumni/support/alumni-fund/
   description: >
-                 Placeholder
+                 We are delighted to receive renewed support from the University of Bath's Alumni Fund in 2016/17.
+                 Their financial contribution has allowed us to invest in state-of-the-art battery cell technology
+                 that will power this year's TBRe17 and future generations.
 
 - name: Tektronix
   weighting: 20
   pic: tektronix
   link: http://uk.tek.com/
   description: >
-                 Placeholder
+                 Tektronix is the main sponsor of our new build room and design space. They have provided us with
+                 state-of-the-art test and measurement technology that allows rapid design, testing and diagnostics
+                 of our electrical systems. Their support has triggered a step change in the team's design capabilities
+                 and will make a difference for many years to come.
+
+- name: Altran
+  weighting: 25
+  pic: altran
+  link: http://www.altran.co.uk/
+  description: >
+                 We are working closely with Altran Intelligent Systems in the development of our control system.
+                 They have provided us with a flexible RPP platform that will allow our software team to implement
+                 bespoke control strategies for the entire vehicle.
 
 - name: Mewburn Ellis
   weighting: 30
