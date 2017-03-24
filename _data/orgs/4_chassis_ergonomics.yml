@@ -68,3 +68,41 @@ members:
       social:
           - title: envelope
             url: mailto:tdc41@bath.ac.uk
+
+    - name: Jacob Clapp
+      title: Ergonomics
+      pic: Jacob_Clapp
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Advanced Engineer at SAIC Motors
+          - name: Interests
+            info: Snowboarding, Football, NFL
+          - name: Fact
+            info: I can't help but dance to Cascada
+      social:
+          - title: envelope
+            url: mailto:jjc44@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/jacob-clapp-168428126/
+
+    - name: Daniel Palmer
+      title: Chassis
+      pic: Daniel_Palmer
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Parker Hannifin MCDE (Hydraulics)
+          - name: Interests
+            info: Mountain Biking, Photography, Tennis
+      social:
+          - title: envelope
+            url: mailto:dp420@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/daniel-palmer-8369b0128/

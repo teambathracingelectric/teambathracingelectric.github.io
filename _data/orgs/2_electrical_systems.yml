@@ -51,7 +51,7 @@ members:
             info: Was in the gunge tank on a show called 'Saturday show' when he was 10
       social:
           - title: envelope
-            url: mailto:ph371@bath.c.uk
+            url: mailto:ph371@bath.ac.uk
           - title: linkedin
             url: https://uk.linkedin.com/in/peter-hunt-b2802b10a
 
@@ -72,3 +72,54 @@ members:
       social:
           - title: envelope
             url: mailto:pw442@bath.ac.uk
+
+    - name: Christos Pieris
+      title: Electrical Systems
+      pic: Christos_Pieris
+      facts:
+          - name: Course
+            info: Electrical & Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Amey plc - Electrical Engineer
+          - name: Interests
+            info: Ski, tennis music and skiing
+      social:
+          - title: envelope
+            url: mailto:cp529@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/christos-pieris/
+
+    - name: Tom Dormand
+      title: Electrical Systems
+      pic: Tom_Dormand
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Hawk-Eye Innovations
+          - name: Interests
+            info: Skiing, Football
+          - name: Fact
+            info: Once scored a goal at Wembley
+      social:
+          - title: envelope
+            url: mailto:td365@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/tom-dormand-1190a2108/
+
+    - name: Marios Zembylas
+      title: Electrical Systems
+      pic: Marios_Zembylas
+      facts:
+          - name: Course
+            info: Electrical and Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Visteon Engineering Services
+          - name: Interests
+            info: Running

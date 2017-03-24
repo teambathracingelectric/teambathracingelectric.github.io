@@ -68,3 +68,21 @@ members:
             url: mailto:sc2171@bath.ac.uk
           - title: linkedin
             url: https://www.linkedin.com/in/samsama
+
+    - name: Joshua Girardi
+      title: Product Manager
+      pic: Joshua_Girardi
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Design engineer at Handling Concepts ltd
+          - name: Interests
+            info: 3D printing, Uniycling, Ju jitsu, design, Philosiphy, Drawing
+          - name: Fact
+            info: When I was 12 I caught an adder in the forest and tried to take it home.
+      social:
+          - title: envelope
+            url: mailto:jg660@bath.ac.uk
