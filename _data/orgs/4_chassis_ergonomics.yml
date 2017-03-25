@@ -106,3 +106,23 @@ members:
             url: mailto:dp420@bath.ac.uk
           - title: linkedin
             url: https://www.linkedin.com/in/daniel-palmer-8369b0128/
+
+    - name: James Raikes
+      title: Chassis
+      pic: James_Raikes
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 5
+          - name: Previous Work Experience
+            info: Technical Student, CERN
+          - name: Interests
+            info: Films, TV, Music, Wine & Coffee, playing guitar and skiing
+          - name: Fact
+            info: I've flown a plane, all by myself!
+      social:
+          - title: envelope
+            url: mailto:jpr26@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/james-raikes-1a515778/
