@@ -6,15 +6,6 @@
                  We are pleased to have the continued support of the Faculty of Engineering & Design for 2016/17 with
                  the allocation of a new re-furbished design and build area as well as additional financial support.
 
-- name: University of Bath":" Alumni Fund
-  weighting: 15
-  pic: alumni-fund
-  link: http://www.bath.ac.uk/alumni/support/alumni-fund/
-  description: >
-                 We are delighted to receive renewed support from the University of Bath's Alumni Fund in 2016/17.
-                 Their financial contribution has allowed us to invest in state-of-the-art battery cell technology
-                 that will power this year's TBRe17 and future generations.
-
 - name: Tektronix
   weighting: 20
   pic: tektronix
@@ -24,6 +15,15 @@
                  state-of-the-art test and measurement technology that allows rapid design, testing and diagnostics
                  of our electrical systems. Their support has triggered a step change in the team's design capabilities
                  and will make a difference for many years to come.
+
+- name: University of Bath":" Alumni Fund
+  weighting: 15
+  pic: alumni-fund
+  link: http://www.bath.ac.uk/alumni/support/alumni-fund/
+  description: >
+                 We are delighted to receive renewed support from the University of Bath's Alumni Fund in 2016/17.
+                 Their financial contribution has allowed us to invest in state-of-the-art battery cell technology
+                 that will power this year's TBRe17 and future generations.
 
 - name: Altran
   weighting: 25
@@ -45,14 +45,15 @@
                  IP is extremely important in Engineering and through a partnership with TBRe, Mewburn Ellis LLP aim to raise
                  awareness to a potential career in IP for top Engineering students and graduates from the University of Bath.
 
-- name: Creasefield
+- name: Caterpillar
   weighting: 40
-  pic: creasefield
-  link: https://www.creasefield.co.uk/
+  pic: caterpillar
+  link: http://www.cat.com/
   description: >
-                 We are delighted with Creasefield’s continued support for 2016-17 season.
-                 Creasefield are battery specialists based in Bristol and are critical to our battery development
-                 through their outstanding industry knowledge and in-kind support through discounted battery cells.
+                 We are pleased to announce a new relationship between Caterpillar and Team Bath Racing Electric in
+                 2017. Caterpillar provide the team with invaluable financial support and a range of exciting internship
+                 and graduate job opportunities!
+
 
 - name: Hello Student
   weighting: 50
@@ -76,6 +77,26 @@
                  Supporting us for a second year, Cubik will be supporting our PCB design & manufacture.
                  The PCBs that Cubik provide are integrated into our power management system and also the driver display.
 
+- name: CREATE Education
+  weighting: 40
+  pic: create-education
+  link: https://www.createeducation.com/
+  description: >
+                 We are excited to announce a new collaborative partnership between the Create Education
+                 project and Team Bath Racing Electric. Create Education has provided TBRe with an Ultimaker
+                 2+ Extended 3D printer that has allowed the team to rapidly prototype concept ideas with
+                 unparalleled ease and speed before committing to final designs!
+
+
+- name: Creasefield
+  weighting: 40
+  pic: creasefield
+  link: https://www.creasefield.co.uk/
+  description: >
+                 We are delighted with Creasefield’s continued support for 2016-17 season.
+                 Creasefield are battery specialists based in Bristol and are critical to our battery development
+                 through their outstanding industry knowledge and in-kind support through discounted battery cells.
+
 - name: Makita
   weighting: 70
   pic: makita
@@ -93,13 +114,15 @@
                  Brammer are Europe’s leading specialist distributor of industrial maintenance, repair and overhaul products.
                  It is a privilege to have Brammer by our side assisting us to make our electric Formula Student entry a success.
 
-- name: Microlease / Keysight
-  weighting: 90
-  pic: keysight-microrelease
-  link: https://www.microlease.com/uk/home
+- name: RS
+  weighting: 115
+  pic: rs
+  link: http://uk.rs-online.com/web/
   description: >
-                 Keysight / Microlease are a key partner of in-kind support through the donation of electrical test equipment.
-                 The development of our electrical systems and the handheld test equipment provided are crucial at the team.
+                 We are delighted to be supported by RS Components again for our second Formula Student season.
+                 RS Components aim is promote the RS brand to the Engineers of tomorrow, through the support of
+                 engineering/electronic based University projects. Keep an eye out for RS on our social media and
+                 through regular updates on both the TBRe and RS and Education Facebook pages.
 
 - name: RB Engineering
   weighting: 100
@@ -109,6 +132,32 @@
                  RB Engineering are a family run fabrication & welding business in South East Devon. They have CE Marking Accreditation
                  and are vital to the fabrication of our steel space frame chassis. The use of their facilities is extremely valuable
                  to the team and their facilities allow us to gain hands on welding and fabrication experience.
+
+- name: Schaeffler
+  weighting: 100
+  pic: schaeffler
+  link: http://www.schaeffler.co.uk/content.schaeffler.co.uk/en/index.jsp
+  description: >
+                 The Schaeffler group is a global automotive and industrial supplier that provides Team Bath
+                 Racing Electric with high-quality drivetrain bearings that will allow reliable power transmission
+                 from the electric powertrain to the wheels!
+
+- name: MSC Software
+  weighting: 100
+  pic: msc-software
+  link: http://www.mscsoftware.com/
+  description: >
+                 MSC Software provides Team Bath Racing Electric with ADAMS a multi-body dynamics simulation
+                 solution that allows the suspension team to rapidly and effectively model suspension behaviour
+                 under varying load conditions.
+
+- name: Microlease / Keysight
+  weighting: 90
+  pic: keysight-microrelease
+  link: https://www.microlease.com/uk/home
+  description: >
+                 Keysight / Microlease are a key partner of in-kind support through the donation of electrical test equipment.
+                 The development of our electrical systems and the handheld test equipment provided are crucial at the team.
 
 
 - name: IPG
@@ -120,16 +169,6 @@
                  IPG Automotive’s Formula CarMaker program will help us to achieve this. With CarMaker and IPGKinematics,
                  IPG offer professional support for vehicle dynamics simulation right from the start.
 
-- name: RS
-  weighting: 115
-  pic: rs
-  link: http://uk.rs-online.com/web/
-  description: >
-                 We are delighted to be supported by RS Components again for our second Formula Student season.
-                 RS Components aim is promote the RS brand to the Engineers of tomorrow, through the support of
-                 engineering/electronic based University projects. Keep an eye out for RS on our social media and
-                 through regular updates on both the TBRe and RS and Education Facebook pages.
-
 - name: Bender
   weighting: 120
   pic: bender
@@ -138,6 +177,15 @@
                  Safety is crucial for high voltage applications and Bender have been kind enough to support our team for the
                  second year in a row with their Isolation Monitoring Device (IMD) unit. The IMD detects if there is any high voltage
                  leaking from the tractive system to the chassis and immediately switches off the HV system making it safe.
+
+- name: Relec
+  weighting: 120
+  pic: relec
+  link: https://www.relec.co.uk/
+  description: >
+                 Relec Electronics is a specialist provider of power supplies, displays and EMC filters for
+                 industrial applications. Relec has provided TBRe with an LCD display that will give the driver
+                 all the information required during dynamic events!
 
 - name: Minuteman Press
   weighting: 130
