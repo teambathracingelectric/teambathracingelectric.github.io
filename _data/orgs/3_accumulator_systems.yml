@@ -93,3 +93,23 @@ members:
     - name: Oliver Toogood
       title: Battery Systems
       pic: Oliver_Toogood
+
+    - name: Colin Willows
+      title: Battery Systems
+      pic: Colin_Willows
+      facts:
+          - name: Course
+            info: Electrical and Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: JCB
+          - name: Interests
+            info: Travelling, Languages, Googling
+          - name: Fact
+            info: I love facts! (e.g. having bananas in a fruit bowl makes the other fruit ripen faster)
+      social:
+          - title: envelope
+            url: mailto:cjw52@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/colinwillows/
