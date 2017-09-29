@@ -1,75 +1,175 @@
-name: Project Management
+name: Core Members
 folder_name: Project_Management
 members:
-    - name: Stefano Dallavalle
-      title: Project Manager / Business & Finance Manager
-      pic: Stefano_Dallavalle
+    - name: Lizzy Maclennan
+      title: Project Manager
+      pic: Lizzy_Maclennan
       facts:
           - name: Course
             info: Integrated Mechanical and Electrical Engineering (MEng)
           - name: Year of Study
-            info: 5
+            info: 4
           - name: Previous Work Experience
-            info: SAIC Motor UK Technical Centre
+            info: Integration Engineer at Williams Advanced Engineering
           - name: Interests
-            info: Being Welsh, The Swans, Coffee
+            info: Cars, Ballet, Olympic Lifting
           - name: Fact
-            info: Once caught the ball playing football...and I wasn't the goalkeeper!
+            info: The only person who didn't completely despise Chris Evans on Top Gear.
       social:
           - title: envelope
-            url: mailto:sd548@bath.ac.uk
+            url: mailto:em469@bath.ac.uk
           - title: linkedin
-            url: https://www.linkedin.com/in/stefano-dallavalle
+            url: https://www.linkedin.com/in/elizabeth-maclennan-30803399
 
-    - name: Greg Tzermias
-      title: Mechanical Project Manager
-      pic: Greg_Tzermias
+    - name: Will Minter-Kemp
+      title: Business Manager
+      pic: Will_Minter-Kemp
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Integration Engineer at SAIC Motors, EPM - Tech Composites
+          - name: Interests
+            info: Motorbikes and Mechanics, Guitar, Singing, Sport, Environmental Engineering
+          - name: Fact
+            info: Managed to fit my Vespa in the boot of a VW Fox.
+      social:
+          - title: envelope
+            url: mailto:wmk24@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/william-minter-kemp-866b36a2
+
+    - name: James Raikes
+      title: Chassis Lead & Media Manager
+      pic: James_Raikes
       facts:
           - name: Course
             info: Mechanical Engineering (MEng)
           - name: Year of Study
             info: 5
           - name: Previous Work Experience
-            info: Diesel Engine Calibration with FEV at Jaguar Land Rover
+            info: Technical Student, CERN
           - name: Interests
-            info: Cars, snowsports and travelling
+            info: Films, TV, Music, Wine & Coffee, playing guitar and skiing
           - name: Fact
-            info: Capable of loving his car more than his girlfriend
-      social:
-          - title: linkedin
-            url: https://www.linkedin.com/in/gregory-tzermias-12a26677/en
-
-    - name: Alex Stokoe
-      title: Electrical Project Manager
-      pic: Alex_Stokoe
-      facts:
-          - name: Course
-            info: Integrated Mechanical and Electrical Engineering (MEng)
-          - name: Year of Study
-            info: 5
-          - name: Previous Work Experience
-            info: The Technology Partnership
-          - name: Interests
-            info: Music, Theatre and Synergistic Management Techniques
-          - name: Fact
-            info: Almost lost a finger to TBRe16
+            info: I've flown a plane, all by myself!
       social:
           - title: envelope
-            url: mailto:as2110@bath.ac.uk
+            url: mailto:jpr26@bath.ac.uk
           - title: linkedin
-            url: https://uk.linkedin.com/in/alex-stokoe
+            url: https://www.linkedin.com/in/james-raikes-1a515778/
 
-    - name: George A Farhat
-      title: Project Co-ordinator / Software Lead Engineer
-      pic: George_Farhat
+    - name: Jacob Clapp
+      title: Technical Lead
+      pic: Jacob_Clapp
+      facts:
+          - name: Course
+            info: Mechanical Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Advanced Engineer at SAIC Motors
+          - name: Interests
+            info: Snowboarding, Football, NFL
+          - name: Fact
+            info: I can't help but dance to Cascada
+      social:
+          - title: envelope
+            url: mailto:jjc44@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/jacob-clapp-168428126/
+
+    - name: Colin Willows
+      title: Accumulator Lead
+      pic: Colin_Willows
+      facts:
+          - name: Course
+            info: Electrical and Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: JCB
+          - name: Interests
+            info: Travelling, Languages, Googling
+          - name: Fact
+            info: I love facts! (e.g. having bananas in a fruit bowl makes the other fruit ripen faster)
+      social:
+          - title: envelope
+            url: mailto:cjw52@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/colinwillows/
+
+    - name: Tom Dormand
+      title: Jack of all Trades
+      pic: Tom_Dormand
       facts:
           - name: Course
             info: Integrated Mechanical and Electrical Engineering (MEng)
           - name: Year of Study
-            info: 5
+            info: 4
           - name: Previous Work Experience
-            info: British American Tobacco Innovation Tech Team - Project Coordinator
+            info: Hawk-Eye Innovations
           - name: Interests
-            info: Ski, kickboxing and travelling.
+            info: Skiing, Football
           - name: Fact
-            info: Honey and feta on everything
+            info: Once scored a goal at Wembley
+      social:
+          - title: envelope
+            url: mailto:td365@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/tom-dormand-1190a2108/
+
+    - name: George Balkwill
+      title: Low Voltage Lead
+      pic: George_Balkwill
+      facts:
+          - name: Course
+            info: Electrical and Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 4
+          - name: Previous Work Experience
+            info: Eaton
+
+    - name: Aaron Cocker
+      title: Battery Systems
+      pic: Aaron_Cocker
+      facts:
+          - name: Course
+            info: Electrical and Electronic Engineering (MEng)
+          - name: Year of Study
+            info: 3
+          - name: Previous Work Experience
+            info: Ultra Electronics Precision Air and Land Systems
+          - name: Interests
+            info: Electric Vehicles, RC models
+          - name: Fact
+            info: First Tesla Model ≡ reservation in the UK
+      social:
+          - title: envelope
+            url: mailto:ac882@bath.ac.uk
+          - title: linkedin
+            url: https://www.linkedin.com/in/aaroncocker
+
+    - name: Ed Fowler
+      title: Electrical Systems (BMS)
+      pic: Ed_Fowler
+
+    - name: Bassel Ghazali
+      title: Ergonomics / Photographer
+      pic: Bassel_Ghazali
+      facts:
+          - name: Course
+            info: Integrated Mechanical and Electrical Engineering (MEng)
+          - name: Year of Study
+            info: 1
+          - name: Interests
+            info: Guitar, cars, photography
+          - name: Fact
+            info: Once caught a bear which escaped my friend's animal reserve
+      social:
+          - title: envelope
+            url: mailto:bg440@bath.ac.uk
+
+    
