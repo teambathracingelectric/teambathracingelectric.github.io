@@ -82,7 +82,7 @@ members:
             url: https://www.linkedin.com/in/jacob-clapp-168428126/
 
     - name: Colin Willows
-      title: Accumulator Lead
+      title: Powertrain Manager
       pic: Colin_Willows
       facts:
           - name: Course
@@ -102,7 +102,7 @@ members:
             url: https://www.linkedin.com/in/colinwillows/
 
     - name: Tom Dormand
-      title: Jack of all Trades
+      title: Vehicle Dynamics Manager
       pic: Tom_Dormand
       facts:
           - name: Course
@@ -133,7 +133,7 @@ members:
             info: Eaton
 
     - name: Aaron Cocker
-      title: Battery Systems
+      title: Battery Management System
       pic: Aaron_Cocker
       facts:
           - name: Course
@@ -153,11 +153,11 @@ members:
             url: https://www.linkedin.com/in/aaroncocker
 
     - name: Ed Fowler
-      title: Electrical Systems (BMS)
+      title: Battery Management System
       pic: Ed_Fowler
 
     - name: Bassel Ghazali
-      title: Ergonomics / Photographer
+      title: Photography & Graphics
       pic: Bassel_Ghazali
       facts:
           - name: Course
