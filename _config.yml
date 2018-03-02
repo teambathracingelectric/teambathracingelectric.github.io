@@ -1,5 +1,5 @@
 url: https://teambathracingelectric.com/
-baseurl: /
+baseurl: TBRe-website/
 
 # Site settings
 title: Team Bath Racing Electric
@@ -29,3 +29,6 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# gh-pages emulation
+safe: true
