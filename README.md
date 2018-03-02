@@ -62,4 +62,4 @@ The main configuration of the website is located in '_config.yml' in the main di
 =========
 
 For more details concerning Jekyll, read [the Jekyll documentation](http://jekyllrb.com/).
-Based on the Agency Jekyll theme (http://startbootstrap.com/templates/agency/), which is a one page theme!
+Based on the Agency Jekyll theme (https://startbootstrap.com/template-overviews/agency/), which is a one page theme!
