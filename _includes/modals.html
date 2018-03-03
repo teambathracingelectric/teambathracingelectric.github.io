@@ -31,7 +31,7 @@
 									</strong>
 								</li>
 							</ul>
-							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+							<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 						</div>
 					</div>
 				</div>
@@ -67,16 +67,22 @@
 						<div style="margin-top:20px; margin-bottom:20px">
 							<ul class="list-inline social-buttons">
 								{% for network in member.social %}
+								<!-- TODO: Rearrange yaml template so this if condition isn't necessary -->
+									{% if network.title=="envelope" %}
+										{% assign prefix = "fas" %}
+									{% else %}
+										{% assign prefix = "fab" %}
+									{% endif %}
 									<li>
 										<a target="_top" href="{{ network.url }}">
-											<i class="fa fa-{{ network.title }}"></i>
+											<i class="{{ prefix }} fa-{{ network.title }}"></i>
 										</a>
 									</li>
 								{% endfor %}
 							</ul>
 						</div>
 
-						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 					</div>
 				</div>
 			</div>
@@ -119,7 +125,7 @@
 						</table>
 					{% endfor %}
 				</div>
-				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 			</div>
 		</div>
 	</div>
