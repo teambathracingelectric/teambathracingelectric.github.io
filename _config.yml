@@ -1,5 +1,3 @@
-url: ""
-baseurl: "/TBRe-website"
 
 # Site settings
 title: Team Bath Racing Electric
@@ -32,3 +30,4 @@ permalink: pretty
 
 # gh-pages emulation
 safe: true
+repository: raikesy/TBRe-website
