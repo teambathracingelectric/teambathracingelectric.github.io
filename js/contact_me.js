@@ -57,7 +57,7 @@ $(function() {
         },
     });
 
-    $("a[data-toggle=\"tab\"]").click(function(e) {
+    $("a[data-toggle=\"tab\"]").on( "click", function(e) {
         e.preventDefault();
         $(this).tab("show");
     });
@@ -65,6 +65,6 @@ $(function() {
 
 
 /*When clicking on Full hide fail/success boxes */
-$('#name').focus(function() {
+$('#name').on( "focus", function() {
     $('#success').html('');
 });
