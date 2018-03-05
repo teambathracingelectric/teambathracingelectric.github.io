@@ -1,3 +1,35 @@
 ---
 layout: style
 ---
+
+/* Custom CSS can go here */
+
+/* Coloured social media buttons. Colours taken from https://www.lockedowndesign.com/social-media-colors/ */
+.social-buttons .facebook-a {
+    background-color: #3b5998
+}
+
+.social-buttons .instagram-a {
+    background-color: #c32aa3
+}
+.social-buttons .twitter-a {
+    background-color: #1da1f2
+}
+.social-buttons .linkedin-a {
+    background-color: #007bb5
+}
+
+.social-buttons .youtube-a {
+    background-color: red;
+}
+
+.social-buttons .envelope-a {
+    background-color: darkgoldenrod;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
