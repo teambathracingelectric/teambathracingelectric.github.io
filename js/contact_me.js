@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "././mail/contact_me.php",
+                url: "https://hooks.zapier.com/hooks/catch/2135358/kb1lpz/",    // Replace this with ././mail/contact_me.php to go back to php form
                 type: "POST",
                 data: {
                     name: name,
