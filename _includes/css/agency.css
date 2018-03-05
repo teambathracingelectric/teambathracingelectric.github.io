@@ -673,14 +673,6 @@ section h3.section-description {
 	text-align: center;
 }
 
-a.team-member-link:hover,
-a.team-member-link:focus,
-a.team-member-link:active,
-a.team-member-link.active {
-	text-decoration-line: underline;
-	text-decoration-color: darkgray;
-}
-
 .team-member img {
 	margin: 0 auto;
 	border: 7px solid #fff;

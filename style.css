@@ -33,3 +33,12 @@ ul.social-buttons li a:active {
     -webkit-transform: scale(1.1);
 	transform: scale(1.1);
 }
+
+/* Discoverable and more elegant team modal links */
+a.team-member-link:hover,
+a.team-member-link:focus,
+a.team-member-link:active,
+a.team-member-link.active {
+	text-decoration-line: underline;
+	text-decoration-color: darkgray;
+}
