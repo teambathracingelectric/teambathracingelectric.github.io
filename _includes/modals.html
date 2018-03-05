@@ -40,55 +40,41 @@
 	</div>
 {% endfor %}
 
-<!-- Team Member Modals -->
-{% for org_hash in site.data.orgs %}
-	{% assign org = org_hash[1] %}
-	{% for member in org.members %}
-		<div class="modal fade" id="teamMember{{ member.pic }}" tabindex="-1" role="dialog" aria-hidden="true">
-			<div class="modal-dialog" role="document">
-				<div class="modal-content">
-					<div class="modal-body">
+<!-- Team Member Modal -->
+<!-- Modal content populated via jQuery in custom.js -->
+<div class="modal fade" id="teamModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-body">
 
-						<h2>{{ member.name }}</h2>
-						<p><i>{{ member.title }}</i></p>
-						<hr class="star-primary">
-						<img src="img/team/{{ member.pic }}.jpg" onerror="imgError(this);" class="img-responsive img-square img-centered" style="width: 100%;" alt="">
-						<div style="margin-top:20px;">
-							<table style="width:100%">
-								{% for fact in member.facts %}
-									<tr>
-										<th>{{ fact.name }}</th>
-										<td>{{ fact.info }}</td>
-									</tr>
-								{% endfor %}
-							</table>
-						</div>
-
-						<div style="margin-top:20px; margin-bottom:20px">
-							<ul class="list-inline social-buttons">
-								{% for network in member.social %}
-								<!-- TODO: Rearrange yaml template so this if condition isn't necessary -->
-									{% if network.title=="envelope" %}
-										{% assign prefix = "fas" %}
-									{% else %}
-										{% assign prefix = "fab" %}
-									{% endif %}
-									<li>
-										<a target="_top" href="{{ network.url }}" class="{{ network.title }}-a">
-											<i class="{{ prefix }} fa-{{ network.title }}"></i>
-										</a>
-									</li>
-								{% endfor %}
-							</ul>
-						</div>
-
-						<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
-					</div>
+				<h2>Name</h2>
+				<p><i>Title</i></p>
+				<hr class="star-primary">
+				<img src="img/no-user-image.jpg" onerror="imgError(this);" class="img-responsive img-square img-centered" style="width: 100%;" alt="">
+				<div style="margin-top:20px;">
+					<table style="width:100%">
+						<tr>
+							<th>Fact</th>
+							<td>Answer</td>
+						</tr>
+					</table>
 				</div>
+
+				<div style="margin-top:20px; margin-bottom:20px">
+					<ul class="list-inline social-buttons">
+						<li>
+							<a target="_top" href="/network-link" class="color-icon-placeholder">
+								<i class="fa-class-placeholder"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 			</div>
 		</div>
-	{% endfor %}
-{% endfor %}
+	</div>
+</div>
 
 <!-- Sponsors Modal -->
 <div class="portfolio-modal modal fade" id="sponsors-modal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -113,7 +99,7 @@
 							<tr>
 								<td>
 									<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
-									<a id="{{ sponsor.link }}"></a>
+									<a id="{{ sponsor.name }}"></a>
 									<a href="{{ sponsor.link }}" target="_blank">
 										<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
 									</a>
