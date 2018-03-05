@@ -41,6 +41,7 @@ a:focus,
 a:active,
 a.active {
 	outline: 0;
+	text-decoration: none;
 }
 
 a {
@@ -672,15 +673,25 @@ section h3.section-description {
 	text-align: center;
 }
 
+a.team-member-link:hover,
+a.team-member-link:focus,
+a.team-member-link:active,
+a.team-member-link.active {
+	text-decoration-line: underline;
+	text-decoration-color: darkgray;
+}
+
 .team-member img {
 	margin: 0 auto;
 	border: 7px solid #fff;
+	border-radius: 3px;
 }
 
 .team-member h4 {
 	margin-top: 25px;
 	margin-bottom: 0;
 	text-transform: none;
+	color: #{{ site.data.template.color.secondary-dark }};
 }
 
 .team-member p {
