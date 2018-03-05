@@ -21,7 +21,20 @@
 					<!-- Loop over members in the organisation -->
 					{% for member in org.members %}
 						<div class="col-sm-2">
-							<a href="#teamMember{{ member.pic }}" class="team-member-link" data-toggle="modal">
+							<a 	
+								href="#teamMember{{ member.pic }}" 
+								class="team-member-link" 
+								data-toggle="modal"
+								data-name="{{ member.name }}"
+								data-title="{{ member.title }}"
+								data-pic="{{ member.pic }}"
+								{% for fact in member.facts %}
+									data-fact-{{ fact.name | slugify }}="{{ fact.info }}" 
+								{% endfor %}
+								{% for network in member.social %}
+									data-social-{{ network.title }}="{{ network.url }}"
+								{% endfor %}
+							>
 								<div class="team-member">
 									<img src="img/team/{{ member.pic }}.jpg" onerror="imgError(this);" class="img-responsive img-square" alt="">
 									<h4>{{ member.name }}</h4>
