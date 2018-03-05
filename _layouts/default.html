@@ -4,11 +4,12 @@
 	{% include head.html %}
 
 	<body id="page-top" class="index">
-
-	{% include fb-chat-snippet.html %}
+	{% if jekyll.environment == "production" %}
+		{% include fb-chat-snippet.html %}
+	{% endif %}
 	{% include header.html %}
 	{% include about.html %}
-	<!-- {% include blog_posts.html %} -->
+	<!-- include blog_posts.html -->
 	{% include team.html %}
 	{% include sponsors.html %}
 	{% include contact.html %}
