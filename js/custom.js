@@ -48,3 +48,13 @@ $('#teamModal').on('show.bs.modal', function (event) {
     })
     socialBtns.empty().append(socialHTML)
 })
+
+// GitHub Pages stupidly goes through the sponsorship tiers in reverse (bronze first)
+// so this explicitly sorts them correctly (hard to do natively in Jekyll)
+$('.to-sort').sort(function(a, b) {
+    if (a.getAttribute('data-rank') < b.getAttribute('data-rank')) {
+      return -1;
+    } else {
+      return 1;
+    }
+  }).appendTo('#sort-parent');
