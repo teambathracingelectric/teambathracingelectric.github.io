@@ -1,15 +1,17 @@
+url: https://raikesy.github.io/TBRe-website/
 
 # Site settings
 title: Team Bath Racing Electric
 email: info@teambathracingelectric.com
 description: >
-               Team Bath Racing Electric (TBRe) is an engineering team run by students at the University of Bath.
-               The team has a range of engineering students working together to design and build an electric high-performance
-               vehicle for the Formula Student competition. We want to inspire students from all engineering disciplines to
-               collaborate on a challenging and motivating project.
+  Team Bath Racing Electric (TBRe) is an engineering team run by students at
+  the University of Bath. The team has a range of engineering students working
+  together to design and build an electric high-performance vehicle for the
+  Formula Student competition. We want to inspire students from all engineering
+  disciplines to collaborate on a challenging and motivating project.
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
+social-icons:
   - title: facebook
     url: https://www.facebook.com/TeamBathRacingElectric/
   - title: instagram
@@ -50,3 +52,21 @@ repository: raikesy/TBRe-website
 
 # Google Analytics
 google_analytics: UA-115200564-1
+
+# These are used by the jekyll-seo-tags plugin for SEO
+twitter:
+  username: TeamBathRacingE
+
+facebook:
+  app_id: 1953013801682223
+  publisher: 1480074792275446
+
+social:
+  links:
+    - https://www.facebook.com/TeamBathRacingElectric/
+    - https://www.instagram.com/teambathracingelectric/
+    - https://twitter.com/TeamBathRacingE
+    - https://www.linkedin.com/company/team-bath-racing-electric/
+    - https://www.youtube.com/channel/UCn7s-HVkYWgW37Ur_5DrgXg
+
+google_site_verification: RnEnDBcF9JPb7ZrLEVCv2hpnVbEMtXhr06m0sfdhcNk
