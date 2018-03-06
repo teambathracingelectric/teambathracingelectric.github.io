@@ -56,26 +56,26 @@ sponsors:
       dynamic events last season, and we are excited to use the new touch
       screens provided for the 2017/2018 season!"
 
-  - name: Market Axess Trax
-    weighting: 10
-    pic: market-axess
-    link: http://www.marketaxess.com/trading/tradingoverview.php
-    description: >
-      "Market Axess is an award-winning electronic trading platform in the
-      finance industry, and we are very excited to have our relationships
-      spread outside the engineering industry. Market Axess recognised the
-      potential of our proactive team, and their financial support has helped
-      the team greatly."
+  # - name: Market Axess Trax
+  #   weighting: 10
+  #   pic: market-axess
+  #   link: http://www.marketaxess.com/trading/tradingoverview.php
+  #   description: >
+  #     "Market Axess is an award-winning electronic trading platform in the
+  #     finance industry, and we are very excited to have our relationships
+  #     spread outside the engineering industry. Market Axess recognised the
+  #     potential of our proactive team, and their financial support has helped
+  #     the team greatly."
 
-  - name: "University of Bath: Department of Electrical & Electronic Engineering"
-    weighting: 10
-    pic: elec-eng
-    link: http://www.bath.ac.uk/departments/department-of-electronic-electrical-engineering/
-    description: >
-      "The University of Bath contributes to Team Bath Racing electric greatly,
-      and we are proud to be representing the Department of Electrical and
-      Electronic Engineering, which has financially supported the team for year
-      after year. We hope to continue making them proud!"
+  # - name: "University of Bath: Department of Electrical & Electronic Engineering"
+  #   weighting: 10
+  #   pic: elec-eng
+  #   link: http://www.bath.ac.uk/departments/department-of-electronic-electrical-engineering/
+  #   description: >
+  #     "The University of Bath contributes to Team Bath Racing electric greatly,
+  #     and we are proud to be representing the Department of Electrical and
+  #     Electronic Engineering, which has financially supported the team for year
+  #     after year. We hope to continue making them proud!"
 
   - name: ETPS
     weighting: 10

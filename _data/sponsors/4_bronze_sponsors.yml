@@ -21,15 +21,15 @@ sponsors:
       high voltage leaking from the tractive system to the chassis and
       immediately switches off the HV system making it safe."
 
-  - name: Caged Laser
-    weighting: 10
-    pic: caged-laser
-    link: https://www.cagedlaser.co.uk/
-    description: >
-      "Caged Laser are market leaders in producing all sort of roll cages and
-      specility chassis'. Caged Laser offered Team Bath Racing electric great
-      support and services to fabricate our chassis to the highest level of
-      precision and quality."
+  # - name: Caged Laser
+  #   weighting: 10
+  #   pic: caged-laser
+  #   link: https://www.cagedlaser.co.uk/
+  #   description: >
+  #     "Caged Laser are market leaders in producing all sort of roll cages and
+  #     specility chassis'. Caged Laser offered Team Bath Racing electric great
+  #     support and services to fabricate our chassis to the highest level of
+  #     precision and quality."
 
   - name: Easy Composites
     weighting: 10
@@ -54,15 +54,15 @@ sponsors:
       best power to weight ratio in the world. We are delighted to be supported
       by Emrax for this season, following last year's great success with them."
 
-  - name: Hudson Kapel
-    weighting: 10
-    pic: hudson-kapel
-    link: http://www.hudsonkapel.com/
-    description: >
-      "Looks aren't everything, but they sure do matter! Hudson Kapel
-      specialise in vehicle refurbishment, inspection, and licence checking.
-      With their support this year for the body panels' paint work, we are sure
-      our car is going to look as impressive as it performs."
+  # - name: Hudson Kapel
+  #   weighting: 10
+  #   pic: hudson-kapel
+  #   link: http://www.hudsonkapel.com/
+  #   description: >
+  #     "Looks aren't everything, but they sure do matter! Hudson Kapel
+  #     specialise in vehicle refurbishment, inspection, and licence checking.
+  #     With their support this year for the body panels' paint work, we are sure
+  #     our car is going to look as impressive as it performs."
 
   - name: IPG
     weighting: 10
