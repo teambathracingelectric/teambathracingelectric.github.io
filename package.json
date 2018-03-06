@@ -1,0 +1,23 @@
+{
+  "name": "tbre-website",
+  "version": "1.0.0",
+  "description": "Static site for TBRe",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raikesy/TBRe-website.git"
+  },
+  "author": "James Raikes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raikesy/TBRe-website/issues"
+  },
+  "homepage": "https://github.com/raikesy/TBRe-website#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-bootlint": "^0.10.2"
+  }
+}
