@@ -30,6 +30,23 @@ address:
 markdown: kramdown
 permalink: pretty
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Gruntfile.js
+  - package.json
+  - package-lock.json
+  - README.md
+  - LICENSE
+
 # gh-pages emulation
 safe: true
 repository: raikesy/TBRe-website
+
+# Google Analytics
+google_analytics: UA-115200564-1
