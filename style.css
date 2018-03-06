@@ -42,3 +42,20 @@ a.team-member-link.active {
 	text-decoration-line: underline;
 	text-decoration-color: darkgray;
 }
+
+/* Tier heading colours */
+.tier-platinum {
+    color: #CCC2C2
+}
+
+.tier-gold {
+    color: #F6BA0E
+}
+
+.tier-silver {
+    color: #A8A8A8
+}
+
+.tier-bronze {
+    color: #965A38
+}

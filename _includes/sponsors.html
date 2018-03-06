@@ -8,16 +8,26 @@
 					<h3 class="section-subheading text-muted"><a href="#contact" class="page-scroll">Get in touch</a> to find out more about supporting our team</h3>
 				</div>
 			</div>
-			<div class="row">
-				<!-- Organise sponsors by their weighting -->
-				{% for sponsor in site.data.sponsors | sort: weighting %}
-					<div class="col-md-3 col-sm-6">
-						<a href="#{{ sponsor.name }}" data-toggle="modal" data-target="#sponsors-modal">
-							<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" class="img-responsive img-centered" alt="image"/>
-						</a>
+			{% for tier_hash in site.data.sponsors %}
+				{% assign tier = tier_hash[1] %}
+				{% unless tier.sponsors == nil %}
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h3><span class="tier-{{ tier.name | downcase }}"><i class="fas fa-trophy"></i></span> {{ tier.name }}</h3>
 					</div>
-				{% endfor %}
-			</div>
+				</div>
+				<div class="row">
+						<!-- Organise sponsors by their weighting -->
+						{% for sponsor in tier.sponsors | sort: weighting %}
+							<div class="col-md-3 col-sm-6">
+								<a href="#{{ sponsor.name }}" data-toggle="modal" data-target="#sponsors-modal">
+									<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" class="img-responsive img-centered" alt="{{ sponsor.name }}"/>
+								</a>
+							</div>
+						{% endfor %}
+				</div>
+				{% endunless %}
+			{% endfor %}
 
 			<div class="row">
 				<div class="col-lg-12 text-center">

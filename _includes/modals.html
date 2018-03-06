@@ -93,7 +93,9 @@
 				<hr class="star-primary"/>
 				<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
 
-				{% for sponsor in site.data.sponsors | sort: weighting %}
+				{% for tier_hash in site.data.sponsors %}
+				{% assign tier = tier_hash[1] %}
+					{% for sponsor in tier.sponsors | sort: weighting %}
 					<table>
 						<tr>
 							<td>
@@ -108,12 +110,10 @@
 							</td>
 						</tr>
 					</table>
+					{% endfor %}
 				{% endfor %}
 			</div>
 			<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 		</div>
 	</div>
 </div>
-
-<!-- New sponsors modal - individual pages -->
-<!-- <div class="portfolio-modal modal fade" id="sponsor-modal"></div> -->
