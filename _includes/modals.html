@@ -1,5 +1,5 @@
 <!-- Blog posts Modals -->
-{% for post in site.posts %}
+<!-- { for post in site.posts %}
 	<div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
 		<div class="modal-content">
 			<div class="close-modal" data-dismiss="modal">
@@ -14,7 +14,7 @@
 						<div class="modal-body">
 							<h2>{{ post.title }}</h2>
 							<hr class="star-primary">
-							<!--<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">-->
+							<img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 							<p>{{ post.description }}</p>
 							{{ post.content }}
 							<ul class="list-inline item-details">
@@ -38,7 +38,7 @@
 			</div>
 		</div>
 	</div>
-{% endfor %}
+{ endfor %} -->
 
 <!-- Team Member Modal -->
 <!-- Modal content populated via jQuery in custom.js -->
@@ -87,32 +87,33 @@
 			</div>
 		</div>
 
-		<div class="container">
-			<div class="row">
-				<div class="modal-body">
-					<h2>Meet Our Sponsors</h2>
-					<hr class="star-primary"/>
-					<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
+		<div class="modal-body">
+			<div class="container">
+				<h2>Meet Our Sponsors</h2>
+				<hr class="star-primary"/>
+				<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
 
-					{% for sponsor in site.data.sponsors | sort: weighting %}
-						<table>
-							<tr>
-								<td>
-									<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
-									<a id="{{ sponsor.name }}"></a>
-									<a href="{{ sponsor.link }}" target="_blank">
-										<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
-									</a>
-								</td>
-								<td>
-									{{ sponsor.description }}
-								</td>
-							</tr>
-						</table>
-					{% endfor %}
-				</div>
-				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
+				{% for sponsor in site.data.sponsors | sort: weighting %}
+					<table>
+						<tr>
+							<td>
+								<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
+								<a id="{{ sponsor.name }}"></a>
+								<a href="{{ sponsor.link }}" target="_blank">
+									<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
+								</a>
+							</td>
+							<td>
+								{{ sponsor.description }}
+							</td>
+						</tr>
+					</table>
+				{% endfor %}
 			</div>
+			<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 		</div>
 	</div>
 </div>
+
+<!-- New sponsors modal - individual pages -->
+<!-- <div class="portfolio-modal modal fade" id="sponsor-modal"></div> -->
