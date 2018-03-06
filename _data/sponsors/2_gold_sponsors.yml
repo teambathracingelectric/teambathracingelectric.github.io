@@ -1,0 +1,89 @@
+name: Gold
+sponsors:
+  - name: "University of Bath: Faculty of Engineering"
+    weighting: 10
+    pic: fac-eng-bath-uni
+    link: http://www.bath.ac.uk/departments/faculty-of-engineering-design/
+    description: >
+      "We are pleased to have the continued support of the Faculty of
+      Engineering & Design for 2017/18 who provided the team with the design
+      and build area last year as well as additional financial support for both
+      the previous and current seasons."
+
+  - name: Tektronix
+    weighting: 10
+    pic: tektronix
+    link: http://uk.tek.com/
+    description: >
+      "Tektronix is the main sponsor of our build room and design space. They
+      provide us with state-of-the-art test and measurement technology that
+      allows rapid design, testing and diagnostics of our electrical systems.
+      Their support has triggered a step change in the team's design
+      capabilities and will make a difference for many years to come."
+  
+  - name: "University of Bath: Alumni Fund"
+    weighting: 10
+    pic: alumni-fund
+    link: http://www.bath.ac.uk/alumni/support/alumni-fund/
+    description: >
+      "Team Bath Racing electric is proud to be supported by the University of
+      Bath's Alumni Fund. Without them, the team wouldn't have secured the
+      title of #1 UK Electric Formula team."
+
+  - name: Altran
+    weighting: 10
+    pic: altran
+    link: https://www.altran.com/uk/en/
+    description: >
+      "We are working closely with Altran Intelligent Systems in the
+      development of our control system. Last year they provided us with a
+      flexible RPP platform that will allow our software team to implement
+      bespoke control strategies for the entire vehicle, and their continued
+      technical support has been invaluable."
+
+  - name: Mewburn Ellis
+    weighting: 10
+    pic: mewburn-ellis
+    link: http://mewburn.com
+    description: >
+      "Mewburn Ellis LLP is one of Europe’s top Intellectual Property (IP)
+      firms offering a full range of IP services: patents, trademarks &
+      designs. Mewburn Ellis provide commercially focused, creative advice on
+      obtaining, enforcing & exploiting IP rights to a wide range of clients
+      across numerous & diverse industry sectors. IP is extremely important in
+      Engineering and through sponsoring TBRe's trip to Silverstone this year,
+      Mewburn Ellis LLP aim to raise awareness to a potential career in IP for
+      top Engineering students and graduates from the University of Bath."
+
+  - name: Autodesk
+    weighting: 10
+    pic: autodesk
+    link: https://www.autodesk.co.uk/
+    description: >
+      "A project such as ours requires a lot of bespoke parts. We are proud to
+      be working closely with one of the world leading design software
+      companies, AutoDesk, to tackle our machining. AutoDesk offer TBRe a full
+      sponsorship on all machining, as well as media support."
+
+  - name: Mahle
+    weighting: 10
+    pic: mahle
+    link: https://www.mahle.com/
+    description: >
+      "Mahle is one of the world's 20 largest suppliers in the automotive
+      industry, and we are very proud to announce our sponsorship deal with
+      them! Their technical and monetary support will massively help Team Bath
+      Racing electric achieve the ambitious targets set for the 2017/2018
+      season."
+
+  - name: Vector
+    weighting: 10
+    pic: vector
+    link: https://vector.com/
+    description: >
+      "Vector is the market leader for automotive embedded systems, and they
+      provide numerous automotive companies a platform of tools, software, and
+      hardware for embedded systems. Vector provides the team with CAN bus
+      hardware and software which is used for analysis and testing, and we are
+      grateful for their industry standard equipment which serves for both
+      training and performance!"
