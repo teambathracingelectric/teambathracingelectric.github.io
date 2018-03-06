@@ -29,8 +29,11 @@ address:
   - line: Bath, BA2 7AY
 
 # Build settings
-markdown: kramdown
 permalink: pretty
+
+#Plugins
+plugins:
+  - jekyll-seo-tag
 
 exclude:
   - Gemfile
