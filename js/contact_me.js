@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "https://hooks.zapier.com/hooks/catch/2135358/kb1lpz/",    // Replace this with ././mail/contact_me.php to go back to php form
+                url: "https://prod-35.westeurope.logic.azure.com:443/workflows/0593c9cb73db42ef886e663d762d000e/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=qVDb7yrj09VTbknryAv26UlwQqHsV72rVM63ssmOSPI",    // Replace this with ././mail/contact_me.php to go back to php form
                 type: "POST",
                 data: {
                     name: name,
