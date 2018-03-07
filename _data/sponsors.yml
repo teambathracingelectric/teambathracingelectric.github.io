@@ -130,7 +130,7 @@
 
 
 - name: Silver
-  rank: 4
+  rank: 3
   sponsors:
     - name: Caterpillar
       weighting: 10
@@ -234,7 +234,7 @@
 
 
 - name: Bronze
-  rank: 3
+  rank: 4
   sponsors: 
     - name: Makita
       weighting: 10
