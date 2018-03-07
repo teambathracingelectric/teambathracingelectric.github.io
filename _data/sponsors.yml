@@ -9,89 +9,89 @@
       weighting: 10
       pic: fac-eng-bath-uni
       link: http://www.bath.ac.uk/departments/faculty-of-engineering-design/
-      description: >
-        "We are pleased to have the continued support of the Faculty of
+      description: >-
+        We are pleased to have the continued support of the Faculty of
         Engineering & Design for 2017/18 who provided the team with the design
         and build area last year as well as additional financial support for both
-        the previous and current seasons."
+        the previous and current seasons.
 
     - name: Tektronix
       weighting: 10
       pic: tektronix
       link: http://uk.tek.com/
-      description: >
-        "Tektronix is the main sponsor of our build room and design space. They
+      description: >-
+        Tektronix is the main sponsor of our build room and design space. They
         provide us with state-of-the-art test and measurement technology that
         allows rapid design, testing and diagnostics of our electrical systems.
         Their support has triggered a step change in the team's design
-        capabilities and will make a difference for many years to come."
+        capabilities and will make a difference for many years to come.
     
     - name: "University of Bath: Alumni Fund"
       weighting: 10
       pic: alumni-fund
       link: http://www.bath.ac.uk/alumni/support/alumni-fund/
-      description: >
-        "Team Bath Racing electric is proud to be supported by the University of
+      description: >-
+        Team Bath Racing electric is proud to be supported by the University of
         Bath's Alumni Fund. Without them, the team wouldn't have secured the
-        title of #1 UK Electric Formula team."
+        title of #1 UK Electric Formula team.
 
     - name: Altran
       weighting: 10
       pic: altran
       link: https://www.altran.com/uk/en/
-      description: >
-        "We are working closely with Altran Intelligent Systems in the
+      description: >-
+        We are working closely with Altran Intelligent Systems in the
         development of our control system. Last year they provided us with a
         flexible RPP platform that will allow our software team to implement
         bespoke control strategies for the entire vehicle, and their continued
-        technical support has been invaluable."
+        technical support has been invaluable.
 
     - name: Mewburn Ellis
       weighting: 10
       pic: mewburn-ellis
       link: http://mewburn.com
-      description: >
-        "Mewburn Ellis LLP is one of Europe’s top Intellectual Property (IP)
+      description: >-
+        Mewburn Ellis LLP is one of Europe’s top Intellectual Property (IP)
         firms offering a full range of IP services: patents, trademarks &
         designs. Mewburn Ellis provide commercially focused, creative advice on
         obtaining, enforcing & exploiting IP rights to a wide range of clients
         across numerous & diverse industry sectors. IP is extremely important in
         Engineering and through sponsoring TBRe's trip to Silverstone this year,
         Mewburn Ellis LLP aim to raise awareness to a potential career in IP for
-        top Engineering students and graduates from the University of Bath."
+        top Engineering students and graduates from the University of Bath.
 
     - name: Autodesk
       weighting: 10
       pic: autodesk
       link: https://www.autodesk.co.uk/
-      description: >
-        "A project such as ours requires a lot of bespoke parts. We are proud to
+      description: >-
+        A project such as ours requires a lot of bespoke parts. We are proud to
         be working closely with one of the world leading design software
         companies, AutoDesk, to tackle our machining. AutoDesk offer TBRe a full
-        sponsorship on all machining, as well as media support."
+        sponsorship on all machining, as well as media support.
 
     - name: Mahle
       weighting: 10
       pic: mahle
       link: https://www.mahle.com/
-      description: >
-        "Mahle is one of the world's 20 largest suppliers in the automotive
+      description: >-
+        Mahle is one of the world's 20 largest suppliers in the automotive
         industry, and we are very proud to announce our sponsorship deal with
         them! Their technical and monetary support will massively help Team Bath
         Racing electric achieve the ambitious targets set for the 2017/2018
-        season."
+        season.
 
     - name: Vector
       weighting: 10
       pic: vector
       link: https://vector.com/
-      description: >
-        "Vector is the market leader for automotive embedded systems, and they
+      description: >-
+        Vector is the market leader for automotive embedded systems, and they
         provide numerous automotive companies a platform of tools, software, and
         hardware for embedded systems. Vector provides the team with CAN bus
         hardware and software which is used for analysis and testing, and we are
         grateful for their industry standard equipment which serves for both
-        training and performance!"
+        training and performance!
 
 - name: Silver
   rank: 3
@@ -100,90 +100,90 @@
       weighting: 10
       pic: caterpillar
       link: http://www.caterpillar.com/
-      description: >
-        "We are pleased to continue the relationship between Caterpillar and Team
+      description: >-
+        We are pleased to continue the relationship between Caterpillar and Team
         Bath Racing Electric which started in 2017. Caterpillar provide the team
         with invaluable financial support and a range of exciting internship and
-        graduate job opportunities!"
+        graduate job opportunities!
 
     - name: Cubik Innovation
       weighting: 10
       pic: cubik-innovation
       link: http://www.cubik-innovation.co.uk/  
       # http://www.cubik-innovation.co.uk/team-bath-racing-electric for case study
-      description: >
-        "Located at the acclaimed Bristol and Bath Science Park in Bristol, Cubik
+      description: >-
+        Located at the acclaimed Bristol and Bath Science Park in Bristol, Cubik
         Innovation work with emerging businesses, entrepreneurs and corporations,
         helping them to realise their electronic design objectives and to also
         bring new products to market. Supporting us for a third year, Cubik will
         be supporting our PCB design & manufacture. The PCBs that Cubik provide
         are integrated into our power management system and also the driver
-        display."
+        display.
 
     - name: CREATE Education
       weighting: 10
       pic: create-education
       link: https://www.createeducation.com/
-      description: >
-        "We are excited to renew the collaborative partnership between the Create
+      description: >-
+        We are excited to renew the collaborative partnership between the Create
         Education project and Team Bath Racing Electric. Create Education has
         provided TBRe with an Ultimaker 2+ Extended 3D printer that has allowed
         the team to rapidly prototype concept ideas with unparalleled ease and
-        speed before committing to final designs!"
+        speed before committing to final designs!
 
     - name: Keysight/Microlease
       weighting: 10
       pic: keysight-microlease
       link: https://www.microlease.com/uk/home
-      description: >
-        "Keysight / Microlease are a key partner of in-kind support through the
+      description: >-
+        Keysight / Microlease are a key partner of in-kind support through the
         donation of electrical test equipment for 2 years now. The development of
         our electrical systems and the handheld test equipment provided are
-        crucial at the team."
+        crucial at the team.
 
     - name: Relec Electronics
       weighting: 10
       pic: relec
       link: https://www.relec.co.uk/
-      description: >
-        "Relec Electronics is a specialist provider of power supplies, displays
+      description: >-
+        Relec Electronics is a specialist provider of power supplies, displays
         and EMC filters for industrial applications. Relec provided TBRe with an
         LCD display that gave the driver all the information required during
         dynamic events last season, and we are excited to use the new touch
-        screens provided for the 2017/2018 season!"
+        screens provided for the 2017/2018 season!
 
     # - name: Market Axess Trax
     #   weighting: 10
     #   pic: market-axess
     #   link: http://www.marketaxess.com/trading/tradingoverview.php
-    #   description: >
-    #     "Market Axess is an award-winning electronic trading platform in the
+    #   description: >-
+    #     Market Axess is an award-winning electronic trading platform in the
     #     finance industry, and we are very excited to have our relationships
     #     spread outside the engineering industry. Market Axess recognised the
     #     potential of our proactive team, and their financial support has helped
-    #     the team greatly."
+    #     the team greatly.
 
     # - name: "University of Bath: Department of Electrical & Electronic Engineering"
     #   weighting: 10
     #   pic: elec-eng
     #   link: http://www.bath.ac.uk/departments/department-of-electronic-electrical-engineering/
-    #   description: >
-    #     "The University of Bath contributes to Team Bath Racing electric greatly,
+    #   description: >-
+    #     The University of Bath contributes to Team Bath Racing electric greatly,
     #     and we are proud to be representing the Department of Electrical and
     #     Electronic Engineering, which has financially supported the team for year
-    #     after year. We hope to continue making them proud!"
+    #     after year. We hope to continue making them proud!
 
     - name: ETPS
       weighting: 10
       pic: etps
       link: http://www.etps.co.uk/
-      description: >
-        "Our electrical designs need testing before being implemented, and this
+      description: >-
+        Our electrical designs need testing before being implemented, and this
         testing requires specialist equipment. One of Electronic Test and Power
         Systems' (ETPS) speiciality industries is motorsport, and they have
         provided Team Bath Racing electric with industry standard testing
         equipment which allows us to validate our battery systems in isolation to
-        the other systems."
+        the other systems.
 
 - name: Bronze
   rank: 4
@@ -192,105 +192,105 @@
       weighting: 10
       pic: makita
       link: http://www.makitauk.com/about-makita.html
-      description: >
-        "We are very pleased to have a long standing relationship with Makita.
+      description: >-
+        We are very pleased to have a long standing relationship with Makita.
         Makita is the leading manufacturer of power tools in the world and the
         power tools and training programme that they have provided are invaluable
-        to the team’s daily work."
+        to the team’s daily work.
 
     - name: Bender
       weighting: 10
       pic: bender
       link: https://www.bender-uk.com/
-      description: >
-        "Safety is crucial for high voltage applications and Bender have been
+      description: >-
+        Safety is crucial for high voltage applications and Bender have been
         kind enough to support our team for the third year in a row with their
         Isolation Monitoring Device (IMD) unit. The IMD detects if there is any
         high voltage leaking from the tractive system to the chassis and
-        immediately switches off the HV system making it safe."
+        immediately switches off the HV system making it safe.
 
     # - name: Caged Laser
     #   weighting: 10
     #   pic: caged-laser
     #   link: https://www.cagedlaser.co.uk/
-    #   description: >
-    #     "Caged Laser are market leaders in producing all sort of roll cages and
+    #   description: >-
+    #     Caged Laser are market leaders in producing all sort of roll cages and
     #     specility chassis'. Caged Laser offered Team Bath Racing electric great
     #     support and services to fabricate our chassis to the highest level of
-    #     precision and quality."
+    #     precision and quality.
 
     - name: Easy Composites
       weighting: 10
       pic: easy-composites
       link: http://www.easycomposites.co.uk/
-      description: >
-        "Easy Composites Ltd is a leading supplier of advanced composite
+      description: >-
+        Easy Composites Ltd is a leading supplier of advanced composite
         materials to individuals, businesses and educational institutions. Their
         extensive range of materials and comprehensive selection of
         tools/equipment continuously provided TBRe with access to
         state-of-the-art composites technology and manufacturing techniques, and
         this year they have provided us with a discount for Formula Student 
-        Teams."
+        Teams.
 
     - name: EMRAX
       weighting: 10
       pic: emrax
       link: http://emrax.com/
-      description: >
-        "EMRAX offer high-powered, high torque and extremely light direct drive
+      description: >-
+        EMRAX offer high-powered, high torque and extremely light direct drive
         electric motors, with efficiency up to 98%. An Emrax motor offers the
         best power to weight ratio in the world. We are delighted to be supported
-        by Emrax for this season, following last year's great success with them."
+        by Emrax for this season, following last year's great success with them.
 
     # - name: Hudson Kapel
     #   weighting: 10
     #   pic: hudson-kapel
     #   link: http://www.hudsonkapel.com/
-    #   description: >
-    #     "Looks aren't everything, but they sure do matter! Hudson Kapel
+    #   description: >-
+    #     Looks aren't everything, but they sure do matter! Hudson Kapel
     #     specialise in vehicle refurbishment, inspection, and licence checking.
     #     With their support this year for the body panels' paint work, we are sure
-    #     our car is going to look as impressive as it performs."
+    #     our car is going to look as impressive as it performs.
 
     - name: IPG
       weighting: 10
       pic: ipg
       link: https://ipg-automotive.com
-      description: >
-        "In order to be successful in Formula Student, the vehicle dynamics must
+      description: >-
+        In order to be successful in Formula Student, the vehicle dynamics must
         be right! IPG Automotive’s Formula CarMaker program has helped us to
         achieve this last year, and will continue to do so this year. With
         CarMaker and IPGKinematics, IPG offer professional support for vehicle
-        dynamics simulation right from the start."
+        dynamics simulation right from the start.
 
     - name: Minuteman Press
       weighting: 10
       pic: minuteman-press
       link: http://www.minutemanbath.co.uk/
-      description: >
-        "Minuteman Press are a well established, multi award winning
+      description: >-
+        Minuteman Press are a well established, multi award winning
         independently owned digital, litho and wide format printer, based in the
         centre of the World Heritage City of Bath. Their support allows us to
-        continuously print and advertise at the highest quality."
+        continuously print and advertise at the highest quality.
 
     - name: RS
       weighting: 10
       pic: rs
       link: http://uk.rs-online.com/web/
-      description: >
-        "We are delighted to be supported by RS Components again for our third
+      description: >-
+        We are delighted to be supported by RS Components again for our third
         Formula Student season. RS Components' aim is promote the RS brand to the
         Engineers of tomorrow, through the support of engineering/electronic
         based University projects. Keep an eye out for RS on our social media and
         through regular updates on both the TBRe and RS and Education Facebook
-        pages."
+        pages.
 
     - name: Schaeffler
       weighting: 10
       pic: schaeffler
       link: https://www.schaeffler.co.uk/
-      description: >
-        "The Schaeffler group is a global automotive and industrial supplier that
+      description: >-
+        The Schaeffler group is a global automotive and industrial supplier that
         provides Team Bath Racing Electric with high-quality drivetrain bearings
         that will allow reliable power transmission from the electric powertrain
-        to the wheels!"
+        to the wheels!
