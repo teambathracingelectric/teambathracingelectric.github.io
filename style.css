@@ -59,3 +59,7 @@ a.team-member-link.active {
 .tier-bronze {
     color: #965A38
 }
+
+header {
+    box-shadow: inset 0px -10px 10px -10px black
+}
