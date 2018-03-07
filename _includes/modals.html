@@ -78,45 +78,52 @@
 
 <!-- Sponsors Modal -->
 <div class="portfolio-modal modal fade" id="sponsors-modal" tabindex="-1" role="dialog" aria-hidden="true">
-	<div class="modal-content">
-
-		<div class="close-modal" data-dismiss="modal">
-			<div class="lr">
-				<div class="rl">
+		<div class="modal-dialog" style="
+		display: block;
+		width: auto;
+		margin: 0px;
+		transform: none;
+		">
+		<div class="modal-content">
+	
+			<div class="close-modal" data-dismiss="modal">
+				<div class="lr">
+					<div class="rl">
+					</div>
 				</div>
 			</div>
-		</div>
-
-		<div class="modal-body">
-			<div class="container">
-				<h2>Meet Our Sponsors</h2>
-				<hr class="star-primary"/>
-				<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
-
-				{% assign sponsors = site.data.sponsors | sort: 'rank' %}
-				{% for tier in sponsors %}
-					{% unless tier.sponsors == nil %}
-						{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
-						{% for sponsor in tier_sponsors %}
-						<table>
-							<tr>
-								<td>
-									<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
-									<a id="{{ sponsor.name }}"></a>
-									<a href="{{ sponsor.link }}" target="_blank">
-										<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
-									</a>
-								</td>
-								<td>
-									{{ sponsor.description }}
-								</td>
-							</tr>
-						</table>
-						{% endfor %}
-					{% endunless %}
-				{% endfor %}
+	
+			<div class="modal-body">
+				<div class="container">
+					<h2>Meet Our Sponsors</h2>
+					<hr class="star-primary"/>
+					<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
+	
+					{% assign sponsors = site.data.sponsors | sort: 'rank' %}
+					{% for tier in sponsors %}
+						{% unless tier.sponsors == nil %}
+							{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
+							{% for sponsor in tier_sponsors %}
+							<table>
+								<tr>
+									<td>
+										<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
+										<a id="{{ sponsor.name }}"></a>
+										<a href="{{ sponsor.link }}" target="_blank">
+											<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
+										</a>
+									</td>
+									<td>
+										{{ sponsor.description }}
+									</td>
+								</tr>
+							</table>
+							{% endfor %}
+						{% endunless %}
+					{% endfor %}
+				</div>
+				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 			</div>
-			<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 		</div>
 	</div>
 </div>
