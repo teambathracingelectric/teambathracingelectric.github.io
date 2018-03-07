@@ -1,6 +1,30 @@
+#ooooooooo.   oooo                .    o8o
+#`888   `Y88. `888              .o8    `"'
+# 888   .d88'  888   .oooo.   .o888oo oooo  ooo. .oo.   oooo  oooo  ooo. .oo.  .oo.
+# 888ooo88P'   888  `P  )88b    888   `888  `888P"Y88b  `888  `888  `888P"Y88bP"Y88b
+# 888          888   .oP"888    888    888   888   888   888   888   888   888   888
+# 888          888  d8(  888    888 .  888   888   888   888   888   888   888   888
+#o888o        o888o `Y888""8o   "888" o888o o888o o888o  `V88V"V8P' o888o o888o o888o
+#
+#
+#
+
+
 - name: Platinum
   rank: 1
   sponsors:
+
+#  .oooooo.              oooo        .o8
+# d8P'  `Y8b             `888       "888
+#888            .ooooo.   888   .oooo888
+#888           d88' `88b  888  d88' `888
+#888     ooooo 888   888  888  888   888
+#`88.    .88'  888   888  888  888   888
+# `Y8bood8P'   `Y8bod8P' o888o `Y8bod88P"
+#
+#
+#
+
 
 - name: Gold
   rank: 2
@@ -93,8 +117,20 @@
         grateful for their industry standard equipment which serves for both
         training and performance!
 
+# .oooooo..o  o8o  oooo
+#d8P'    `Y8  `"'  `888
+#Y88bo.      oooo   888  oooo    ooo  .ooooo.  oooo d8b
+# `"Y8888o.  `888   888   `88.  .8'  d88' `88b `888""8P
+#     `"Y88b  888   888    `88..8'   888ooo888  888
+#oo     .d8P  888   888     `888'    888    .o  888
+#8""88888P'  o888o o888o     `8'     `Y8bod8P' d888b
+#
+#
+#
+
+
 - name: Silver
-  rank: 3
+  rank: 4
   sponsors:
     - name: Caterpillar
       weighting: 10
@@ -185,8 +221,20 @@
         equipment which allows us to validate our battery systems in isolation to
         the other systems.
 
+#oooooooooo.
+#`888'   `Y8b
+# 888     888 oooo d8b  .ooooo.  ooo. .oo.     oooooooo  .ooooo.
+# 888oooo888' `888""8P d88' `88b `888P"Y88b   d'""7d8P  d88' `88b
+# 888    `88b  888     888   888  888   888     .d8P'   888ooo888
+# 888    .88P  888     888   888  888   888   .d8P'  .P 888    .o
+#o888bood8P'  d888b    `Y8bod8P' o888o o888o d8888888P  `Y8bod8P'
+#
+#
+#
+
+
 - name: Bronze
-  rank: 4
+  rank: 3
   sponsors: 
     - name: Makita
       weighting: 10
