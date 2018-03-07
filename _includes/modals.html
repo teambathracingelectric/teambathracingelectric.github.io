@@ -93,23 +93,27 @@
 				<hr class="star-primary"/>
 				<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
 
-				{% for tier in site.data.sponsors %}
-					{% for sponsor in tier.sponsors | sort: weighting %}
-					<table>
-						<tr>
-							<td>
-								<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
-								<a id="{{ sponsor.name }}"></a>
-								<a href="{{ sponsor.link }}" target="_blank">
-									<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
-								</a>
-							</td>
-							<td>
-								{{ sponsor.description }}
-							</td>
-						</tr>
-					</table>
-					{% endfor %}
+				{% assign sponsors = site.data.sponsors | sort: 'rank' %}
+				{% for tier in sponsors %}
+					{% unless tier.sponsors == nil %}
+						{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
+						{% for sponsor in tier_sponsors %}
+						<table>
+							<tr>
+								<td>
+									<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
+									<a id="{{ sponsor.name }}"></a>
+									<a href="{{ sponsor.link }}" target="_blank">
+										<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
+									</a>
+								</td>
+								<td>
+									{{ sponsor.description }}
+								</td>
+							</tr>
+						</table>
+						{% endfor %}
+					{% endunless %}
 				{% endfor %}
 			</div>
 			<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
