@@ -93,8 +93,7 @@
 				<hr class="star-primary"/>
 				<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
 
-				{% for tier_hash in site.data.sponsors %}
-				{% assign tier = tier_hash[1] %}
+				{% for tier in site.data.sponsors %}
 					{% for sponsor in tier.sponsors | sort: weighting %}
 					<table>
 						<tr>
