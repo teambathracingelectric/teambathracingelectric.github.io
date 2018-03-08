@@ -63,9 +63,7 @@ function insta_embed() {
         })
     })
     embedCall.done(function(response) {
-        $('#instagram-col').append(response.html)
-    }).fail(function (response) {
-        $('#instagram-col').append("Instagram API call error")  
+        $('#insta-container').replace(response.html)
     })
 }
 insta_embed()
