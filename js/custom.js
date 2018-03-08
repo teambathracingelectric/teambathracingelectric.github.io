@@ -48,3 +48,24 @@ $('#teamModal').on('show.bs.modal', function (event) {
     })
     socialBtns.empty().append(socialHTML)
 })
+
+// Instagram embed
+function insta_embed() {
+    var imgCall = $.get("https://api.instagram.com/v1/users/self/media/recent/", {
+        access_token: "4831343247.1bf29f8.4a4d8065f29c4e409976c8dd45089486",
+        count: 1
+    }),
+    embedCall = imgCall.then(function(response) {
+        var img_link = response.data[0].link
+        var request_link = "https://api.instagram.com/oembed?url=" + img_link
+        return $.get(request_link, {
+            hidecaption: true,
+        })
+    })
+    embedCall.done(function(response) {
+        $('#instagram-col').append(response.html)
+    }).fail(function (response) {
+        $('#instagram-col').append("Instagram API call error")  
+    })
+}
+insta_embed()
