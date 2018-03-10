@@ -2,7 +2,7 @@ url: https://teambathracingelectric.com
 
 # Site settings
 title: Team Bath Racing Electric
-email: info@teambathracingelectric.com
+email: teambathracingelectric@gmail.com
 description: >
   Team Bath Racing Electric (TBRe) is an engineering team run by students at
   the University of Bath. The team has a range of engineering students working
@@ -27,8 +27,12 @@ social-icons:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: University of Bath, Claverton Down
-  - line: Bath, BA2 7AY
+  - line: Team Bath Racing Electric
+  - line: Dept of Electronic & Electrical Engineering
+  - line: University of Bath
+  - line: Bath
+  - line: BA2 7AY
+  - line: United Kingdom
 
 # Build settings
 permalink: pretty
