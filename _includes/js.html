@@ -52,6 +52,7 @@
 </script>
 
 <!-- YouTube IFrame Player API (and player injection) -->
+{% if jekyll.environment == "production" %}
 <script>
   // Load the IFrame Player API code asynchronously.
   var tag = document.createElement('script');
@@ -71,4 +72,4 @@
     });
   }
 </script>
-
+{% endif %}
