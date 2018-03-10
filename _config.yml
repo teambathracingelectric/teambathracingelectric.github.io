@@ -1,4 +1,4 @@
-url: http://www.teambathracingelectric.com/
+url: http://teambathracingelectric.com/
 
 # Site settings
 title: Team Bath Racing Electric
@@ -36,6 +36,7 @@ permalink: pretty
 #Plugins
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
@@ -50,6 +51,10 @@ exclude:
   - package-lock.json
   - README.md
   - LICENSE
+  # Remove the below entries to add them back to the site
+  - _posts/
+  - mail/
+  - img/portfolio/
 
 # gh-pages emulation
 safe: true
