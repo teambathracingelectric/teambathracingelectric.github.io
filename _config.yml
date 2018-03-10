@@ -68,6 +68,8 @@ repository: raikesy/TBRe-website
 google_analytics: UA-115200564-1
 
 # These are used by the jekyll-seo-tags plugin for SEO
+logo: img/tbre-sq-logo.jpg
+
 twitter:
   username: TeamBathRacingE
 
