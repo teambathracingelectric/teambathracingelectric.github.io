@@ -51,19 +51,24 @@ $('#teamModal').on('show.bs.modal', function (event) {
 
 // Instagram embed
 function insta_embed() {
-    var imgCall = $.get("https://api.instagram.com/v1/users/self/media/recent/", {
+    var imgCall = $.getJSON("https://api.instagram.com/v1/users/self/media/recent/", {
         access_token: "4831343247.1bf29f8.4a4d8065f29c4e409976c8dd45089486",
         count: 1
     }),
     embedCall = imgCall.then(function(response) {
         var img_link = response.data[0].link
         var request_link = "https://api.instagram.com/oembed?url=" + img_link
-        return $.get(request_link, {
+        return $.getJSON(request_link, {
             hidecaption: true,
+            omitscript: true
         })
     })
     embedCall.done(function(response) {
-        $('#insta-container').replace(response.html)
+        $('#insta-container').replaceWith(response.html)
+    })
+    
+    $.when(embedCall).always(function() {
+        $.getScript("//www.instagram.com/embed.js")
     })
 }
 insta_embed()

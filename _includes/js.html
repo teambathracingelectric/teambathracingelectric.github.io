@@ -1,26 +1,74 @@
 <!-- jQuery Version 1.12.4 -->
 <script
+  defer
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
   crossorigin="anonymous"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script 
+<script
+  defer
   src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
   integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
   crossorigin="anonymous"></script>
 
 <!-- Plugin JavaScript -->
-<script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+<script defer src="{{ '/js/jquery.easing.min.js' | prepend: site.baseurl }}"></script>
+<script defer src="{{ '/js/classie.js' | prepend: site.baseurl }}"></script>
+<script defer src="{{ '/js/cbpAnimatedHeader.js' | prepend: site.baseurl }}"></script>
 
 <!-- Contact Form JavaScript -->
-<script src="{{ "/js/jqBootstrapValidation.js" | prepend: site.baseurl }}"></script>
-<script src="{{ "/js/contact_me.js" | prepend: site.baseurl }}"></script>
+<script defer src="{{ '/js/jqBootstrapValidation.js' | prepend: site.baseurl }}"></script>
+<script defer src="{{ '/js/contact_me.js' | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ "/js/agency.js" | prepend: site.baseurl }}"></script>
+<script defer src="{{ '/js/agency.js' | prepend: site.baseurl }}"></script>
 
 <!-- Custom script -->
-<script src="{{ "/js/custom.js" | prepend: site.baseurl }}"></script>
+<script defer src="{{ '/js/custom.js' | prepend: site.baseurl }}"></script>
+
+<!-- Social Media Panel scripts -->
+
+<!--  -->
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- Facebook Javascript SDK -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId            : '1953013801682223',
+      autoLogAppEvents : true,
+      xfbml            : true,
+      version          : 'v2.12'
+    });
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_GB/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- YouTube IFrame Player API (and player injection) -->
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/player_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Replace the 'ytplayer' element with an <iframe> and
+  // YouTube player after the API code downloads.
+  var player;
+  function onYouTubePlayerAPIReady() {
+    player = new YT.Player('ytplayer', {
+      playerVars: {
+        listType: 'playlist',
+        list: 'UUn7s-HVkYWgW37Ur_5DrgXg',
+      }
+    });
+  }
+</script>
+
