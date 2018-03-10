@@ -13,18 +13,18 @@ $('#teamModal').on('show.bs.modal', function (event) {
     
     // Simple population for first 3 fields
     var modal = $(this)
-    modal.find('h2').text(name)
-    modal.find('p i').text(title)
+    modal.find('#team-modal-name').text(name)
+    modal.find('#team-modal-role i').text(title)
     modal.find('img').attr('src', 'img/team/'+pic+'.jpg')
 
     // Facts and social networks require looping over arrays
     // Build string first and modify DOM at the end for better performance
-    var factTable = modal.find('table')
+    var factList = modal.find('dl')
     var factHTML = []
     $.each(factArray, function(index, fact) {
-        factHTML.push('<tr><th>'+fact.name+'</th><td>'+fact.info+'</td></tr>')        
+        factHTML.push('<dt>'+fact.name+'</dt><dd>'+fact.info+'</dd>')        
     })
-    factTable.empty().append(factHTML)
+    factList.empty().append(factHTML)
 
     var socialBtns = modal.find('ul.social-buttons')
     // socialBtns.append('test')

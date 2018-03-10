@@ -46,21 +46,17 @@
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-body">
-
-				<h2>Name</h2>
-				<p><i>Title</i></p>
+				<h2 id="team-modal-name">Name</h2>
+				<p id="team-modal-role"><i>Title</i></p>
 				<hr class="star-primary">
-				<img src="img/no-user-image.jpg" onerror="imgError(this);" class="img-responsive img-square img-centered" style="width: 100%;" alt="">
-				<div style="margin-top:20px;">
-					<table style="width:100%">
-						<tr>
-							<th>Fact</th>
-							<td>Answer</td>
-						</tr>
-					</table>
-				</div>
-
-				<div style="margin-top:20px; margin-bottom:20px">
+				<img src="img/no-user-image.jpg" onerror="imgError(this);" class="img-responsive center-block" style="width: 100%; margin-bottom: 20px" alt="">
+				<dl class="dl-horizontal text-left" id="team-facts">
+					<dt>Fact</dt>
+					<dd>Answer</dd>
+				</dl>
+			</div>
+			<div class="modal-footer">
+				<span class="pull-left text-center">
 					<ul class="list-inline social-buttons">
 						<li>
 							<a target="_top" href="/network-link" class="color-icon-placeholder">
@@ -68,8 +64,7 @@
 							</a>
 						</li>
 					</ul>
-				</div>
-
+				</span>
 				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 			</div>
 		</div>
@@ -78,6 +73,7 @@
 
 <!-- Sponsors Modal -->
 <div class="portfolio-modal modal fade" id="sponsors-modal" tabindex="-1" role="dialog" aria-hidden="true">
+		<!-- Override standard bootstrap modal styling -->
 		<div class="modal-dialog" style="
 		display: block;
 		width: auto;
@@ -97,7 +93,7 @@
 				<div class="container">
 					<h2>Meet Our Sponsors</h2>
 					<hr class="star-primary"/>
-					<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt=""/>
+					<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt="">
 	
 					{% assign sponsors = site.data.sponsors | sort: 'rank' %}
 					{% for tier in sponsors %}

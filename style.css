@@ -63,3 +63,9 @@ a.team-member-link.active {
 header {
     box-shadow: inset 0px -10px 10px -10px black
 }
+
+#team-facts dt, dd {
+    white-space: normal;
+    margin-bottom: 0.5em
+    /* line-height: 2 */
+}
