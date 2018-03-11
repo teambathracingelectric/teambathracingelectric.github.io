@@ -79,39 +79,41 @@
 		transform: none;
 		">
 		<div class="modal-content">
-	
 			<div class="close-modal" data-dismiss="modal">
 				<div class="lr">
 					<div class="rl">
 					</div>
 				</div>
 			</div>
-	
 			<div class="modal-body">
 				<div class="container">
-					<h2>Meet Our Sponsors</h2>
-					<hr class="star-primary"/>
-					<img src="img/uni-lake-1.jpg" class="img-responsive img-centered" alt="">
-	
+					<div class="row">
+						<div class="col-lg-12">
+							<h2>Meet Our Sponsors</h2>
+							<hr class="star-primary"/>
+							<img src="img/uni-lake-1.jpg" class="img-responsive" style="margin-bottom: 30px" alt="">
+						</div>
+					</div>
 					{% assign sponsors = site.data.sponsors | sort: 'rank' %}
 					{% for tier in sponsors %}
 						{% unless tier.sponsors == nil %}
 							{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
 							{% for sponsor in tier_sponsors %}
-							<table>
-								<tr>
-									<td>
-										<!-- TODO: add anchor to this id, when clicked on an image on the main page -->
+							{% capture sponsor_count %}{% increment sponsor_add %}{% endcapture %}
+								<div class="row">
+									<div class="col-lg-3 center-block" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
 										<a id="{{ sponsor.name }}"></a>
-										<a href="{{ sponsor.link }}" target="_blank">
-											<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" width="200px" style="margin-top:20px"/>
+										<a href="{{ sponsor.link }}" target="_blank" style="display: table-cell; vertical-align: middle">
+											<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg">
 										</a>
-									</td>
-									<td>
-										{{ sponsor.description }}
-									</td>
-								</tr>
-							</table>
+									</div>
+									<div class="col-lg-9" data-mh="sponsor-{{ sponsor_count }}">
+										<h4>{{ sponsor.name }}</h4>
+										<p class="text-justify">
+											{{ sponsor.description }}
+										</p>
+									</div>
+								</div>
 							{% endfor %}
 						{% endunless %}
 					{% endfor %}

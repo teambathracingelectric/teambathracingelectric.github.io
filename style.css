@@ -69,3 +69,7 @@ header {
     margin-bottom: 0.5em
     /* line-height: 2 */
 }
+
+#sponsors-modal img {
+    margin-bottom: 20px;
+}

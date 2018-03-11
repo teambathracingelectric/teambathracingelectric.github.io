@@ -23,9 +23,7 @@
 					{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
 					{% for sponsor in tier_sponsors %}
 						<div class="col-md-3 col-sm-6">
-							<a href="#{{ sponsor.name }}" data-toggle="modal" data-target="#sponsors-modal">
-								<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" class="img-responsive img-centered" alt="{{ sponsor.name }}"/>
-							</a>
+							<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" class="img-responsive img-centered" alt="{{ sponsor.name }}">
 						</div>
 					{% endfor %}
 					</div>
