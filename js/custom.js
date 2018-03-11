@@ -27,7 +27,6 @@ $('#teamModal').on('show.bs.modal', function (event) {
     factList.empty().append(factHTML)
 
     var socialBtns = modal.find('ul.social-buttons')
-    // socialBtns.append('test')
     var socialHTML = []
     var faPrefix
     $.each(socialArray, function(index, network) {
@@ -46,7 +45,7 @@ $('#teamModal').on('show.bs.modal', function (event) {
         + network.title
         + '"></i></a></li>')
     })
-    socialBtns.empty().append(socialHTML)
+    socialBtns.prepend(socialHTML)
 })
 
 // Instagram embed
