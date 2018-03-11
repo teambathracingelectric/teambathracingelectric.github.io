@@ -63,3 +63,7 @@ a.team-member-link.active {
 header {
     box-shadow: inset 0px -10px 10px -10px black
 }
+
+#sponsors-modal img {
+    margin-bottom: 20px;
+}
