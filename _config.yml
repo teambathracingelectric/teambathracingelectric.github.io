@@ -45,7 +45,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
+  - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
@@ -59,6 +59,7 @@ exclude:
   - _posts/
   - mail/
   - img/portfolio/
+  - _layouts/feed.xml
 
 # gh-pages emulation
 safe: true
