@@ -12,7 +12,7 @@
 				<!-- Include TBRe Logo into header -->
 				<a class="navbar-brand page-scroll" href="#page-top">
 					<img style="max-width:271px; margin-top: -7px"
-						 src="{{ "/img/tbre-trans-logo.png" | prepend: site.baseurl }}" alt="Team Bath Racing Electric" class="img-reponsive"/>
+						 src="{{ "/img/tbre-trans-logo.png" | relative_url }}" alt="Team Bath Racing Electric" class="img-reponsive"/>
 				</a>
 			</div>
 
@@ -63,6 +63,6 @@
 
 
 		<!-- {% for page in site.pages %}
-		  {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+		  {% if page.title %}<a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>{% endif %}
 		{% endfor %} -->
 
