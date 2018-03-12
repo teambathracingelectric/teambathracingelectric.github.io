@@ -79,7 +79,7 @@
 		transform: none;
 		">
 		<div class="modal-content">
-			<div class="close-modal" data-dismiss="modal">
+			<div class="close-modal hidden-xs" data-dismiss="modal">
 				<div class="lr">
 					<div class="rl">
 					</div>
@@ -98,23 +98,26 @@
 					{% for tier in sponsors %}
 						{% unless tier.sponsors == nil %}
 							{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
-							{% for sponsor in tier_sponsors %}
-							{% capture sponsor_count %}{% increment sponsor_add %}{% endcapture %}
-								<div class="row">
-									<div class="col-lg-3 center-block" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
-										<a id="{{ sponsor.name }}"></a>
-										<a href="{{ sponsor.link }}" target="_blank" style="display: table-cell; vertical-align: middle">
-											<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg">
-										</a>
+							<div id="{{ tier.name | downcase }}-modal-group">
+								{% for sponsor in tier_sponsors %}
+								{% capture sponsor_count %}{% increment sponsor_add %}{% endcapture %}
+									<div class="row">
+										<div class="col-lg-3 center-block sponsor-logo" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
+											<a id="{{ sponsor.pic }}"></a>
+											<a href="{{ sponsor.link }}" target="_blank" style="display: table-cell; vertical-align: middle">
+												<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg">
+											</a>
+										</div>
+										<div class="col-lg-9 sponsor-desc" data-mh="sponsor-{{ sponsor_count }}">
+											<h4>{{ sponsor.name }}</h4>
+											<p class="text-justify">
+												{{ sponsor.description }}
+												<button type="button" class="btn btn-default btn-xs visible-xs-block" data-dismiss="modal" style="margin: 0 auto"><i class="fas fa-times"></i> Close</button>
+											</p>
+										</div>
 									</div>
-									<div class="col-lg-9" data-mh="sponsor-{{ sponsor_count }}">
-										<h4>{{ sponsor.name }}</h4>
-										<p class="text-justify">
-											{{ sponsor.description }}
-										</p>
-									</div>
-								</div>
-							{% endfor %}
+								{% endfor %}
+							</div>
 						{% endunless %}
 					{% endfor %}
 				</div>

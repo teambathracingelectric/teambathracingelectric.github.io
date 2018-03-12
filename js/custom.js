@@ -48,6 +48,15 @@ $('#teamModal').on('show.bs.modal', function (event) {
     socialBtns.prepend(socialHTML)
 })
 
+// Scroll sponsor modal to the sponsor that was clicked on
+$('#sponsors-modal').on('shown.bs.modal', function (event) {
+    var trigger = $(event.relatedTarget)
+    var anchor = trigger.data('sponsor')
+    var scrollDist = $('#'+anchor).offset().top - $('#sponsors-modal').offset().top - 20
+    $('#sponsors-modal').animate({scrollTop: scrollDist})
+    event.preventDefault() 
+})
+
 // Instagram embed
 function insta_embed() {
     var imgCall = $.getJSON("https://api.instagram.com/v1/users/self/media/recent/", {

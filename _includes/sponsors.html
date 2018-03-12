@@ -12,20 +12,20 @@
 			{% assign sponsors = site.data.sponsors | sort: 'rank' %}
 			{% for tier in sponsors %}
 				{% unless tier.sponsors == nil %}
-				<div>
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<h3><span class="tier-{{ tier.name | downcase }}"><i class="fas fa-trophy"></i></span> {{ tier.name }}</h3>
+				<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title"><span class="tier-{{ tier.name | downcase }}"><i class="fas fa-trophy"></i></span> {{ tier.name }}</h3>
+				</div>
+					<div class="panel-body">
+						<div class="row">
+						<!-- Organise sponsors by their weighting -->
+						{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
+						{% for sponsor in tier_sponsors %}
+							<div class="col-md-3 col-sm-6">
+								<a href="#sponsors-modal" data-toggle="modal" data-sponsor="{{ sponsor.pic }}"><img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" class="img-responsive img-centered" alt="{{ sponsor.name }}"></a>
+							</div>
+						{% endfor %}
 						</div>
-					</div>
-					<div class="row">
-					<!-- Organise sponsors by their weighting -->
-					{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
-					{% for sponsor in tier_sponsors %}
-						<div class="col-md-3 col-sm-6">
-							<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" class="img-responsive img-centered" alt="{{ sponsor.name }}">
-						</div>
-					{% endfor %}
 					</div>
 				</div>
 				{% endunless %}

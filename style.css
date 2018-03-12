@@ -70,6 +70,11 @@ header {
     /* line-height: 2 */
 }
 
-#sponsors-modal img {
+.sponsor-logo img {
     margin-bottom: 20px;
+}
+
+.portfolio-modal .close-modal {
+    position: fixed;
+    z-index: 1
 }
