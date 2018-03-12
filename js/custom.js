@@ -45,6 +45,7 @@ $('#teamModal').on('show.bs.modal', function (event) {
         + network.title
         + '"></i></a></li>')				
     })
+    // Little hint about the buttons
     socialHTML.push('<li class="text-muted hidden-xs"><i class="fas fa-caret-left"></i> Get in touch!</li>')
     socialBtns.empty().append(socialHTML)
 })
