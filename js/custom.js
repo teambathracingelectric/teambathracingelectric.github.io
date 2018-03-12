@@ -43,9 +43,10 @@ $('#teamModal').on('show.bs.modal', function (event) {
         + faPrefix
         + ' fa-'
         + network.title
-        + '"></i></a></li>')
+        + '"></i></a></li>')				
     })
-    socialBtns.prepend(socialHTML)
+    socialHTML.push('<li class="text-muted hidden-xs"><i class="fas fa-caret-left"></i> Get in touch!</li>')
+    socialBtns.empty().append(socialHTML)
 })
 
 // Scroll sponsor modal to the sponsor that was clicked on

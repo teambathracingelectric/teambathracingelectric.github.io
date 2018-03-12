@@ -58,9 +58,6 @@
 			<div class="modal-footer">
 				<span class="pull-left">
 					<ul class="list-inline social-buttons text-center">
-						<li class="text-muted hidden-xs">
-							<i class="fas fa-caret-left"></i> Get in touch!
-						</li>
 					</ul>
 				</span>
 				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
@@ -102,7 +99,7 @@
 								{% for sponsor in tier_sponsors %}
 								{% capture sponsor_count %}{% increment sponsor_add %}{% endcapture %}
 									<div class="row">
-										<div class="col-lg-3 center-block sponsor-logo" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
+										<div class="col-lg-3 center-block sp-logo" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
 											<a id="{{ sponsor.pic }}"></a>
 											<a href="{{ sponsor.link }}" target="_blank" style="display: table-cell; vertical-align: middle">
 												<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg">
