@@ -309,7 +309,7 @@ header .intro-text {
 
 header .intro-text .intro-lead-in {
 	position: relative;
-	top: -350px;
+	top: -360px;
 	margin-bottom: 25px;
 	font-family: {{ site.data.template.font.primary }};
 	font-size: 22px;
