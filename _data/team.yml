@@ -1,0 +1,54 @@
+mgmt: 
+  title: Project Management
+  members:
+    - name: Lizzy Maclennan
+      role: Project Manager
+      pic: 
+    - name: Will Minter-Kemp
+      role: Business Manager
+    - name: Jacob Clapp
+      role: Technical Lead
+    - name: Tom Dormand
+      role: Integration Lead
+    - name: George Balkwill
+      role: Electrical Lead
+    - name: James Raikes
+      role: Media & Marketing Manager
+    - name: Daniel Palmer
+      role: Chassis Manager
+    - name: Simon Julyan
+      role: Vehicle Dynamics Manager
+    - name: Colin Willows
+      role: Powertrain Manager
+
+mech:
+  title: Mechanical Team
+  members:
+    - name: Ambarish Satheesh
+    - name: Samuel Gray
+    - name: Natalie Kyprianou
+    - name: Aidan Rosling
+    - name: Eduard Gascon Arnal
+    - name: Inigo Monreal
+    - name: Ignacio Montero
+
+imee:
+  title: Integration Team
+  members:
+    - name: Bassel Ghazali
+    - name: Ivan Liono
+    - name: Kieron Holt
+    - name: Alexandre Dos Santos Aranda
+    - name: Karim Ahmed Abdou Elsayed
+
+elec:
+  title: Electrical Team
+  members:
+    - name: Aaron Cocker
+    - name: Joseph Capper
+    - name: Benjamin Carretta
+    - name: Oliver Wilkins
+    - name: Kieran Shopland
+    - name: Uvindu Wijesinghe
+    - name: Christopher Bull
+    - name: Ben Warwick-Champion
