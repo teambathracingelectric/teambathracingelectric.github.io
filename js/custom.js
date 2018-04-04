@@ -82,3 +82,10 @@ function insta_embed() {
     })
 }
 insta_embed()
+
+// Match height of team member panels in Bootstrap grid to fix wrapping issues
+// Height diffs are caused by names wrapping and small diffs in img heights
+// More robust than manually using clearfix
+$(function() {
+	$('.sub-group>.team-member').matchHeight({byRow: false});
+});

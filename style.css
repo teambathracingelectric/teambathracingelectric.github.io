@@ -90,3 +90,16 @@ header {
         padding: 5px 0px 0px 7px
     }
 }
+
+.desc-cont {
+    margin-bottom: 3em
+}
+
+.member-caption {
+    margin-bottom: 10.5px
+}
+
+section#team [class*='col-'] {
+    padding-left: 10px;
+    padding-right: 10px
+}
