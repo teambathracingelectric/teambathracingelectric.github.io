@@ -6,8 +6,7 @@ $('#teamModal').on('show.bs.modal', function (event) {
 
     // Extract info from data-* attributes
     var name = button.data('member').name
-    var title = button.data('member').title
-    var pic = button.data('member').pic
+    var title = button.data('member').role
     var factArray = button.data('member').facts
     var socialArray = button.data('member').social
     
@@ -15,16 +14,27 @@ $('#teamModal').on('show.bs.modal', function (event) {
     var modal = $(this)
     modal.find('#team-modal-name').text(name)
     modal.find('#team-modal-role i').text(title)
-    modal.find('img').attr('src', 'img/team/'+pic+'.jpg')
+    modal.find('img').attr('src', button.find('img').attr('src'))
 
     // Facts and social networks require looping over arrays
     // Build string first and modify DOM at the end for better performance
     var factList = modal.find('dl')
     var factHTML = []
     $.each(factArray, function(index, fact) {
-        factHTML.push('<dt>'+fact.name+'</dt><dd>'+fact.info+'</dd>')        
+        factHTML.push('<dt>'+fact.name+'</dt><dd>')
+        if (fact.name === "Previous Work Experience") {
+            factHTML.push('<ul class="list-unstyled">')
+            $.each(fact.info, function (index, entry) {
+                factHTML.push('<li>'+entry.line+'</li>')
+            })
+            factHTML.push('</ul>')
+        } else {
+            factHTML.push(fact.info)  
+        }
+        factHTML.push('</dd>')     
     })
-    factList.empty().append(factHTML)
+    factList.empty().append(factHTML.join(""))
+
 
     var socialBtns = modal.find('ul.social-buttons')
     var socialHTML = []

@@ -35,12 +35,12 @@
 					<div class="col-md-2 col-sm-4">
 				{% endif %}
 					<!-- Currently requires all single quotes are replaced with apostrophes in the yml -->
-					<!-- <a 	
+					<a 	
 						href="#teamModal" 
 						class="team-member-link" 
 						data-toggle="modal"
 						data-member='{{ member | jsonify }}'
-					> -->
+					>
 						<div class="team-member thumbnail" data-mh="mgmt-group">
 							<img src="img/team/new/{{ member.name | slugify }}.jpg" onerror="imgError(this);" class="img-responsive img-square" alt="">
 							<div class="member-caption">
@@ -48,7 +48,7 @@
 								<p class="text-muted">{{ member.role }}</p>
 							</div>
 						</div>
-					<!-- </a> -->
+					</a>
 				</div>
 			{% endfor %}
 			</div>
