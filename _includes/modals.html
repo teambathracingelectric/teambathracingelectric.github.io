@@ -49,7 +49,7 @@
 				<h2 id="team-modal-name">Name</h2>
 				<p id="team-modal-role"><i>Title</i></p>
 				<hr class="star-primary">
-				<img src="img/no-user-image.jpg" onerror="imgError(this);" class="img-responsive center-block" style="width: 100%; margin-bottom: 20px" alt="">
+				<img src="img/no-user-image.jpg" onerror="imgError(this);" class="img-responsive center-block" style="width: 100%; margin-bottom: 30px" alt="">
 				<dl class="dl-horizontal text-left" id="team-facts">
 					<dt>Fact</dt>
 					<dd>Answer</dd>
@@ -68,13 +68,13 @@
 
 <!-- Sponsors Modal -->
 <div class="portfolio-modal modal fade" id="sponsors-modal" tabindex="-1" role="dialog" aria-hidden="true">
-		<!-- Override standard bootstrap modal styling -->
-		<div class="modal-dialog" style="
-		display: block;
-		width: auto;
-		margin: 0px;
-		transform: none;
-		">
+	<!-- Override standard bootstrap modal styling -->
+	<div class="modal-dialog" style="
+	display: block;
+	width: auto;
+	margin: 0px;
+	transform: none;
+	">
 		<div class="modal-content">
 			<div class="close-modal hidden-xs" data-dismiss="modal">
 				<div class="lr">
@@ -82,44 +82,43 @@
 					</div>
 				</div>
 			</div>
-			<div class="modal-body">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<h2>Meet Our Sponsors</h2>
-							<hr class="star-primary"/>
-							<img src="img/uni-lake-1.jpg" class="img-responsive" style="margin-bottom: 30px" alt="">
-						</div>
-					</div>
-					{% assign sponsors = site.data.sponsors | sort: 'rank' %}
-					{% for tier in sponsors %}
-						{% unless tier.sponsors == nil %}
-							{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
-							<div id="{{ tier.name | downcase }}-modal-group">
-								{% for sponsor in tier_sponsors %}
-								{% capture sponsor_count %}{% increment sponsor_add %}{% endcapture %}
-									<div class="row">
-										<div class="col-lg-3 center-block sp-logo" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
-											<a id="{{ sponsor.pic }}"></a>
-											<a href="{{ sponsor.link }}" target="_blank" style="display: table-cell; vertical-align: middle">
-												<img src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" alt="{{ sponsor.name }}">
-											</a>
-										</div>
-										<div class="col-lg-9 sponsor-desc" data-mh="sponsor-{{ sponsor_count }}">
-											<h4>{{ sponsor.name }}</h4>
-											<p class="text-justify">
-												{{ sponsor.description }}
-												<button type="button" class="btn btn-default btn-xs visible-xs-block" data-dismiss="modal" style="margin: 0 auto"><i class="fas fa-times"></i> Close</button>
-											</p>
-										</div>
-									</div>
-								{% endfor %}
-							</div>
-						{% endunless %}
-					{% endfor %}
+			<div class="container">
+				<div class="hidden-xs modal-hero">
+					<h2>Meet Our Sponsors</h2>
+					<hr class="star-primary"/>
+					<img src="img/uni-lake-1.jpg" class="img-responsive" style="margin-bottom: 30px" alt="">
 				</div>
-				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
+				<div class="visible-xs modal-hero">
+					<h2>Meet Our Sponsors</h2>
+				</div>
+				{% assign sponsors = site.data.sponsors | sort: 'rank' %}
+				{% for tier in sponsors %}
+					{% unless tier.sponsors == nil %}
+						{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
+						<div id="{{ tier.name | downcase }}-modal-group">
+							{% for sponsor in tier_sponsors %}
+							{% capture sponsor_count %}{% increment sponsor_add %}{% endcapture %}
+								<div class="row">
+									<div class="col-lg-3 center-block sp-logo" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
+										<a id="{{ sponsor.pic }}"></a>
+										<a href="{{ sponsor.link }}" target="_blank" style="display: table-cell; vertical-align: middle">
+											<img class="img-responsive img-sponsor-modal" src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" alt="{{ sponsor.name }}">
+										</a>
+									</div>
+									<div class="col-lg-9 sponsor-desc" data-mh="sponsor-{{ sponsor_count }}">
+										<h4>{{ sponsor.name }}</h4>
+										<p class="text-justify">
+											{{ sponsor.description }}
+										</p>
+										<button type="button" class="btn btn-default btn-xs visible-xs-block" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					{% endunless %}
+				{% endfor %}
 			</div>
+			<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 		</div>
 	</div>
 </div>

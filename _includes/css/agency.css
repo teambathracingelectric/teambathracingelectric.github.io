@@ -857,9 +857,9 @@ th {
 	font-size: 3em;
 }
 
-.portfolio-modal .modal-content p {
+/* .portfolio-modal .modal-content p {
 	margin-bottom: 30px;
-}
+} */
 
 .portfolio-modal .modal-content p.item-intro {
 	margin: 20px 0 30px;
@@ -873,9 +873,9 @@ th {
 	margin-bottom: 30px;
 }
 
-.portfolio-modal .modal-content img {
+/* .portfolio-modal .modal-content img {
 	margin-bottom: 30px;
-}
+} */
 
 .portfolio-modal .close-modal {
 	position: absolute;

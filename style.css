@@ -70,10 +70,6 @@ header {
     /* line-height: 2 */
 }
 
-.sp-logo img {
-    margin-bottom: 20px;
-}
-
 .portfolio-modal .close-modal {
     position: fixed;
     z-index: 1
@@ -102,4 +98,26 @@ header {
 section#team [class*='col-'] {
     padding-left: 10px;
     padding-right: 10px
+}
+
+div.modal-hero + .visible-xs {
+    background-image: url("img/uni-lake-1.jpg");
+    background-size: cover;
+    margin: 0px -35px 30px;
+    padding: 1px 35px;
+    color: white;
+}
+
+.sponsor-desc button.btn-xs {
+    margin: 0 auto;
+}
+
+.sponsor-desc {
+    margin-bottom: 30px;
+}
+
+img.img-sponsor-modal {
+    margin-bottom: 10px;
+    height: 50px;
+    width: 200px;
 }
