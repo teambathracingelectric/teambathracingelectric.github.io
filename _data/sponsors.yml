@@ -13,6 +13,18 @@
 - name: Platinum
   rank: 1
   sponsors:
+    - name: SAIC Motor UK Technical Centre
+      weighting: 10
+      pic: smtcuk
+      link: https://www.saicmotor.co.uk/
+      description: >-
+        We are incredibly proud to announce that the team has secured its first
+        ever title sponsor, SAIC Motor UK Technical Centre Limited. SMTC UK are
+        sponsoring the team to take part in Formula Student Electric China
+        2018! This amazing opportunity will be the teams first ever
+        international event and a chance to show the world just what we can do.
+        We can't wait to take on our Chinese competitors!
+        
 
 #  .oooooo.              oooo        .o8
 # d8P'  `Y8b             `888       "888
