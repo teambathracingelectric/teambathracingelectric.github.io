@@ -211,15 +211,15 @@
         potential of our proactive team, and their financial support has helped
         the team greatly.
 
-    # - name: "University of Bath: Department of Electrical & Electronic Engineering"
-    #   weighting: 10
-    #   pic: elec-eng
-    #   link: http://www.bath.ac.uk/departments/department-of-electronic-electrical-engineering/
-    #   description: >-
-    #     The University of Bath contributes to Team Bath Racing electric greatly,
-    #     and we are proud to be representing the Department of Electrical and
-    #     Electronic Engineering, which has financially supported the team for year
-    #     after year. We hope to continue making them proud!
+    - name: "University of Bath: Department of Electrical & Electronic Engineering"
+      weighting: 10
+      pic: elec-eng
+      link: http://www.bath.ac.uk/departments/department-of-electronic-electrical-engineering/
+      description: >-
+        The University of Bath contributes to Team Bath Racing electric
+        greatly, and we are proud to be representing the Department of
+        Electrical and Electronic Engineering, which has financially supported
+        the team for year after year. We hope to continue making them proud!
 
     - name: ETPS
       weighting: 10
