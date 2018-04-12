@@ -1,4 +1,4 @@
-require "html-proofer"  # Require gem for using within tasks
+# require "html-proofer"  # Require gem for using within tasks
 
 task :default do
     puts "Running CI tasks..."
