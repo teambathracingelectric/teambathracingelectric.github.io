@@ -302,15 +302,14 @@
         best power to weight ratio in the world. We are delighted to be supported
         by Emrax for this season, following last year's great success with them.
 
-    # - name: Hudson Kapel
-    #   weighting: 10
-    #   pic: hudson-kapel
-    #   link: http://www.hudsonkapel.com/
-    #   description: >-
-    #     Looks aren't everything, but they sure do matter! Hudson Kapel
-    #     specialise in vehicle refurbishment, inspection, and licence checking.
-    #     With their support this year for the body panels' paint work, we are sure
-    #     our car is going to look as impressive as it performs.
+    - name: SMH Fleet Solutions
+      weighting: 10
+      pic: smh
+      link: http://smhfleet.com/
+      description: >-
+        Looks aren't everything, but they sure do matter! SMH Fleet Solutions
+        specialise in vehicle management and logistics. With their support this
+        year for the body panels' paint work, we are sure our car is going to look as impressive as it performs.
 
     - name: IPG
       weighting: 10
