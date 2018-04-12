@@ -4,5 +4,6 @@ deploy:
   github-token: 49e23ea9770d53945f4e579fc6f443d1545cbf81  # Set in travis-ci.org dashboard, marked secure
   keep-history: true
   fqdn: www.teambathracingelectric.com
+  local-dir: _site
   on:
     branch: master
