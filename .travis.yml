@@ -1,7 +1,7 @@
 deploy:
   provider: pages
   skip-cleanup: true
-  # github-token: c5:50:bc:c6:64:58:4b:85:57:09:d5:59:2b:62:3f:1f  # Set in travis-ci.org dashboard, marked secure
+  github-token: 49e23ea9770d53945f4e579fc6f443d1545cbf81  # Set in travis-ci.org dashboard, marked secure
   keep-history: true
   fqdn: www.teambathracingelectric.com
   on:
