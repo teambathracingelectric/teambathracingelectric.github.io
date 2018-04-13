@@ -28,10 +28,7 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="hidden">
-						<a href="#page-top"></a>
-					</li>
-					<li>
+					<li class="hidden-sm">
 						<a class="page-scroll" href="#about">About</a>
 					</li>
 					<!--<li>
@@ -52,15 +49,14 @@
 					<li>
 						<a class="page-scroll" href="#contact">Contact</a>
 					</li>
-					<li class="visible-xs-block"><a>
-						Language 
-						<div id="lang" class="btn-group btn-group-xs" role="group" aria-label="...">
-							<button type="button" class="btn btn-default"><span class="f32"><span class="flag gb"></span></span></button>
-							<button type="button" class="btn btn-default"><span class="f32"><span class="flag de"></span></span></button>
-							<button type="button" class="btn btn-default"><span class="f32"><span class="flag cn"></span></span></button>
-						</div>
-					</a></li>
-				</ul>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-language"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Chinese</a></li>
+							<li><a href="#">English</a></li>
+						</ul>
+					</li>
+					</ul>
 			</div>
 			<!-- /.navbar-collapse -->
 		</div>
