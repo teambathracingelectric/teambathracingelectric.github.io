@@ -75,18 +75,6 @@ header {
     z-index: 1
 }
 
-#gTranslate {
-    z-index:2000;
-    position:absolute;
-    padding: 63px 0px 0px 7px
-}
-
-@media (min-width: 768px) {
-    #gTranslate {
-        padding: 5px 0px 0px 7px
-    }
-}
-
 .desc-cont {
     margin-bottom: 3em
 }
