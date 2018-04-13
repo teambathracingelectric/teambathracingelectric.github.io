@@ -49,9 +49,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - Gruntfile.js
-  - package.json
-  - package-lock.json
+  - Rakefile
   - README.md
   - LICENSE
   # Remove the below entries to add them back to the site
@@ -60,8 +58,8 @@ exclude:
   - _layouts/feed.xml
 
 # gh-pages emulation
-safe: true
-repository: raikesy/TBRe-website
+# safe: true
+# repository: raikesy/TBRe-website
 
 # Google Analytics
 google_analytics: UA-115200564-1
