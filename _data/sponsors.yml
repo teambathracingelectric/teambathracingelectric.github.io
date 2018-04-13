@@ -261,7 +261,7 @@
     - name: Bender
       weighting: 10
       pic: bender
-      link: https://www.bender-uk.com/
+      link: http://www.bender-uk.com/
       description: >-
         Safety is crucial for high voltage applications and Bender have been
         kind enough to support our team for the third year in a row with their
