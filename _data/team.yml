@@ -179,10 +179,13 @@ mech:
   title: Mechanical Team
   members:
     - name: Ambarish Satheesh
+      no_pic: true
     - name: Samuel Gray
     - name: Natalie Kyprianou
     - name: Aidan Rosling
+      no_pic: true
     - name: Eduard Gascon Arnal
+      no_pic: true
     - name: Inigo Monreal
     - name: Ignacio Montero
 
@@ -206,3 +209,4 @@ elec:
     - name: Uvindu Wijesinghe
     - name: Christopher Bull
     - name: Ben Warwick-Champion
+      no_pic: true
