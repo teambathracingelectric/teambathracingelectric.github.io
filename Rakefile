@@ -1,4 +1,4 @@
-# require "html-proofer"  # Require gem for using within tasks
+require "html-proofer"  # Require gem for using within tasks
 
 task :default do
     puts "Running CI tasks..."
@@ -10,6 +10,10 @@ task :default do
 
     # Add HTMLProofer.check_directory("./_site").run in order to start checking
     # for invalid HTML
-    # HTMLProofer.check_directory("./_site" ).run 
+    HTMLProofer.check_directory("./_site", {
+      empty_alt_ignore: true,
+      check_html: true,
+      http_status_ignore: [999]
+    }).run 
     puts "Jekyll successfully built"
   end
