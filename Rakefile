@@ -19,3 +19,7 @@ task :default do
     }).run 
     puts "Jekyll successfully built"
   end
+
+task :serve do
+  sh("bundle exec jekyll serve")
+end
