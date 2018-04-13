@@ -21,7 +21,7 @@
 				<!-- Include TBRe Logo into header -->
 				<a class="navbar-brand page-scroll" href="#page-top">
 					<img style="max-width:271px; margin-top: -7px"
-					src="{{ "/img/tbre-trans-logo.png" | relative_url }}" alt="Team Bath Racing Electric" class="img-reponsive"/>
+					src="{{ '/img/tbre-trans-logo.png' | relative_url }}" alt="Team Bath Racing Electric" class="img-reponsive"/>
 				</a>
 			</div>
 			
@@ -52,6 +52,14 @@
 					<li>
 						<a class="page-scroll" href="#contact">Contact</a>
 					</li>
+					<li class="visible-xs-block"><a>
+						Language 
+						<div id="lang" class="btn-group btn-group-xs" role="group" aria-label="...">
+							<button type="button" class="btn btn-default"><span class="f32"><span class="flag gb"></span></span></button>
+							<button type="button" class="btn btn-default"><span class="f32"><span class="flag de"></span></span></button>
+							<button type="button" class="btn btn-default"><span class="f32"><span class="flag cn"></span></span></button>
+						</div>
+					</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -68,7 +76,6 @@
 			</div>
 		</div>
 	</header>
-
 
 		<!-- {% for page in site.pages %}
 		  {% if page.title %}<a class="page-link" href="{{ page.url | relative_url }}">{{ page.title }}</a>{% endif %}

@@ -109,3 +109,16 @@ img.img-sponsor-modal {
     height: 50px;
     width: 200px;
 }
+
+@media(min-width: 768px) and (max-width: 991px) {
+    /* Shrink navbar font to fit on iPad. Will require changing when adding or removing nav links */
+    .navbar-default .nav li a {
+        font-size: 12.5px; 
+    }
+}
+
+#lang {
+    position: absolute;
+    top: 0px;
+    right: 12px;
+}
