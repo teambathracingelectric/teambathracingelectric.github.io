@@ -13,6 +13,8 @@ task :default do
     HTMLProofer.check_directory("./_site", {
       empty_alt_ignore: true,
       check_html: true,
+      check_favicon: true,
+      check_opengraph:true,
       http_status_ignore: [999]
     }).run 
     puts "Jekyll successfully built"

@@ -16,7 +16,7 @@
     - name: SAIC Motor UK Technical Centre
       weighting: 10
       pic: smtcuk
-      link: https://www.saicmotor.co.uk/
+      link: http://www.saicmotor.co.uk/
       description: >-
         We are incredibly proud to announce that the team has secured its first
         ever title sponsor, SAIC Motor UK Technical Centre Limited. SMTC UK are
@@ -192,7 +192,7 @@
     - name: Relec Electronics
       weighting: 10
       pic: relec
-      link: https://www.relec.co.uk/
+      link: http://www.relec.co.uk/
       description: >-
         Relec Electronics is a specialist provider of power supplies, displays
         and EMC filters for industrial applications. Relec provided TBRe with an
