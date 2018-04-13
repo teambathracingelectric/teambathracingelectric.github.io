@@ -14,8 +14,8 @@ task :default do
       empty_alt_ignore: true,
       check_html: true,
       check_favicon: true,
-      check_opengraph:true,
-      http_status_ignore: [999]
+      check_opengraph: true,
+      only_4xx: true  # While checking other things like certificate errors might be useful. It seems very unstable
     }).run 
     puts "Jekyll successfully built"
   end
