@@ -2,6 +2,7 @@ var cbpAnimatedHeader = (function() {
 
 	var docElem = document.documentElement,
 		header = $('.navbar-fixed-top'),
+		dropdown = $('.navbar-nav>li>.dropdown-menu'),
 		didScroll = false,
 		changeHeaderOn = 50;
 
@@ -18,9 +19,17 @@ var cbpAnimatedHeader = (function() {
 		var sy = scrollY();
 		if ( sy >= changeHeaderOn ) {
 			header.addClass('navbar-shrink');
+			dropdown.css({
+				'border-top-left-radius':'0',
+				'border-top-right-radius':'0'
+			});
 		}
 		else {
 			header.removeClass('navbar-shrink');
+			dropdown.css({
+				'border-top-left-radius':'4px',
+				'border-top-right-radius':'4px'
+			});
 		}
 		didScroll = false;
 	}

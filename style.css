@@ -117,8 +117,37 @@ img.img-sponsor-modal {
     }
 }
 
-#lang-xs {
-    position: absolute;
-    top: 0px;
-    left: 12px;
+#lang-link {
+    background-color: unset;
+}
+
+#lang-link:hover,
+#lang-link:focus,
+#lang-list>li>a:hover,
+#lang-list>li>a:focus {
+    outline: 0;
+    color: #{{ site.data.template.color.primary }};
+}
+
+@media(min-width: 768px) {
+    #lang-list {
+        margin-top: 9px;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+}
+
+    #lang-list>li>a {
+        color: #7b8a8b;
+    }
+
+    #lang-list>li>a:focus,
+    #lang-list>li>a:hover {
+        color: #262626;
+        text-decoration: none;
+        background-color: #f5f5f5;
+    }
+}
+
+a#lang-link>span {
+    margin-right: 0.5em;
 }
