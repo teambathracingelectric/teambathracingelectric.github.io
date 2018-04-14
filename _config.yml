@@ -36,11 +36,6 @@ address:
 # Build settings
 permalink: pretty
 
-#Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
 exclude:
   - Gemfile
   - Gemfile.lock
