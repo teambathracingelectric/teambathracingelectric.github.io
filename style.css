@@ -129,6 +129,10 @@ img.img-sponsor-modal {
     color: #{{ site.data.template.color.primary }};
 }
 
+.f16 .flag {
+    margin-top: 2px;
+}
+
 @media(min-width: 768px) {
     #lang-list {
         margin-top: 9px;
@@ -146,6 +150,10 @@ img.img-sponsor-modal {
         text-decoration: none;
         background-color: #f5f5f5;
     }
+
+    .f16 .flag {
+        margin-top: 1px;
+}
 }
 
 a#lang-link>span {
