@@ -75,8 +75,12 @@ header {
     z-index: 1
 }
 
+.section-description {
+    white-space: pre-line;
+}
 .desc-cont {
-    margin-bottom: 3em
+    margin-bottom: 3em;
+    white-space: pre-line;
 }
 
 .member-caption {

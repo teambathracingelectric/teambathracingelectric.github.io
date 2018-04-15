@@ -1,3 +1,5 @@
+{% assign lang = site.active_lang %}
+{% assign header = site.data[lang].header %}
 <!-- Google Tag Manager (noscript) -->
 <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQLHTQD"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
@@ -28,27 +30,11 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="hidden-sm">
-						<a class="page-scroll" href="#about">About</a>
-					</li>
-					<!--<li>
-						<a class="page-scroll" href="#portfolio">News</a>
-					</li>-->
-					<li>
-						<a class="page-scroll" href="#team">Team</a>
-					</li>
-					<!-- <li>
-						<a class="page-scroll" href="#timeline">Timeline</a>
-					</li> -->
-					<li>
-						<a class="page-scroll" href="#sponsors">Sponsors</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#social">Social</a>
-					</li>
-					<li>
-						<a class="page-scroll" href="#contact">Contact</a>
-					</li>
+					{% for item in site.data.nav %}
+						<li {% if forloop.first %}class="hidden-sm"{% endif %}>
+							<a class="page-scroll" href="{{ item.link }}">{{ item[lang] }}</a>
+						</li>
+					{% endfor %}
 					<li class="dropdown">
 						<a id="lang-link" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
 							<span class="visible-xs-inline">Language</span>
@@ -80,8 +66,8 @@
 		<div class="container">
 			<div class="intro-text">
 				<!-- <div class="intro-lead-in">Welcome To TBRe!</div> -->
-				<div class="intro-heading">{{ site.data.template.hero-text }}</div>
-				<a href="#about" class="page-scroll btn btn-xl" style="top:100px">Find Out More</a>
+				<div class="intro-heading">{{ header.tagline }}</div>
+				<a href="#about" class="page-scroll btn btn-xl" style="top:100px">{{ header.button }}</a>
 			</div>
 		</div>
 	</header>
