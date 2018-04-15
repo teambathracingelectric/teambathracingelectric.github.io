@@ -1,9 +1,22 @@
+language: ruby
 cache: bundler
+
 deploy:
-  provider: pages
+- provider: pages
   skip-cleanup: true
   github-token: 49e23ea9770d53945f4e579fc6f443d1545cbf81  # Set in travis-ci.org dashboard, marked secure
   fqdn: www.teambathracingelectric.com
   local-dir: _site
   on:
     branch: master
+
+- provider: s3
+  access_key_id: AKIAJMYWQJBXBXQQEOTA
+  secret_access_key: 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
+  bucket: testing.teambathracingelectric.com
+  skip-cleanup: true
+  acl: public_read
+  region: eu-west-2
+  local_dir: _site
+  on:
+    branch: dev
