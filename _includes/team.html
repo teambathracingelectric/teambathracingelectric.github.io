@@ -1,4 +1,5 @@
 <!-- Team Section -->
+{% comment %}Some maths to get trailing line centered using offsets{% endcomment %}
 {% assign team = site.data.team %}
 {% assign cols-md = 6 %}
 {% assign cols-sm = 3 %}
@@ -45,7 +46,7 @@
 							{% if member.no_pic %}
 								<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square" alt="">
 							{% else %}
-								<img src="img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
+								<img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
 							{% endif %}
 							<div class="member-caption">
 								<h4>{{ member.name }}</h4>
@@ -68,7 +69,7 @@
 								{% if member.no_pic %}
 									<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square" alt="">
 								{% else %}
-									<img src="img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
+									<img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
 								{% endif %}
 								<h4>{{ member.name }}</h4>
 							</div>
@@ -87,7 +88,7 @@
 								{% if member.no_pic %}
 									<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square" alt="">
 								{% else %}
-									<img src="img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
+									<img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
 								{% endif %}
 								<div class="member-caption">
 									<h4>{{ member.name }}</h4>
@@ -108,7 +109,7 @@
 								{% if member.no_pic %}
 									<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square" alt="">
 								{% else %}
-									<img src="img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
+									<img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
 								{% endif %}
 								<h4>{{ member.name }}</h4>
 							</div>
