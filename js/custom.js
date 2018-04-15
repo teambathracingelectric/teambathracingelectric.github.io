@@ -25,7 +25,7 @@ $('#teamModal').on('show.bs.modal', function (event) {
         if (fact.name === "Previous Work Experience") {
             factHTML.push('<ul class="list-unstyled">')
             $.each(fact.info, function (index, entry) {
-                factHTML.push('<li>'+entry.line+'</li>')
+                factHTML.push('<li>'+entry+'</li>')
             })
             factHTML.push('</ul>')
         } else {

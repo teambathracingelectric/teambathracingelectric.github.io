@@ -1,37 +1,23 @@
 main:
-  title: About Us CN
+  title: 关于我们
   body: >-
-    Team Bath Racing Electric (TBRe) is a young, exciting and innovative student
-    motorsport team based at the University of Bath. Each year, TBRe designs,
-    builds and tests a single-seat, open-wheel race car to compete on an
-    international stage at Silverstone at the renowned Formula Student
-    competition.
+    Team Bath Racing Electric（TBRe）是巴斯大学年轻，令人兴奋和创新的学生赛车运动团队。
+    每年，TBRe都会在着名的方程式学生比赛中设计，制造和测试一款单座敞篷跑车，在银石赛道的国际舞台上竞争。
 
-    Unlike many competitors, TBRe utilises a fully electric powertrain. For us,
-    this is crucial to not only allow a level of mechanical and electrical
-    innovation unachievable by traditional cars but also to stay relevant in an
-    industry that is shifting irreversibly toward electric vehicles.
+    与许多竞争对手不同，TBRe采用全电动动力总成。
+    对我们来说，这不仅是传统汽车无法实现的机械和电气创新水平的关键，而且也是与不可逆转地转向电动汽车的行业保持联系的关键。
 
 more:
-- title: Our Members CN
+- title: 我们的会员
   body: >-
-    We are lucky to be made up of motivated and committed students from across
-    our Mechanical and Electrical Engineering Departments, making our team truly
-    cross-disciplinary and allowing students from any discipline to share and
-    gain knowledge from the other to become a much more well-rounded engineer.
+    我们很幸运，来自机械和电子工程系的积极和忠诚的学生组成，使我们的团队真正跨学科，并允许任何学科的学生分享并从另一学科获得知识，变得更加全面 工程师。
 
-- title: Our Achievements CN
+- title: 我们的成就
   body: >-
-    Since our formation in 2014, TBRe has grown and developed at an astonishing
-    rate. This summer we ranked as the top UK electric team at Formula Student.
-    Now we will build on our success with a new design, optimised mechanically
-    and electrically, to take to Silverstone and this year's further goal:
-    Formula Student Germany.
+    自2014年成立以来，TBRe以惊人的速度发展壮大。 今年夏天，我们在Formula Student排名为英国顶尖电动车队。
+    现在，我们将通过一个全新的设计，在机械和电气方面进行优化，以巩固我们的成功，并将继续为银石赛道和今年的进一步目标：德国方程式学生。
 
-- title: Our Sponsors CN
+- title: 我们的赞助商
   body: >-
-    Our project would not be possible without the kind support of our many
-    sponsors. We work hard to provide a mutually beneficial relationship with
-    each of our supporting organisations. This can range from simple promotion
-    in our team media to close technical collaboration on some of the exciting
-    and innovative aspects of our car. 
+    没有我们许多赞助商的支持，我们的项目将不可能实现。 我们努力与每个支持组织建立互利关系。
+    这可以从我们团队媒体的简单推广到我们汽车一些令人兴奋和创新方面的紧密技术合作。

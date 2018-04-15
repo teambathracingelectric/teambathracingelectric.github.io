@@ -1,3 +1,15 @@
+section:
+  heading:
+    en_GB: Our Stunning Sponsors
+    zh_CN: 我们的慷慨赞助商
+  button:
+    en_GB: More information
+    zh_CN: 更多信息
+  modal_header:
+    en_GB: Meet Our Sponsors
+    zh_CN: 赞助商信息 # Sponsor Information
+
+
 #ooooooooo.   oooo                .    o8o
 #`888   `Y88. `888              .o8    `"'
 # 888   .d88'  888   .oooo.   .o888oo oooo  ooo. .oo.   oooo  oooo  ooo. .oo.  .oo.
@@ -9,8 +21,10 @@
 #
 #
 
-
-- name: Platinum
+tiers:
+- name: 
+    en_GB: Platinum
+    zh_CN: 铂
   rank: 1
   sponsors:
     - name: SAIC Motor UK Technical Centre
@@ -38,7 +52,9 @@
 #
 
 
-- name: Gold
+- name:
+    en_GB: Gold
+    zh_CN: 金
   rank: 2
   sponsors:
     - name: "University of Bath: Faculty of Engineering"
@@ -141,7 +157,9 @@
 #
 
 
-- name: Silver
+- name:
+    en_GB: Silver
+    zh_CN: 银
   rank: 3
   sponsors:
     - name: Caterpillar
@@ -245,7 +263,9 @@
 #
 
 
-- name: Bronze
+- name:
+    en_GB: Bronze
+    zh_CN: 青铜
   rank: 4
   sponsors: 
     - name: Makita
@@ -309,7 +329,8 @@
       description: >-
         Looks aren't everything, but they sure do matter! SMH Fleet Solutions
         specialise in vehicle management and logistics. With their support this
-        year for the body panels' paint work, we are sure our car is going to look as impressive as it performs.
+        year for the body panels' paint work, we are sure our car is going to
+        look as impressive as it performs.
 
     - name: IPG
       weighting: 10

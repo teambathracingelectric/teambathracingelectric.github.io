@@ -93,7 +93,7 @@ section#team [class*='col-'] {
 }
 
 div.modal-hero + .visible-xs {
-    background-image: url("img/uni-lake-1.jpg");
+    background-image: url("/img/uni-lake-1.jpg");
     background-size: cover;
     margin: 0px -35px 30px;
     padding: 1px 35px;

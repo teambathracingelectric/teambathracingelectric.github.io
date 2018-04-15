@@ -1,30 +1,30 @@
 sections:
   - link: '#about'
     en_GB: About
-    zh_CN: Abou
+    zh_CN: 关于我们
   # - link: '#portfolio'
   #   en_GB: News
   #   zh_CN: New
   - link: '#team'
     en_GB: Team
-    zh_CN: Tea
+    zh_CN: 球队
   # - link: '#timeline'
   #   en_GB: Timeline
   #   zh_CN: Timelin
   - link: '#sponsors'
     en_GB: Sponsors
-    zh_CN: Sponsor
+    zh_CN: 赞助商
   - link: '#social'
     en_GB: Social
-    zh_CN: Socia
+    zh_CN: 消息 # News
   - link: '#contact'
     en_GB: Contact
-    zh_CN: Contac
+    zh_CN: 联系我们
     
 alts:
   en_GB: 
     name: English
     flag: gb
   zh_CN: 
-    name: Chinese
+    name: 中文
     flag: cn

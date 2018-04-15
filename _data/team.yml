@@ -1,17 +1,33 @@
+section_header: 
+  en_GB: Our Amazing Team
+  zh_CN: 我们的惊人团队
+
+# Change the profile headings here
+facts:
+  - &course Course
+  - &year Year of study
+  - &work Previous Work Experience
+  - &interests Interests
+  - &fact Fact
+
 mgmt: 
-  title: Project Management
+  title: 
+    en_GB: Management Team
+    zh_CN: 管理团队
   members:
     - name: Lizzy Maclennan
-      role: Project Manager
+      role: 
+        en_GB: Project Manager
+        zh_CN: 项目经理
       facts:
-        - name: Course
+        - name: *course
           info: Integrated Mechanical and Electrical Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: "2015-16: Integration Engineer, Williams Advanced Engineering"
-        - name: Interests
+            - "2015-16: Integration Engineer, Williams Advanced Engineering"
+        - name: *interests
           info: Climbing, swimming, building electric racing cars
       social:
         - title: envelope
@@ -21,18 +37,18 @@ mgmt:
     - name: Will Minter-Kemp
       role: Business Manager
       facts:
-        - name: Course
+        - name: *course
           info: Integrated Mechanical and Electrical Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: "2014-16: Research Analyst, Marlborough Investment Consultancy Limited"
-            - line: "2015: Intern, EPM Composites"
-            - line: "2015-16: Integration Engineer, SAIC Motor Technical Centre UK"
-        - name: Interests
+            - "2014-16: Research Analyst, Marlborough Investment Consultancy Limited"
+            - "2015: Intern, EPM Composites"
+            - "2015-16: Integration Engineer, SAIC Motor Technical Centre UK"
+        - name: *interests
           info: Skiing, Guitar and Singing; Tennis, Squash and Golf
-        - name: Fact
+        - name: *fact
           info: Managed to fit a Vespa in the boot on my VW Polo
       social:
           - title: envelope
@@ -42,16 +58,16 @@ mgmt:
     - name: Jacob Clapp
       role: Technical Lead
       facts:
-        - name: Course
+        - name: *course
           info: Mechanical Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: Advanced Engineering Inter - SAIC Motor Technical Centre UK
-        - name: Interests
+            - Advanced Engineering Inter - SAIC Motor Technical Centre UK
+        - name: *interests
           info: Snowboarding. I just really love SNOWBOARDING.
-        - name: Fact
+        - name: *fact
           info: I have an iconic dance to Cascada I like to bust on a night out.
       social:
           - title: envelope
@@ -61,15 +77,15 @@ mgmt:
     - name: Tom Dormand
       role: Integration Lead
       facts:
-        - name: Course
+        - name: *course
           info: Integrated Mechanical and Electrical Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: "2015-16: Systems Operator, Hawk-Eye Innovations"
-            - line: "2016-: Freelance Engineer, Hawk-Eye Innovations"
-        - name: Fact
+            - "2015-16: Systems Operator, Hawk-Eye Innovations"
+            - "2016-: Freelance Engineer, Hawk-Eye Innovations"
+        - name: *fact
           info: I have scored at Wembley
       social:
           - title: envelope
@@ -79,17 +95,17 @@ mgmt:
     - name: George Balkwill
       role: Electrical Lead
       facts:
-        - name: Course
+        - name: *course
           info: Electrical & Electronic Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: "2016: Hardware Engineer, Eaton"
-            - line: "2017: Research Electrical Engineer, ISIS Neutron and Muon Source"
-        - name: Interests
+            - "2016: Hardware Engineer, Eaton"
+            - "2017: Research Electrical Engineer, ISIS Neutron and Muon Source"
+        - name: *interests
           info: Skiing, music, and PCBs
-        - name: Fact
+        - name: *fact
           info: I can teach you how to scuba dive :)
       social:
         - title: envelope
@@ -99,17 +115,17 @@ mgmt:
     - name: James Raikes
       role: Media & Marketing Manager
       facts:
-        - name: Course
+        - name: *course
           info: Mechanical Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: "2013: Quality Control Intern, Shield Group"
-            - line: "2014-15: Technical Student, CERN"
-        - name: Interests
+            - "2013: Quality Control Intern, Shield Group"
+            - "2014-15: Technical Student, CERN"
+        - name: *interests
           info: Films, TV, Music, Wine & Coffee, playing guitar and skiing
-        - name: Fact
+        - name: *fact
           info: I’ve flown a plane, all by myself!
       social:
           - title: envelope
@@ -119,17 +135,17 @@ mgmt:
     - name: Daniel Palmer
       role: Chassis Lead
       facts:
-        - name: Course
+        - name: *course
           info: Mechanical Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: "2014-15: Design Engineer, Parker Hannifin"
-            - line: "2017: Researcher, PTMC - University of Bath"
-        - name: Interests
+            - "2014-15: Design Engineer, Parker Hannifin"
+            - "2017: Researcher, PTMC - University of Bath"
+        - name: *interests
           info: Running, Mountain biking, playing around with electronics - current project UAV build from scratch.
-        - name: Fact
+        - name: *fact
           info: I got married last summer!
       social:
         - title: envelope
@@ -139,16 +155,16 @@ mgmt:
     - name: Simon Julyan
       role: Vehicle Dynamics Lead
       facts:
-        - name: Course
+        - name: *course
           info: Mechanical Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: "Transmission Design Engineer at Williams F1"
-        - name: Interests
+            - "Transmission Design Engineer at Williams F1"
+        - name: *interests
           info: Skiing, travelling and falling out of kayaks
-        - name: Fact
+        - name: *fact
           info: Studied in France for 5 months without being able to speak French
       social:
         - title: envelope
@@ -158,16 +174,16 @@ mgmt:
     - name: Colin Willows
       role: Powertrain Lead
       facts:
-        - name: Course
+        - name: *course
           info: Electrical & Electronic Engineering (MEng)
-        - name: Year of Study
+        - name: *year
           info: 4
-        - name: Previous Work Experience
+        - name: *work
           info: 
-            - line: JCB
-        - name: Interests
+            - JCB
+        - name: *interests
           info: Travelling, Languages, Googling
-        - name: Fact
+        - name: *fact
           info: I love facts! (e.g. having bananas in a fruit bowl makes the other fruit ripen faster)
       social:
           - title: envelope
@@ -176,7 +192,9 @@ mgmt:
             url: https://www.linkedin.com/in/colinwillows/
 
 mech:
-  title: Mechanical Team
+  title: 
+    en_GB: Mechanical Team
+    zh_CN: 机械工程团队
   members:
     - name: Ambarish Satheesh
       no_pic: true
@@ -190,7 +208,9 @@ mech:
     - name: Ignacio Montero
 
 imee:
-  title: Integration Team
+  title:
+    en_GB: Integration Team
+    zh_CN: 整合工程团队
   members:
     - name: Bassel Ghazali
     - name: Ivan Liono
@@ -199,7 +219,9 @@ imee:
     - name: Karim Ahmed Abdou Elsayed
 
 elec:
-  title: Electrical Team
+  title:
+    en_GB: Electrical Team
+    zh_CN: 电气工程团队
   members:
     - name: Aaron Cocker
     - name: Joseph Capper

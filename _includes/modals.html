@@ -67,6 +67,7 @@
 </div>
 
 <!-- Sponsors Modal -->
+{% assign sponsors = site.data.sponsors %}
 <div class="portfolio-modal modal fade" id="sponsors-modal" tabindex="-1" role="dialog" aria-hidden="true">
 	<!-- Override standard bootstrap modal styling -->
 	<div class="modal-dialog" style="
@@ -91,8 +92,7 @@
 				<div class="visible-xs modal-hero">
 					<h2>Meet Our Sponsors</h2>
 				</div>
-				{% assign sponsors = site.data.sponsors | sort: 'rank' %}
-				{% for tier in sponsors %}
+				{% for tier in sponsors.tiers | sort: 'rank' %}
 					{% unless tier.sponsors == nil %}
 						{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
 						<div id="{{ tier.name | downcase }}-modal-group">
