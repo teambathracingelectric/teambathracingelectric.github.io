@@ -1,21 +1,30 @@
-- link: '#about'
-  en_GB: About
-  zh_CN: Abou
-# - link: '#portfolio'
-#   en_GB: News
-#   zh_CN: New
-- link: '#team'
-  en_GB: Team
-  zh_CN: Tea
-# - link: '#timeline'
-#   en_GB: Timeline
-#   zh_CN: Timelin
-- link: '#sponsors'
-  en_GB: Sponsors
-  zh_CN: Sponsor
-- link: '#social'
-  en_GB: Social
-  zh_CN: Socia
-- link: '#contact'
-  en_GB: Contact
-  zh_CN: Contac
+sections:
+  - link: '#about'
+    en_GB: About
+    zh_CN: Abou
+  # - link: '#portfolio'
+  #   en_GB: News
+  #   zh_CN: New
+  - link: '#team'
+    en_GB: Team
+    zh_CN: Tea
+  # - link: '#timeline'
+  #   en_GB: Timeline
+  #   zh_CN: Timelin
+  - link: '#sponsors'
+    en_GB: Sponsors
+    zh_CN: Sponsor
+  - link: '#social'
+    en_GB: Social
+    zh_CN: Socia
+  - link: '#contact'
+    en_GB: Contact
+    zh_CN: Contac
+    
+alts:
+  en_GB: 
+    name: English
+    flag: gb
+  zh_CN: 
+    name: Chinese
+    flag: cn

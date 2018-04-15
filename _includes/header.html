@@ -1,5 +1,5 @@
-{% assign lang = site.active_lang %}
-{% assign header = site.data[lang].header %}
+{% assign this_lang = site.active_lang %}
+{% assign nav = site.data.nav %}
 <!-- Google Tag Manager (noscript) -->
 <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQLHTQD"
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
@@ -30,9 +30,9 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					{% for item in site.data.nav %}
+					{% for item in nav.sections %}
 						<li {% if forloop.first %}class="hidden-sm"{% endif %}>
-							<a class="page-scroll" href="{{ item.link }}">{{ item[lang] }}</a>
+							<a class="page-scroll" href="{{ item.link }}">{{ item[this_lang] }}</a>
 						</li>
 					{% endfor %}
 					<li class="dropdown">
@@ -41,18 +41,22 @@
 							<i class="fas fa-language"></i>
 						</a>
 						<ul id="lang-list" class="dropdown-menu">
-							<li>
-								<a>
-									<span class="f16"><span class="flag cn"></span></span>
-									Chinese
-								</a>
-							</li>
-							<li>
-								<a>
-									<span class="f16"><span class="flag gb"></span></span>
-									English
-								</a>
-							</li>
+							{% for lang in site.languages %}
+								{% unless lang == this_lang %}
+									<li>
+										<a href="
+											{% if lang == site.default_lang %}
+												/{{ site.baseurl }}
+											{% else %}
+												{{ site.baseurl }}/{{ lang }}
+											{% endif %}
+										">
+											<span class="f16"><span class="flag {{ nav.alts[lang].flag }}"></span></span>
+											{{ nav.alts[lang].name }}
+										</a>
+									</li>
+								{% endunless %}
+							{% endfor %}
 						</ul>
 					</li>
 					</ul>
@@ -62,6 +66,7 @@
 		<!-- /.container-fluid -->
 	</nav>
 	<!-- Header -->
+	{% assign header = site.data[this_lang].header %}
 	<header>
 		<div class="container">
 			<div class="intro-text">
