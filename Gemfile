@@ -15,3 +15,9 @@ end
 
 # Added at 2018-04-16 13:16:48 +0100 by James:
 gem "bootstrap-sass", "~> 3.3", :group => [:"jekyll-plugins"]
+
+# Added at 2018-04-16 16:36:04 +0100 by James:
+gem "mini_magick", "~> 4.8"
+
+# Added at 2018-04-16 16:42:02 +0100 by James:
+gem "font-awesome-sass", "~> 5.0"
