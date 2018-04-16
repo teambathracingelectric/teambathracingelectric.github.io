@@ -102,6 +102,7 @@ task :test do
       check_favicon: true,
       check_opengraph: true,
       only_4xx: false,  # While checking other things like certificate errors might be useful. It seems very unstable
+      http_status_ignore: [0],
       url_ignore: [/teambathracingelectric.com/, /linkedin.com/]
     }).run 
 end
