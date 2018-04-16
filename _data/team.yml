@@ -1,6 +1,6 @@
 section_header: 
-  en_GB: Our Amazing Team
-  zh_CN: 我们的惊人团队
+  en-GB: Our Amazing Team
+  zh-CN: 我们的惊人团队
 
 # Change the profile headings here
 facts:
@@ -12,13 +12,13 @@ facts:
 
 mgmt: 
   title: 
-    en_GB: Management Team
-    zh_CN: 管理团队
+    en-GB: Management Team
+    zh-CN: 管理团队
   members:
     - name: Lizzy Maclennan
       role: 
-        en_GB: Project Manager
-        zh_CN: 项目经理
+        en-GB: Project Manager
+        zh-CN: 项目经理
       facts:
         - name: *course
           info: Integrated Mechanical and Electrical Engineering (MEng)
@@ -193,8 +193,8 @@ mgmt:
 
 mech:
   title: 
-    en_GB: Mechanical Team
-    zh_CN: 机械工程团队
+    en-GB: Mechanical Team
+    zh-CN: 机械工程团队
   members:
     - name: Ambarish Satheesh
       no_pic: true
@@ -209,8 +209,8 @@ mech:
 
 imee:
   title:
-    en_GB: Integration Team
-    zh_CN: 整合工程团队
+    en-GB: Integration Team
+    zh-CN: 整合工程团队
   members:
     - name: Bassel Ghazali
     - name: Ivan Liono
@@ -220,8 +220,8 @@ imee:
 
 elec:
   title:
-    en_GB: Electrical Team
-    zh_CN: 电气工程团队
+    en-GB: Electrical Team
+    zh-CN: 电气工程团队
   members:
     - name: Aaron Cocker
     - name: Joseph Capper

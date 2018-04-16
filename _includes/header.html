@@ -44,13 +44,11 @@
 							{% for lang in site.languages %}
 								{% unless lang == this_lang %}
 									<li>
-										<a href="
-											{% if lang == site.default_lang %}
-												/{{ site.baseurl }}
-											{% else %}
-												{{ site.baseurl }}/{{ lang }}
-											{% endif %}
-										">
+										{% if lang == site.default_lang %}
+											<a href="/{{ site.baseurl }}">
+										{% else %}
+											<a href="{{ site.baseurl }}/{{ lang }}">
+										{% endif %}">
 											<span class="f16"><span class="flag {{ nav.alts[lang].flag }}"></span></span>
 											{{ nav.alts[lang].name }}
 										</a>

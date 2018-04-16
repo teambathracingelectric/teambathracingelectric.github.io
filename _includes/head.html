@@ -40,6 +40,13 @@
 
     <!-- Includes description, canonical url, google/twitter/fb tracking info -->
     {% seo title=false %}
-    {% I18n_Headers %}
+
+    <link rel="alternate" hreflang="{{ site.default_lang }}" href="{{ site.url }}"/>
+    {% for lang in site.languages %}
+        {% if lang == site.default_lang %}
+            {% continue %}
+        {% endif %}
+        <link rel="alternate" hreflang="{{ lang }}" href="{{ lang | absolute_url }}"/>
+    {% endfor %}
 
 </head>

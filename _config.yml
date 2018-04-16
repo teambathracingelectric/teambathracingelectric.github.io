@@ -82,10 +82,10 @@ webmaster_verifications:
   google: R44jnjlcvr3YfeIDfyj9K2DTJU2fnuoXynMT0UzkDpQ
   bing: 7F60D5F5E79FFCB585A069021A41C6BA
 
-lang: en_GB
+lang: en-GB
 
 # Polyglot
-languages: ['en_GB', 'zh_CN']
-default_lang: 'en_GB'
+languages: ['en-GB', 'zh-CN']
+default_lang: 'en-GB'
 exclude_from_localization: ['img', 'js']
 parallel_localization: true

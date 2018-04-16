@@ -56,10 +56,10 @@
 				</dl>
 			</div>
 			<div class="modal-footer">
-				<span class="pull-left">
+				<div class="pull-left">
 					<ul class="list-inline social-buttons text-center">
 					</ul>
-				</span>
+				</div>
 				<button type="button" class="btn btn-default" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
 			</div>
 		</div>
@@ -95,26 +95,24 @@
 				{% for tier in sponsors.tiers | sort: 'rank' %}
 					{% unless tier.sponsors == nil %}
 						{% assign tier_sponsors = tier.sponsors | sort: 'weighting' %}
-						<div id="{{ tier.name | downcase }}-modal-group">
-							{% for sponsor in tier_sponsors %}
-							{% capture sponsor_count %}{% increment sponsor_add %}{% endcapture %}
-								<div class="row">
-									<div class="col-lg-3 center-block sp-logo" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
-										<a id="{{ sponsor.pic }}"></a>
-										<a href="{{ sponsor.link }}" target="_blank" style="display: table-cell; vertical-align: middle">
-											<img class="img-responsive img-sponsor-modal" src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" alt="{{ sponsor.name }}">
-										</a>
-									</div>
-									<div class="col-lg-9 sponsor-desc" data-mh="sponsor-{{ sponsor_count }}">
-										<h4>{{ sponsor.name }}</h4>
-										<p class="text-justify">
-											{{ sponsor.description }}
-										</p>
-										<button type="button" class="btn btn-default btn-xs visible-xs-block" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
-									</div>
+						{% for sponsor in tier_sponsors %}
+						{% capture sponsor_count %}{% increment sponsor_add %}{% endcapture %}
+							<div class="row">
+								<div class="col-lg-3 center-block sp-logo" data-mh="sponsor-{{ sponsor_count }}" style="display: table">
+									<a id="{{ sponsor.pic }}"></a>
+									<a href="{{ sponsor.link }}" target="_blank" style="display: table-cell; vertical-align: middle">
+										<img class="img-responsive img-sponsor-modal" src="{{ site.baseurl }}/img/sponsors/{{ sponsor.pic }}.jpg" alt="{{ sponsor.name }}">
+									</a>
 								</div>
-							{% endfor %}
-						</div>
+								<div class="col-lg-9 sponsor-desc" data-mh="sponsor-{{ sponsor_count }}">
+									<h4>{{ sponsor.name }}</h4>
+									<p class="text-justify">
+										{{ sponsor.description }}
+									</p>
+									<button type="button" class="btn btn-default btn-xs visible-xs-block" data-dismiss="modal"><i class="fas fa-times"></i> Close</button>
+								</div>
+							</div>
+						{% endfor %}
 					{% endunless %}
 				{% endfor %}
 			</div>

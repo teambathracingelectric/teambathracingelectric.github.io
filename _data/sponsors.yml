@@ -1,13 +1,13 @@
 section:
   heading:
-    en_GB: Our Stunning Sponsors
-    zh_CN: 我们的慷慨赞助商
+    en-GB: Our Stunning Sponsors
+    zh-CN: 我们的慷慨赞助商
   button:
-    en_GB: More information
-    zh_CN: 更多信息
+    en-GB: More information
+    zh-CN: 更多信息
   modal_header:
-    en_GB: Meet Our Sponsors
-    zh_CN: 赞助商信息 # Sponsor Information
+    en-GB: Meet Our Sponsors
+    zh-CN: 赞助商信息 # Sponsor Information
 
 
 #ooooooooo.   oooo                .    o8o
@@ -23,8 +23,8 @@ section:
 
 tiers:
 - name: 
-    en_GB: Platinum
-    zh_CN: 铂
+    en-GB: Platinum
+    zh-CN: 铂
   rank: 1
   sponsors:
     - name: SAIC Motor UK Technical Centre
@@ -53,8 +53,8 @@ tiers:
 
 
 - name:
-    en_GB: Gold
-    zh_CN: 金
+    en-GB: Gold
+    zh-CN: 金
   rank: 2
   sponsors:
     - name: "University of Bath: Faculty of Engineering"
@@ -158,8 +158,8 @@ tiers:
 
 
 - name:
-    en_GB: Silver
-    zh_CN: 银
+    en-GB: Silver
+    zh-CN: 银
   rank: 3
   sponsors:
     - name: Caterpillar
@@ -264,8 +264,8 @@ tiers:
 
 
 - name:
-    en_GB: Bronze
-    zh_CN: 青铜
+    en-GB: Bronze
+    zh-CN: 青铜
   rank: 4
   sponsors: 
     - name: Makita

@@ -15,7 +15,8 @@ task :default do
       check_html: true,
       check_favicon: true,
       check_opengraph: true,
-      only_4xx: true  # While checking other things like certificate errors might be useful. It seems very unstable
+      only_4xx: true,  # While checking other things like certificate errors might be useful. It seems very unstable
+      url_ignore: [/teambathracingelectric.com/]
     }).run 
     puts "Jekyll successfully built"
   end
