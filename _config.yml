@@ -47,6 +47,7 @@ exclude:
   - Rakefile
   - README.md
   - LICENSE
+  - .jekyll-cache/
   # Remove the below entries to add them back to the site
   - _posts/
   - mail/
