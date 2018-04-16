@@ -101,8 +101,8 @@ task :test do
       check_html: true,
       check_favicon: true,
       check_opengraph: true,
-      only_4xx: false,  # While checking other things like certificate errors might be useful. It seems very unstable
-      http_status_ignore: [0],
+      # only_4xx: true,  # While checking other things like certificate errors might be useful. It seems very unstable
+      http_status_ignore: [0],  # 0 represents extra errors like certificate errors and so on but some of our sponsor sites are a bit dodgy so we have to ignore it
       url_ignore: [/teambathracingelectric.com/, /linkedin.com/]
     }).run 
 end
