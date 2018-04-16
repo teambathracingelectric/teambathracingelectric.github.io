@@ -1,3 +1,14 @@
+WebFont.load({
+    google: {
+        families: [
+            'Kaushan+Script',
+            'Lato:400,700,400italic,700italic',
+            'Droid+Serif:400,700,400italic,700italic',
+            'Roboto+Slab:400,100,300,700'
+        ]
+    }
+})
+
 // Rather than having a separate modal for every team member, use one modal and populate the fields based on which
 // team member is clicked. Jekyll writes team member data to data-* attributes in team.html.
 // This breaks HARD if any data fields have single quotes in (replace with apostrophes)
