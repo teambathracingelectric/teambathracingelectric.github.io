@@ -1,18 +1,16 @@
 language: ruby
 cache: bundler
-
 deploy:
 - provider: pages
   skip-cleanup: true
-  github-token: 49e23ea9770d53945f4e579fc6f443d1545cbf81  # Set in travis-ci.org dashboard, marked secure
+  github-token: 49e23ea9770d53945f4e579fc6f443d1545cbf81
   fqdn: www.teambathracingelectric.com
   local-dir: _site
   on:
     branch: master
-
 - provider: s3
   access_key_id: AKIAJMYWQJBXBXQQEOTA
-  secret_access_key: 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
+  secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: testing.teambathracingelectric.com
   skip-cleanup: true
   acl: public_read
@@ -20,3 +18,6 @@ deploy:
   local_dir: _site
   on:
     branch: dev
+env:
+  global:
+    secure: B12WYiNrkWkkzXBLfcjefRQaN9LRbKwY8AnWKhTYEkv/NqthEKqNirOv685Yfz9371f2MJViGj1ZuoAuIdv3aD3G0ruD6n9+/BvmRJxKp7oUO2XLVCP7XwraK0V1k+NnJi4oQcQWeS5br73EW2fiiANw9rpA8Djj8wF3Lu43+Nhfn/0UlDVNqtzC6bQNn45fkerHMnLHueYJH6TI7UuS+aXH925+GrmFvm5VJdZuIRSU+OabNsu59DQi+YHsgPXH1qOxF9jK8cB910SGzz+ux4/QtOLYOPCNcSJdHc7unhYsj99edquxZjhJS39cQpofmAEoPMgAS3rsgRz+RncwlmCOj9ICVMOppoZ7GBMpZkt4eh8ngIS3EC1wCMlZO1um0v1hmtc5GFv7bBk+y02y5HJO3sob06VxdfmEbk8tIEdYfbxMV22BV59VvoG+0nupLVzhLxW8/FXDyjfnDsyUk3NvjjssCjulHBGnG7I8ctWpi2XlT8Bv9B1HXoqlbBU9oMKCXQxZ73mbNLIymWt63LlYzJIjj+s93zI4+mBG3VQ2voMbrHKiujDPxIQuZ8l19V16tXhc/D3926b+wpVD0UtK0yiWgBt/XkARAemYn9FnpJ4Kn7M9zaCZWiY52loFvZNuYGwC8BD7+roeeeIs4uHMyoU0IPWjWCdez+CBr0M=
