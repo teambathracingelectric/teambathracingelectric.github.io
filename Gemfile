@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem "rake", "~> 12.3"
 gem "html-proofer", "~> 3.7"
+gem "sprockets", "~> 4.0.0.beta"
 
 gem 'jekyll', '~> 3.7'
 
@@ -21,3 +22,12 @@ gem "mini_magick", "~> 4.8"
 
 # Added at 2018-04-16 16:42:02 +0100 by James:
 gem "font-awesome-sass", "~> 5.0"
+
+# Added at 2018-04-17 00:34:36 +0100 by james:
+gem "autoprefixer-rails", "~> 8.3"
+
+# Added at 2018-04-17 02:02:51 +0100 by james:
+gem "uglifier", "~> 4.1"
+
+# Added at 2018-04-17 02:23:06 +0100 by james:
+gem "therubyracer", "~> 0.12.3"

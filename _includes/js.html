@@ -1,34 +1,17 @@
 <!-- Web font loader -->
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
+
 <!-- jQuery Version 1.12.4 -->
+<!-- Probably the one script better loaded from a CDN -->
 <script
   defer
   src="https://code.jquery.com/jquery-1.12.4.min.js"
   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
   crossorigin="anonymous"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script
-  defer
-  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
-  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
-  crossorigin="anonymous"></script>
-
-<!-- Plugin JavaScript -->
-<script defer src="{{ '/js/jquery.easing.min.js' | relative_url }}"></script>
-<script defer src="{{ '/js/cbpAnimatedHeader.js' | relative_url }}"></script>
-<script defer src ="{{ '/js/jquery.matchHeight-min.js' | relative_url }}"></script>
-
-<!-- Contact Form JavaScript -->
-<script defer src="{{ '/js/jqBootstrapValidation.js' | relative_url }}"></script>
-<script defer src="{{ '/js/contact_me.js' | relative_url }}"></script>
-
-<!-- Custom Theme JavaScript -->
-<script defer src="{{ '/js/agency.js' | relative_url }}"></script>
-
-<!-- Custom script -->
-<script defer src="{{ '/js/custom.js' | relative_url }}"></script>
+<!-- Local scripts -->
+{% asset main.js defer %}
 
 <!-- Social Media Panel scripts -->
 
