@@ -90,3 +90,14 @@ languages: ['en-GB', 'zh-CN']
 default_lang: 'en-GB'
 exclude_from_localization: ['img', 'js']
 parallel_localization: true
+
+# Jekyll Assets Plugin
+# assets:
+#   autoprefixer: # Not currently working
+#     # browsers:
+#     #   - "IE 6"
+#     #   - "Chrome 9"
+#     #   - "Firefox 14"
+#     browsers: ["IE 6", "Chrome 9", "Firefox 14"]
+#   caching:
+#     enabled: false

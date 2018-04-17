@@ -162,3 +162,11 @@ a#lang-link>span {
     max-width: 271px;
     margin-top: -7px;
 }
+
+.test .auto .prefixer {
+    height: 100%;
+    margin: 0;
+    height: 0;
+    display: flex;
+    background: linear-gradient(#e98a00, #f5aa2f); 
+}
