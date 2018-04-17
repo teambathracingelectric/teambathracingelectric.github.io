@@ -3,10 +3,7 @@
 header {
 	text-align: center;
 	color: #fff;
-	background-image: $header-image;
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background: $header-image no-repeat center center/cover rgb(62, 62, 62);
 }
 
 header .intro-text {
