@@ -1,0 +1,41 @@
+@import 'template';
+
+header {
+	text-align: center;
+	color: #fff;
+	background-image: $header-image;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+header .intro-text {
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+header .intro-text .intro-heading {
+	visibility: hidden;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-size: 50px;
+	line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 500px;
+		padding-bottom: 200px;
+	}
+    
+	header .intro-text .intro-heading {
+        visibility: visible;
+        position: relative;
+        top: -350px;
+        margin-bottom: 50px;
+		font-size: 55px;
+		line-height: 75px;
+        font-family: $font-primary;
+        font-weight: 700;
+	}
+}
