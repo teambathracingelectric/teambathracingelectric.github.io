@@ -1,9 +1,14 @@
-$color-primary: #007ECE;
+$color-primary: #007ece;
 $color-secondary: $color-primary;
 $color-secondary-dark: #333;
 $color-muted: #777;
+$color-highlight: #b3e5fc;
 
-$font-primary: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
-$font-secondary: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
+$font-primary: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-secondary: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-$header-image: url('/img/new_hero_image.jpg');
+$header-image: url("/img/new_hero_image.jpg");
+
+// Overwrite sass template colours
+$text-muted: $color-muted;
+$brand-success: $color-primary;

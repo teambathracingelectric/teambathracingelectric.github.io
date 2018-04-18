@@ -18,20 +18,29 @@
         <![endif]-->
         
     <!-- Stylesheets -->
+    <!-- Critical below main because nothing should overwrite critical -->
+    {% asset critical.css @inline !integrity %}
 
     <!-- Most fonts loaded by a loader but this is above the fold -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"> -->
-    {% asset critical.css @inline !integrity %}
-
+    
+    <link
+        rel="preload"
+        href="https://github.com/downloads/lafeber/world-flags-sprite/flags16.css"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+    />
     <link rel="preload" href="{% asset main.css @path %}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>{% asset main.css !integrity %}</noscript>
+    <noscript>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://github.com/downloads/lafeber/world-flags-sprite/flags16.css"
+        />
+        {% asset main.css !integrity %}
+    </noscript>
     {% asset cssrelpreload.js @inline !integrity %}
 
-    <link
-        rel="stylesheet"
-        type="text/css"
-        href="https://github.com/downloads/lafeber/world-flags-sprite/flags16.css"
-    />
 
     <!-- Includes description, canonical url, google/twitter/fb tracking info -->
     {% seo title=false %}

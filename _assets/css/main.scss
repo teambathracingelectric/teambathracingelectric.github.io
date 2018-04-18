@@ -1,8 +1,12 @@
-@import 'variables';
-@import 'bootstrap';
-@import 'bootswatch';
+@import 'flatly/variables';
+@import 'bootstrap-custom';
+@import 'flatly/bootswatch';
 @import 'agency';
 @import 'custom';
 
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+@import "critical/nav";
+@import "critical/header";
+@import "critical/about-top";

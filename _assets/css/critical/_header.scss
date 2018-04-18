@@ -1,0 +1,50 @@
+header {
+  text-align: center;
+  color: #fff;
+  background: $header-image no-repeat center center/cover rgb(62, 62, 62);
+  box-shadow: inset 0px -10px 10px -10px black;
+
+  .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+    .intro-heading {
+      visibility: hidden;
+      margin-bottom: 25px;
+      text-transform: uppercase;
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+}
+
+.btn-xl {
+  position: relative;
+  padding: 20px 40px;
+  border-color: $color-primary;
+  border-radius: 100px;
+  text-transform: uppercase;
+  font-family: $font-primary;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: $color-primary;
+}
+
+@media (min-width: 768px) {
+  header .intro-text {
+    padding-top: 500px;
+    padding-bottom: 200px;
+
+    .intro-heading {
+      visibility: visible;
+      position: relative;
+      top: -350px;
+      margin-bottom: 50px;
+      font-size: 55px;
+      line-height: 75px;
+      font-family: $font-primary;
+      font-weight: 700;
+    }
+  }
+}

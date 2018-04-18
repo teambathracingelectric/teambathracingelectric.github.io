@@ -1,3 +1,33 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import "template";
 
-@import 'header';
+@import "flatly/variables";
+@import "critical/bootstrap-critical";
+@import "flatly/bootswatch";
+
+@import "font-awesome-sprockets";
+@import "critical/font-awesome-critical";
+
+@import "critical/nav";
+@import "critical/header";
+@import "critical/about-top";
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: $color-secondary-dark;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: $font-primary;
+}

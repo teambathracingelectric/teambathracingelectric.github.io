@@ -1,6 +1,7 @@
 WebFont.load({
     google: {
         families: [
+            'Montserrat:400,700',
             'Lato:400,700,400italic,700italic',
             'Droid+Serif:400,700,400italic,700italic',
             'Roboto+Slab:400,100,300,700'

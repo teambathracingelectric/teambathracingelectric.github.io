@@ -1,31 +1,34 @@
 /* Coloured social media buttons. Colours taken from https://www.lockedowndesign.com/social-media-colors/ */
-.social-buttons .facebook-a {
-    background-color: #3b5998
-}
+.social-buttons {
+  .facebook-a {
+    background-color: #3b5998;
+  }
 
-.social-buttons .instagram-a {
-    background-color: #c32aa3
-}
-.social-buttons .twitter-a {
-    background-color: #1da1f2
-}
-.social-buttons .linkedin-a {
-    background-color: #007bb5
-}
+  .instagram-a {
+    background-color: #c32aa3;
+  }
 
-.social-buttons .youtube-a {
+  .twitter-a {
+    background-color: #1da1f2;
+  }
+
+  .linkedin-a {
+    background-color: #007bb5;
+  }
+
+  .youtube-a {
     background-color: red;
-}
+  }
 
-.social-buttons .envelope-a {
+  .envelope-a {
     background-color: darkgoldenrod;
+  }
 }
 
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    -webkit-transform: scale(1.1);
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /* Discoverable and more elegant team modal links */
@@ -33,140 +36,124 @@ a.team-member-link:hover,
 a.team-member-link:focus,
 a.team-member-link:active,
 a.team-member-link.active {
-	text-decoration-line: underline;
-	text-decoration-color: darkgray;
+  text-decoration-line: underline;
+  text-decoration-color: darkgray;
 }
 
 /* Tier heading colours */
 .tier-platinum {
-    color: #CCC2C2
+  color: #ccc2c2;
 }
 
 .tier-gold {
-    color: #F6BA0E
+  color: #f6ba0e;
 }
 
 .tier-silver {
-    color: #A8A8A8
+  color: #a8a8a8;
 }
 
 .tier-bronze {
-    color: #965A38
+  color: #965a38;
 }
 
-header {
-    box-shadow: inset 0px -10px 10px -10px black
-}
-
-#team-facts dt, dd {
-    white-space: normal;
-    margin-bottom: 0.5em
-    /* line-height: 2 */
+#team-facts dt,
+dd {
+  white-space: normal;
+  margin-bottom: 0.5em;
+  /* line-height: 2 */
 }
 
 .portfolio-modal .close-modal {
-    position: fixed;
-    z-index: 1
+  position: fixed;
+  z-index: 1;
 }
 
 .section-description {
-    white-space: pre-line;
+  white-space: pre-line;
 }
 .desc-cont {
-    margin-bottom: 3em;
-    white-space: pre-line;
+  margin-bottom: 3em;
+  white-space: pre-line;
 }
 
 .member-caption {
-    margin-bottom: 10.5px
+  margin-bottom: 10.5px;
 }
 
-section#team [class*='col-'] {
-    padding-left: 10px;
-    padding-right: 10px
+section#team [class*="col-"] {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 div.modal-hero + .visible-xs {
-    background-image: url("/img/uni-lake-1.jpg");
-    background-size: cover;
-    margin: 0px -35px 30px;
-    padding: 1px 35px;
-    color: white;
+  background-image: url("/img/uni-lake-1.jpg");
+  background-size: cover;
+  margin: 0px -35px 30px;
+  padding: 1px 35px;
+  color: white;
 }
 
 .sponsor-desc button.btn-xs {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .sponsor-desc {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 img.img-sponsor-modal {
-    margin-bottom: 10px;
-    height: 50px;
-    width: 200px;
-}
-
-@media(min-width: 768px) and (max-width: 991px) {
-    /* Shrink navbar font to fit on iPad. Will require changing when adding or removing nav links */
-    .navbar-default .nav li a {
-        font-size: 14px; 
-    }
+  margin-bottom: 10px;
+  height: 50px;
+  width: 200px;
 }
 
 #lang-link {
-    background-color: unset;
+  background-color: unset;
 }
 
 #lang-link:hover,
 #lang-link:focus,
-#lang-list>li>a:hover,
-#lang-list>li>a:focus {
-    outline: 0;
-    color: $color-primary;
+#lang-list > li > a:hover,
+#lang-list > li > a:focus {
+  outline: 0;
+  color: $color-primary;
 }
 
 .f16 .flag {
-    margin-top: 2px;
+  margin-top: 2px;
 }
 
-@media(min-width: 768px) {
-    #lang-list {
-        margin-top: 9px;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
-}
+@media (min-width: 768px) {
+  #lang-list {
+    margin-top: 9px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 
-    #lang-list>li>a {
-        color: #7b8a8b;
+    > li > a {
+      color: #7b8a8b;
     }
-
-    #lang-list>li>a:focus,
-    #lang-list>li>a:hover {
-        color: #262626;
-        text-decoration: none;
-        background-color: #f5f5f5;
+    > li > a:focus,
+    > li > a:hover {
+      color: #262626;
+      text-decoration: none;
+      background-color: #f5f5f5;
     }
+  }
 
-    .f16 .flag {
-        margin-top: 1px;
-}
-}
-
-a#lang-link>span {
-    margin-right: 0.5em;
+  .f16 .flag {
+    margin-top: 1px;
+  }
 }
 
-#nav-logo {
-    max-width: 271px;
-    margin-top: -7px;
+a#lang-link > span {
+  margin-right: 0.5em;
 }
 
 .test .auto .prefixer {
-    height: 100%;
-    margin: 0;
-    height: 0;
-    display: flex;
-    background: linear-gradient(#e98a00, #f5aa2f); 
+  height: 100%;
+  margin: 0;
+  height: 0;
+  display: flex;
+  background: linear-gradient(#e98a00, #f5aa2f);
 }
