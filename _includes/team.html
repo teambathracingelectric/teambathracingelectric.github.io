@@ -44,9 +44,15 @@
 					>
 						<div class="team-member thumbnail" data-mh="mgmt-group">
 							{% if member.no_pic %}
-								<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square" alt="">
+								<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square">
 							{% else %}
-								<img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
+								<!-- <img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt=""> -->
+								{% asset "team/{{ member.name | slugify }}.jpg"
+									srcset:width="320 2x"
+									srcset:width="240 1.5x"
+									srcset:width="160 1x" 
+									class="img-responsive img-square" alt="" 
+										%}
 							{% endif %}
 							<div class="member-caption">
 								<h4>{{ member.name }}</h4>
@@ -75,7 +81,12 @@
 								{% if member.no_pic %}
 									<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square" alt="">
 								{% else %}
-									<img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
+								{% asset "team/{{ member.name | slugify }}.jpg"
+									srcset:width="320 2x"
+									srcset:width="240 1.5x"
+									srcset:width="160 1x" 
+									class="img-responsive img-square" alt="" 
+										%}
 								{% endif %}
 								<h4>{{ member.name }}</h4>
 							</div>
@@ -94,7 +105,12 @@
 								{% if member.no_pic %}
 									<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square" alt="">
 								{% else %}
-									<img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
+									{% asset "team/{{ member.name | slugify }}.jpg"
+										srcset:width="320 2x"
+										srcset:width="240 1.5x"
+										srcset:width="160 1x" 
+										class="img-responsive img-square" alt="" 
+											%}
 								{% endif %}
 								<div class="member-caption">
 									<h4>{{ member.name }}</h4>
@@ -115,7 +131,12 @@
 								{% if member.no_pic %}
 									<img src="{{ '/img/no-user-image.jpg' | relative_url }}" class="img-responsive img-square" alt="">
 								{% else %}
-									<img src="/img/team/new/{{ member.name | slugify }}.jpg" class="img-responsive img-square" alt="">
+								{% asset "team/{{ member.name | slugify }}.jpg"
+									srcset:width="320 2x"
+									srcset:width="240 1.5x"
+									srcset:width="160 1x" 
+									class="img-responsive img-square" alt="" 
+										%}
 								{% endif %}
 								<h4>{{ member.name }}</h4>
 							</div>

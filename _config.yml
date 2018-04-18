@@ -85,6 +85,10 @@ webmaster_verifications:
 
 lang: en-GB
 
+compress_html:
+  ignore:
+    envs: [development] # Not ignoring dev currently
+
 # Polyglot
 languages: ['en-GB', 'zh-CN']
 default_lang: 'en-GB'
