@@ -22,7 +22,12 @@
 				</button>
 				<!-- Include TBRe Logo into header -->
 				<a class="navbar-brand page-scroll" href="#page-top">
-					{% asset tbre-trans-logo.png magick:resize="271" id='nav-logo' class='img-responsive' alt='Team Bath Racing Electric' %}
+					{% asset tbre-trans-logo.png
+						srcset:width="542 2x"
+    					srcset:width="407 1.5x"
+						srcset:width="271 1x"
+						id='nav-logo' class='img-responsive' alt='Team Bath Racing Electric' 
+							%}
 				</a>
 			</div>
 			
