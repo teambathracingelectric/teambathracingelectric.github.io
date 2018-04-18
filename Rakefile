@@ -1,4 +1,4 @@
-task :default => ["test", "build:prod"]
+task :default => ["test", "build"]
 
 ##############
 # Jekyll tasks
@@ -11,13 +11,13 @@ namespace :serve do
   desc "Serve development Jekyll site locally"
   task :dev do
     puts "Starting up development Jekyll site server..."
-    system "JEKYLL_ENV=development bundle exec jekyll serve --config _config.yml,_config.dev.yml" # --incremental"
+    sh("JEKYLL_ENV=development bundle exec jekyll serve --config _config.yml,_config.dev.yml") # --incremental"
   end
 
   desc "Serve production Jekyll site locally"
   task :prod do
     puts "Starting up production Jekyll site server..."
-    system "JEKYLL_ENV=production bundle exec jekyll serve --no-watch"
+    sh("JEKYLL_ENV=production bundle exec jekyll serve --no-watch")
   end
 end
 
@@ -28,19 +28,19 @@ namespace :build do
   desc "Regenerate files for production"
   task :prod do
     puts "* Regenerating files for production..."
-    system "JEKYLL_ENV=production bundle exec jekyll build"
+    sh("JEKYLL_ENV=production bundle exec jekyll build")
   end
 
   desc "Regenerate files for development"
   task :dev do
     puts "* Regenerating files for development..."
-    system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile"
+    sh("bundle exec jekyll build --config _config.yml,_config.dev.yml --profile")
   end
 
   desc "Regenerate files and drafts for development"
   task :drafts do
     puts "* Regenerating files and drafts for development..."
-    system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile --drafts"
+    sh("bundle exec jekyll build --config _config.yml,_config.dev.yml --profile --drafts")
   end
 end
 
@@ -115,7 +115,7 @@ end
 # desc "push the contents of ./_site to S3"
 # task :s3_website do
 #   puts "* rsyncing the contents of ./_site to the server"
-#   system "s3_website push" # use --force with S3 config updates
+#   sh("s3_website push" # use --force with S3 config updates)
 # end
 
 # # Usage: rake deploy
