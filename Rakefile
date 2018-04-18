@@ -11,7 +11,7 @@ namespace :serve do
   desc "Serve development Jekyll site locally"
   task :dev do
     puts "Starting up development Jekyll site server..."
-    system "JEKYLL_ENV=development bundle exec jekyll serve --incremental --config _config.yml,_config.dev.yml"
+    system "JEKYLL_ENV=development bundle exec jekyll serve --config _config.yml,_config.dev.yml" # --incremental"
   end
 
   desc "Serve production Jekyll site locally"
