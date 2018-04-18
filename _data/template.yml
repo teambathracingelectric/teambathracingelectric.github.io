@@ -9,6 +9,3 @@ color:
 font:
   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
-
-# Header
-header-image: /img/new_hero_image.jpg
