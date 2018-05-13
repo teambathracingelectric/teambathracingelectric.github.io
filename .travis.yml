@@ -4,7 +4,8 @@ deploy:
 - provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
-  fqdn: www.teambathracingelectric.com
+  fqdn: teambathracingelectric.com
   local-dir: _site
+  target-branch: master
   on:
-    branch: master
+    branch: source
