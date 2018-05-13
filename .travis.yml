@@ -6,6 +6,6 @@ deploy:
   github-token: $GITHUB_TOKEN
   fqdn: teambathracingelectric.com
   local-dir: _site
-  target-branch: master
+  target-branch: master 
   on:
     branch: source
